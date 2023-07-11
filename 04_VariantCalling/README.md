@@ -1,4 +1,4 @@
-# Variant calling of reads for feeding into GATK ASEReadCounter
+# Variant calling of reads and downstream analysis
 
 ## Notes on best practices from Castel _et al._ (2015)
 
@@ -29,6 +29,12 @@
    frequency distribution (Supplementary Fig. 1) of all the variants in each respective sample."
 * The Hoguin et al. paper also includes a formula for calculating average percent allele frequency and average
   allele expression bias per gene, so will need to check this formula
+
+
+After checking the Hoguin et al. paper and checking variant depths for P18257_101, not sure that I can use their logic
+* There appears to be a peak of DP:2 in the data!
+* May have to use an arbitrary value...
+
 
 
 ###################
