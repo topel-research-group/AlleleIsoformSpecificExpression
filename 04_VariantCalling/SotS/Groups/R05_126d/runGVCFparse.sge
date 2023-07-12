@@ -1,0 +1,46 @@
+#$ -cwd
+#$ -q Annotation-4
+#$ -pe mpi 1
+#$ -S /bin/bash
+
+set -e
+set -u
+set -o pipefail
+
+module load GATK/v4.1.8.0
+
+REF=../../../ref/Skeletonema_marinoi_Ref_v1.1.2.fasta
+
+GROUPING=R05_126d
+
+# Combine GVCFs on a per-condition basis for joint genotyping
+
+gatk --java-options "-Xmx4g" CombineGVCFs \
+	-R $REF \
+	--variant ../../P18257_131/P18257_131_4_HapCalled.g.vcf.gz \
+	--variant ../../P18257_132/P18257_132_4_HapCalled.g.vcf.gz \
+	--variant ../../P18257_133/P18257_133_4_HapCalled.g.vcf.gz \
+	-O ${GROUPING}.g.vcf.gz
+
+# Joint genotyping on each combined GVCF
+
+gatk --java-options "-Xmx4g" GenotypeGVCFs \
+	-R $REF \
+	-V ${GROUPING}.g.vcf.gz \
+	-O ${GROUPING}_genotype.vcf.gz
+
+# Joint genotyping on each combined GVCF
+# 30 depth should imply at least 10 per sample, but need to do additional custom filtering
+
+gatk --java-options "-Xmx4g" VariantFiltration \
+	-R $REF \
+	-V ${GROUPING}_genotype.vcf.gz \
+	-O ${GROUPING}_filtered.vcf.gz \
+	-window 35 \
+	-cluster 3 \
+	--filter-name "FS" \
+	--filter-expression "FS > 30.0" \
+	--filter-name "QD" \
+	--filter-expression "QD < 2.0" \
+	--filter-name "DP" \
+	--filter-expression "DP < 30"

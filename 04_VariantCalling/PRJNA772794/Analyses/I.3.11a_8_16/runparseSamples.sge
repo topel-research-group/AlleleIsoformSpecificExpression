@@ -1,0 +1,14 @@
+#$ -cwd
+#$ -pe mpi 1
+#$ -q high_mem
+#$ -S /bin/bash
+
+set -e
+set -u
+set -o pipefail
+
+module load Anaconda3/v2019.10
+
+PYSCRIPT=$(ls *.py)
+
+./${PYSCRIPT}

@@ -1,0 +1,95 @@
+#$ -cwd
+#$ -pe mpi 20
+#$ -q Annotation-1,Annotation-2,Annotation-3,Annotation-4
+#$ -S /bin/bash
+
+set -e
+set -u
+set -o pipefail
+
+module load GATK/v4.1.8.0
+module load samtools/v1.12
+module load bcftools/v1.12
+
+SAMPLE=${PWD##*/}
+INFILE=../../../01_mapping/PRJNA912555/${SAMPLE}/${SAMPLE}_sorted.bam
+OUTFILE1=${SAMPLE}_1_WithRG.bam
+OUTFILE2=${SAMPLE}_2_marked_duplicates.bam
+OUTFILE3=${SAMPLE}_3_marked_duplicates.Nsplit.bam
+OUTFILE4=${SAMPLE}_4_HapCalled.vcf.gz
+OUTFILE4ALT=${SAMPLE}_4_HapCalled.g.vcf.gz
+OUTFINAL=${SAMPLE}_filtered.vcf.gz
+
+LOGFILE=${SAMPLE}_marked_dup_metrics.txt
+
+REF=../../ref/Skeletonema_marinoi_Ref_v1.1.2.fasta
+
+## AddOrReplaceReadGroups (required so that HaplotypeCaller doesn't error out)
+#gatk --java-options "-Xmx4g" AddOrReplaceReadGroups \
+#	-I $INFILE \
+#	-O $OUTFILE1 \
+#	-LB foo \
+#	-PL ILLUMINA \
+#	-PU bar \
+#	-SM $SAMPLE
+
+## MarkDuplicates
+
+#gatk --java-options "-Xmx4g" MarkDuplicates \
+#	-I $OUTFILE1 \
+#	-O $OUTFILE2 \
+#	-M $LOGFILE
+
+## SplitNCigarReads
+
+#gatk --java-options "-Xmx4g" SplitNCigarReads \
+#	-R $REF \
+#	-I $OUTFILE2 \
+#	-O $OUTFILE3
+
+## Base quality recalibration can't be performed as I don't have a list of known S. marinoi variant positions
+
+## Variant calling
+## Website recommends that `-stand-call-conf` be adjusted to 20 (30 default),
+## but also note that this should be adjusted per use case
+## Another GATK workflow page on GitHub recommends using `--dont-use-soft-clipped-bases`
+### Try at 20 and see how it looks
+## Also note that ploidy is assumed to be diploid; may need to adjust later if samples start acting up
+
+gatk --java-options "-Xmx4g" HaplotypeCaller \
+	-R $REF \
+	-I $OUTFILE3 \
+	-O $OUTFILE4 \
+	-stand-call-conf 20.0 \
+	--dont-use-soft-clipped-bases \
+
+# Run HaplotypeCaller a second time to generate GVCF (for depths) and to generate a BAM to visualise results
+
+gatk --java-options "-Xmx4g" HaplotypeCaller \
+	-R $REF \
+	-I $OUTFILE3 \
+	-O $OUTFILE4ALT \
+	-stand-call-conf 20.0 \
+	--dont-use-soft-clipped-bases \
+	-ERC BP_RESOLUTION \
+	-bamout ${SAMPLE}.realigned.bam
+
+samtools index ${SAMPLE}.realigned.bam ${SAMPLE}.realigned.bai
+
+## Variant filtering
+## Documentation recommends hard filters for RNAseq data
+## Github gives some recommendations for filters, but these don't include a depth filter
+### Set an arbitrary depth filter of 30 for now and see how it looks (10 was too low...)
+
+#gatk --java-options "-Xmx4g" VariantFiltration \
+#	-R $REF \
+#	-V $OUTFILE4 \
+#	-O $OUTFINAL \
+#	-window 35 \
+#	-cluster 3 \
+#	--filter-name "FS" \
+#	--filter-expression "FS > 30.0" \
+#	--filter-name "QD" \
+#	--filter-expression "QD < 2.0" \
+#	--filter-name "DP" \
+#	--filter-expression "DP < 30"

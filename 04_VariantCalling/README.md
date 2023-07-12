@@ -1,5 +1,13 @@
 # Variant calling of reads and downstream analysis
 
+Study		Status
+SotS		Generating final GVCFs
+PRJEB22707	Running haplotype calling
+PRJEB33171
+PRJNA772794
+PRJNA912555
+
+
 ## Notes on best practices from Castel _et al._ (2015)
 
 * Removal of duplicate reads (automatic in GATK)

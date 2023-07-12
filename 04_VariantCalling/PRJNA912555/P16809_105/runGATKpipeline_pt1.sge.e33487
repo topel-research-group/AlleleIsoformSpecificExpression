@@ -1,0 +1,1020 @@
+13:05:52.400 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+[Wed Jun 28 13:05:52 CEST 2023] AddOrReplaceReadGroups --INPUT P16809_105_sorted.bam --OUTPUT P16809_105_1_WithRG.bam --RGLB foo --RGPL ILLUMINA --RGPU bar --RGSM P16809_105 --RGID 1 --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 2 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+Jun 28, 2023 1:05:52 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+[Wed Jun 28 13:05:52 CEST 2023] Executing as matt@compute-0-4.local on Linux 3.10.0-693.5.2.el7.x86_64 amd64; OpenJDK 64-Bit Server VM 11.0.8-internal+0-adhoc..src; Deflater: Intel; Inflater: Intel; Provider GCS is available; Picard version: Version:4.1.8.0
+INFO	2023-06-28 13:05:53	AddOrReplaceReadGroups	Created read-group ID=1 PL=ILLUMINA LB=foo SM=P16809_105
+
+INFO	2023-06-28 13:06:07	AddOrReplaceReadGroups	Processed     1,000,000 records.  Elapsed time: 00:00:14s.  Time for last 1,000,000:   14s.  Last read position: Sm_000000F:708,270
+INFO	2023-06-28 13:06:16	AddOrReplaceReadGroups	Processed     2,000,000 records.  Elapsed time: 00:00:23s.  Time for last 1,000,000:    9s.  Last read position: Sm_000000F:1,081,234
+INFO	2023-06-28 13:06:23	AddOrReplaceReadGroups	Processed     3,000,000 records.  Elapsed time: 00:00:29s.  Time for last 1,000,000:    6s.  Last read position: Sm_000000F:1,546,270
+INFO	2023-06-28 13:06:58	AddOrReplaceReadGroups	Processed     4,000,000 records.  Elapsed time: 00:01:05s.  Time for last 1,000,000:   35s.  Last read position: Sm_000000F:1,820,003
+INFO	2023-06-28 13:07:05	AddOrReplaceReadGroups	Processed     5,000,000 records.  Elapsed time: 00:01:12s.  Time for last 1,000,000:    6s.  Last read position: Sm_000000F:2,078,804
+INFO	2023-06-28 13:07:12	AddOrReplaceReadGroups	Processed     6,000,000 records.  Elapsed time: 00:01:18s.  Time for last 1,000,000:    6s.  Last read position: Sm_000000F:2,384,569
+INFO	2023-06-28 13:07:18	AddOrReplaceReadGroups	Processed     7,000,000 records.  Elapsed time: 00:01:25s.  Time for last 1,000,000:    6s.  Last read position: Sm_000000F:2,688,485
+INFO	2023-06-28 13:07:25	AddOrReplaceReadGroups	Processed     8,000,000 records.  Elapsed time: 00:01:31s.  Time for last 1,000,000:    6s.  Last read position: Sm_000000F:2,958,896
+INFO	2023-06-28 13:08:03	AddOrReplaceReadGroups	Processed     9,000,000 records.  Elapsed time: 00:02:10s.  Time for last 1,000,000:   38s.  Last read position: Sm_000000F:3,413,350
+INFO	2023-06-28 13:08:13	AddOrReplaceReadGroups	Processed    10,000,000 records.  Elapsed time: 00:02:20s.  Time for last 1,000,000:   10s.  Last read position: Sm_000001F:538,935
+INFO	2023-06-28 13:08:46	AddOrReplaceReadGroups	Processed    11,000,000 records.  Elapsed time: 00:02:53s.  Time for last 1,000,000:   33s.  Last read position: Sm_000001F:1,065,477
+INFO	2023-06-28 13:08:53	AddOrReplaceReadGroups	Processed    12,000,000 records.  Elapsed time: 00:03:00s.  Time for last 1,000,000:    6s.  Last read position: Sm_000001F:1,548,478
+INFO	2023-06-28 13:09:29	AddOrReplaceReadGroups	Processed    13,000,000 records.  Elapsed time: 00:03:36s.  Time for last 1,000,000:   36s.  Last read position: Sm_000001F:1,951,359
+INFO	2023-06-28 13:09:36	AddOrReplaceReadGroups	Processed    14,000,000 records.  Elapsed time: 00:03:43s.  Time for last 1,000,000:    6s.  Last read position: Sm_000002F:536,149
+INFO	2023-06-28 13:09:42	AddOrReplaceReadGroups	Processed    15,000,000 records.  Elapsed time: 00:03:49s.  Time for last 1,000,000:    6s.  Last read position: Sm_000002F:1,119,412
+INFO	2023-06-28 13:09:48	AddOrReplaceReadGroups	Processed    16,000,000 records.  Elapsed time: 00:03:55s.  Time for last 1,000,000:    6s.  Last read position: Sm_000003F:317,954
+INFO	2023-06-28 13:10:21	AddOrReplaceReadGroups	Processed    17,000,000 records.  Elapsed time: 00:04:28s.  Time for last 1,000,000:   32s.  Last read position: Sm_000003F:999,718
+INFO	2023-06-28 13:10:27	AddOrReplaceReadGroups	Processed    18,000,000 records.  Elapsed time: 00:04:34s.  Time for last 1,000,000:    6s.  Last read position: Sm_000003F:1,360,025
+INFO	2023-06-28 13:10:38	AddOrReplaceReadGroups	Processed    19,000,000 records.  Elapsed time: 00:04:45s.  Time for last 1,000,000:   10s.  Last read position: Sm_000003F:1,524,553
+INFO	2023-06-28 13:11:18	AddOrReplaceReadGroups	Processed    20,000,000 records.  Elapsed time: 00:05:25s.  Time for last 1,000,000:   40s.  Last read position: Sm_000004F:264,029
+INFO	2023-06-28 13:11:25	AddOrReplaceReadGroups	Processed    21,000,000 records.  Elapsed time: 00:05:32s.  Time for last 1,000,000:    6s.  Last read position: Sm_000004F:742,694
+INFO	2023-06-28 13:11:31	AddOrReplaceReadGroups	Processed    22,000,000 records.  Elapsed time: 00:05:38s.  Time for last 1,000,000:    6s.  Last read position: Sm_000004F:1,091,296
+INFO	2023-06-28 13:11:59	AddOrReplaceReadGroups	Processed    23,000,000 records.  Elapsed time: 00:06:06s.  Time for last 1,000,000:   27s.  Last read position: Sm_000004F:1,195,759
+INFO	2023-06-28 13:12:17	AddOrReplaceReadGroups	Processed    24,000,000 records.  Elapsed time: 00:06:24s.  Time for last 1,000,000:   18s.  Last read position: Sm_000004F:1,263,064
+INFO	2023-06-28 13:12:24	AddOrReplaceReadGroups	Processed    25,000,000 records.  Elapsed time: 00:06:31s.  Time for last 1,000,000:    6s.  Last read position: Sm_000004F:1,498,560
+INFO	2023-06-28 13:12:30	AddOrReplaceReadGroups	Processed    26,000,000 records.  Elapsed time: 00:06:37s.  Time for last 1,000,000:    6s.  Last read position: Sm_000004F:1,785,778
+INFO	2023-06-28 13:12:37	AddOrReplaceReadGroups	Processed    27,000,000 records.  Elapsed time: 00:06:44s.  Time for last 1,000,000:    7s.  Last read position: Sm_000005F:375,629
+INFO	2023-06-28 13:13:12	AddOrReplaceReadGroups	Processed    28,000,000 records.  Elapsed time: 00:07:19s.  Time for last 1,000,000:   34s.  Last read position: Sm_000005F:765,325
+INFO	2023-06-28 13:13:23	AddOrReplaceReadGroups	Processed    29,000,000 records.  Elapsed time: 00:07:29s.  Time for last 1,000,000:   10s.  Last read position: Sm_000005F:1,102,588
+INFO	2023-06-28 13:13:29	AddOrReplaceReadGroups	Processed    30,000,000 records.  Elapsed time: 00:07:36s.  Time for last 1,000,000:    6s.  Last read position: Sm_000005F:1,616,371
+INFO	2023-06-28 13:14:00	AddOrReplaceReadGroups	Processed    31,000,000 records.  Elapsed time: 00:08:07s.  Time for last 1,000,000:   31s.  Last read position: Sm_000006F:531,017
+INFO	2023-06-28 13:14:07	AddOrReplaceReadGroups	Processed    32,000,000 records.  Elapsed time: 00:08:14s.  Time for last 1,000,000:    6s.  Last read position: Sm_000006F:1,263,808
+INFO	2023-06-28 13:14:14	AddOrReplaceReadGroups	Processed    33,000,000 records.  Elapsed time: 00:08:21s.  Time for last 1,000,000:    6s.  Last read position: Sm_000007F:306,029
+INFO	2023-06-28 13:14:48	AddOrReplaceReadGroups	Processed    34,000,000 records.  Elapsed time: 00:08:55s.  Time for last 1,000,000:   33s.  Last read position: Sm_000007F:1,010,490
+INFO	2023-06-28 13:16:06	AddOrReplaceReadGroups	Processed    35,000,000 records.  Elapsed time: 00:10:13s.  Time for last 1,000,000:   77s.  Last read position: Sm_000008F:267,248
+INFO	2023-06-28 13:17:35	AddOrReplaceReadGroups	Processed    36,000,000 records.  Elapsed time: 00:11:42s.  Time for last 1,000,000:   89s.  Last read position: Sm_000008F:872,289
+INFO	2023-06-28 13:19:43	AddOrReplaceReadGroups	Processed    37,000,000 records.  Elapsed time: 00:13:50s.  Time for last 1,000,000:  127s.  Last read position: Sm_000008F:1,421,516
+INFO	2023-06-28 13:22:04	AddOrReplaceReadGroups	Processed    38,000,000 records.  Elapsed time: 00:16:11s.  Time for last 1,000,000:  141s.  Last read position: Sm_000009F:700,928
+INFO	2023-06-28 13:25:27	AddOrReplaceReadGroups	Processed    39,000,000 records.  Elapsed time: 00:19:34s.  Time for last 1,000,000:  202s.  Last read position: Sm_000009F:1,180,324
+INFO	2023-06-28 13:28:43	AddOrReplaceReadGroups	Processed    40,000,000 records.  Elapsed time: 00:22:50s.  Time for last 1,000,000:  195s.  Last read position: Sm_000009F:1,497,960
+INFO	2023-06-28 13:31:35	AddOrReplaceReadGroups	Processed    41,000,000 records.  Elapsed time: 00:25:42s.  Time for last 1,000,000:  172s.  Last read position: Sm_000010F:74,458
+INFO	2023-06-28 13:31:46	AddOrReplaceReadGroups	Processed    42,000,000 records.  Elapsed time: 00:25:53s.  Time for last 1,000,000:   10s.  Last read position: Sm_000010F:629,206
+INFO	2023-06-28 13:32:41	AddOrReplaceReadGroups	Processed    43,000,000 records.  Elapsed time: 00:26:48s.  Time for last 1,000,000:   55s.  Last read position: Sm_000010F:1,123,823
+INFO	2023-06-28 13:33:26	AddOrReplaceReadGroups	Processed    44,000,000 records.  Elapsed time: 00:27:33s.  Time for last 1,000,000:   45s.  Last read position: Sm_000011F:80,203
+INFO	2023-06-28 13:33:47	AddOrReplaceReadGroups	Processed    45,000,000 records.  Elapsed time: 00:27:54s.  Time for last 1,000,000:   21s.  Last read position: Sm_000011F:459,986
+INFO	2023-06-28 13:34:25	AddOrReplaceReadGroups	Processed    46,000,000 records.  Elapsed time: 00:28:32s.  Time for last 1,000,000:   38s.  Last read position: Sm_000011F:936,116
+INFO	2023-06-28 13:34:45	AddOrReplaceReadGroups	Processed    47,000,000 records.  Elapsed time: 00:28:52s.  Time for last 1,000,000:   19s.  Last read position: Sm_000012F:73,746
+INFO	2023-06-28 13:35:37	AddOrReplaceReadGroups	Processed    48,000,000 records.  Elapsed time: 00:29:44s.  Time for last 1,000,000:   51s.  Last read position: Sm_000012F:710,170
+INFO	2023-06-28 13:36:19	AddOrReplaceReadGroups	Processed    49,000,000 records.  Elapsed time: 00:30:26s.  Time for last 1,000,000:   42s.  Last read position: Sm_000013F:410,128
+INFO	2023-06-28 13:37:04	AddOrReplaceReadGroups	Processed    50,000,000 records.  Elapsed time: 00:31:11s.  Time for last 1,000,000:   44s.  Last read position: Sm_000013F:854,164
+INFO	2023-06-28 13:37:34	AddOrReplaceReadGroups	Processed    51,000,000 records.  Elapsed time: 00:31:40s.  Time for last 1,000,000:   29s.  Last read position: Sm_000014F:462,740
+INFO	2023-06-28 13:38:07	AddOrReplaceReadGroups	Processed    52,000,000 records.  Elapsed time: 00:32:14s.  Time for last 1,000,000:   33s.  Last read position: Sm_000014F:1,120,318
+INFO	2023-06-28 13:38:40	AddOrReplaceReadGroups	Processed    53,000,000 records.  Elapsed time: 00:32:47s.  Time for last 1,000,000:   33s.  Last read position: Sm_000015F:547,168
+INFO	2023-06-28 13:39:11	AddOrReplaceReadGroups	Processed    54,000,000 records.  Elapsed time: 00:33:18s.  Time for last 1,000,000:   30s.  Last read position: Sm_000015F:1,003,565
+INFO	2023-06-28 13:39:54	AddOrReplaceReadGroups	Processed    55,000,000 records.  Elapsed time: 00:34:01s.  Time for last 1,000,000:   43s.  Last read position: Sm_000016F:299,077
+INFO	2023-06-28 13:41:51	AddOrReplaceReadGroups	Processed    56,000,000 records.  Elapsed time: 00:35:58s.  Time for last 1,000,000:  116s.  Last read position: Sm_000016F:451,914
+INFO	2023-06-28 13:43:03	AddOrReplaceReadGroups	Processed    57,000,000 records.  Elapsed time: 00:37:09s.  Time for last 1,000,000:   71s.  Last read position: Sm_000016F:1,205,367
+INFO	2023-06-28 13:44:05	AddOrReplaceReadGroups	Processed    58,000,000 records.  Elapsed time: 00:38:12s.  Time for last 1,000,000:   62s.  Last read position: Sm_000017F:704,314
+INFO	2023-06-28 13:44:36	AddOrReplaceReadGroups	Processed    59,000,000 records.  Elapsed time: 00:38:43s.  Time for last 1,000,000:   31s.  Last read position: Sm_000018F:94,430
+INFO	2023-06-28 13:45:14	AddOrReplaceReadGroups	Processed    60,000,000 records.  Elapsed time: 00:39:21s.  Time for last 1,000,000:   38s.  Last read position: Sm_000018F:418,664
+INFO	2023-06-28 13:46:15	AddOrReplaceReadGroups	Processed    61,000,000 records.  Elapsed time: 00:40:22s.  Time for last 1,000,000:   60s.  Last read position: Sm_000018F:1,040,227
+INFO	2023-06-28 13:46:38	AddOrReplaceReadGroups	Processed    62,000,000 records.  Elapsed time: 00:40:45s.  Time for last 1,000,000:   23s.  Last read position: Sm_000019F:540,652
+INFO	2023-06-28 13:47:08	AddOrReplaceReadGroups	Processed    63,000,000 records.  Elapsed time: 00:41:15s.  Time for last 1,000,000:   29s.  Last read position: Sm_000020F:45,494
+INFO	2023-06-28 13:47:37	AddOrReplaceReadGroups	Processed    64,000,000 records.  Elapsed time: 00:41:44s.  Time for last 1,000,000:   29s.  Last read position: Sm_000020F:712,182
+INFO	2023-06-28 13:48:05	AddOrReplaceReadGroups	Processed    65,000,000 records.  Elapsed time: 00:42:12s.  Time for last 1,000,000:   27s.  Last read position: Sm_000021F:497,288
+INFO	2023-06-28 13:48:37	AddOrReplaceReadGroups	Processed    66,000,000 records.  Elapsed time: 00:42:43s.  Time for last 1,000,000:   31s.  Last read position: Sm_000022F:155,184
+INFO	2023-06-28 13:49:04	AddOrReplaceReadGroups	Processed    67,000,000 records.  Elapsed time: 00:43:11s.  Time for last 1,000,000:   27s.  Last read position: Sm_000024F:327,716
+INFO	2023-06-28 13:49:33	AddOrReplaceReadGroups	Processed    68,000,000 records.  Elapsed time: 00:43:40s.  Time for last 1,000,000:   28s.  Last read position: Sm_000025F:46,130
+INFO	2023-06-28 13:50:00	AddOrReplaceReadGroups	Processed    69,000,000 records.  Elapsed time: 00:44:07s.  Time for last 1,000,000:   27s.  Last read position: Sm_000025F:539,490
+INFO	2023-06-28 13:50:30	AddOrReplaceReadGroups	Processed    70,000,000 records.  Elapsed time: 00:44:37s.  Time for last 1,000,000:   29s.  Last read position: Sm_000027F:199,873
+INFO	2023-06-28 13:50:56	AddOrReplaceReadGroups	Processed    71,000,000 records.  Elapsed time: 00:45:03s.  Time for last 1,000,000:   25s.  Last read position: Sm_000027F:741,810
+INFO	2023-06-28 13:51:25	AddOrReplaceReadGroups	Processed    72,000,000 records.  Elapsed time: 00:45:32s.  Time for last 1,000,000:   29s.  Last read position: Sm_000028F:394,538
+INFO	2023-06-28 13:51:51	AddOrReplaceReadGroups	Processed    73,000,000 records.  Elapsed time: 00:45:57s.  Time for last 1,000,000:   25s.  Last read position: Sm_000028F:571,765
+INFO	2023-06-28 13:52:17	AddOrReplaceReadGroups	Processed    74,000,000 records.  Elapsed time: 00:46:24s.  Time for last 1,000,000:   26s.  Last read position: Sm_000029F:436,794
+INFO	2023-06-28 13:52:47	AddOrReplaceReadGroups	Processed    75,000,000 records.  Elapsed time: 00:46:54s.  Time for last 1,000,000:   29s.  Last read position: Sm_000030F:55,669
+INFO	2023-06-28 13:53:16	AddOrReplaceReadGroups	Processed    76,000,000 records.  Elapsed time: 00:47:23s.  Time for last 1,000,000:   28s.  Last read position: Sm_000030F:424,829
+INFO	2023-06-28 13:53:48	AddOrReplaceReadGroups	Processed    77,000,000 records.  Elapsed time: 00:47:55s.  Time for last 1,000,000:   31s.  Last read position: Sm_000032F:399,954
+INFO	2023-06-28 13:54:16	AddOrReplaceReadGroups	Processed    78,000,000 records.  Elapsed time: 00:48:23s.  Time for last 1,000,000:   27s.  Last read position: Sm_000033F:405,134
+INFO	2023-06-28 13:54:42	AddOrReplaceReadGroups	Processed    79,000,000 records.  Elapsed time: 00:48:49s.  Time for last 1,000,000:   26s.  Last read position: Sm_000034F:202,319
+INFO	2023-06-28 13:55:10	AddOrReplaceReadGroups	Processed    80,000,000 records.  Elapsed time: 00:49:17s.  Time for last 1,000,000:   27s.  Last read position: Sm_000036F:170,787
+INFO	2023-06-28 13:55:35	AddOrReplaceReadGroups	Processed    81,000,000 records.  Elapsed time: 00:49:42s.  Time for last 1,000,000:   25s.  Last read position: Sm_000036F:527,218
+INFO	2023-06-28 13:56:00	AddOrReplaceReadGroups	Processed    82,000,000 records.  Elapsed time: 00:50:07s.  Time for last 1,000,000:   24s.  Last read position: Sm_000038F:197,525
+INFO	2023-06-28 13:56:24	AddOrReplaceReadGroups	Processed    83,000,000 records.  Elapsed time: 00:50:31s.  Time for last 1,000,000:   23s.  Last read position: Sm_000038F:688,437
+INFO	2023-06-28 13:56:48	AddOrReplaceReadGroups	Processed    84,000,000 records.  Elapsed time: 00:50:55s.  Time for last 1,000,000:   23s.  Last read position: Sm_000040F:343,674
+INFO	2023-06-28 13:57:09	AddOrReplaceReadGroups	Processed    85,000,000 records.  Elapsed time: 00:51:16s.  Time for last 1,000,000:   20s.  Last read position: Sm_000042F:509,692
+INFO	2023-06-28 13:57:32	AddOrReplaceReadGroups	Processed    86,000,000 records.  Elapsed time: 00:51:39s.  Time for last 1,000,000:   23s.  Last read position: Sm_000047F:330,285
+INFO	2023-06-28 13:57:54	AddOrReplaceReadGroups	Processed    87,000,000 records.  Elapsed time: 00:52:01s.  Time for last 1,000,000:   22s.  Last read position: Sm_000052F:384,286
+INFO	2023-06-28 13:58:18	AddOrReplaceReadGroups	Processed    88,000,000 records.  Elapsed time: 00:52:25s.  Time for last 1,000,000:   23s.  Last read position: Sm_000061F:220,836
+INFO	2023-06-28 13:58:39	AddOrReplaceReadGroups	Processed    89,000,000 records.  Elapsed time: 00:52:46s.  Time for last 1,000,000:   21s.  Last read position: Sm_000068F:27,631
+INFO	2023-06-28 13:59:00	AddOrReplaceReadGroups	Processed    90,000,000 records.  Elapsed time: 00:53:07s.  Time for last 1,000,000:   20s.  Last read position: Sm_000078F:133,375
+INFO	2023-06-28 13:59:20	AddOrReplaceReadGroups	Processed    91,000,000 records.  Elapsed time: 00:53:26s.  Time for last 1,000,000:   19s.  Last read position: Sm_000091F:59,944
+INFO	2023-06-28 13:59:40	AddOrReplaceReadGroups	Processed    92,000,000 records.  Elapsed time: 00:53:47s.  Time for last 1,000,000:   20s.  Last read position: Sm_000111F:79,802
+INFO	2023-06-28 13:59:56	AddOrReplaceReadGroups	Processed    93,000,000 records.  Elapsed time: 00:54:02s.  Time for last 1,000,000:   15s.  Last read position: Sm_plastid:38,859
+[Wed Jun 28 14:00:08 CEST 2023] picard.sam.AddOrReplaceReadGroups done. Elapsed time: 54.27 minutes.
+Runtime.totalMemory()=2147483648
+Using GATK jar /home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -Xmx4g -jar /home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar AddOrReplaceReadGroups -I P16809_105_sorted.bam -O P16809_105_1_WithRG.bam -LB foo -PL ILLUMINA -PU bar -SM P16809_105
+14:00:18.685 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+[Wed Jun 28 14:00:18 CEST 2023] MarkDuplicates --INPUT P16809_105_1_WithRG.bam --OUTPUT P16809_105_2_marked_duplicates.bam --METRICS_FILE P16809_105_marked_dup_metrics.txt --MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP 50000 --MAX_FILE_HANDLES_FOR_READ_ENDS_MAP 8000 --SORTING_COLLECTION_SIZE_RATIO 0.25 --TAG_DUPLICATE_SET_MEMBERS false --REMOVE_SEQUENCING_DUPLICATES false --TAGGING_POLICY DontTag --CLEAR_DT true --DUPLEX_UMI false --ADD_PG_TAG_TO_READS true --REMOVE_DUPLICATES false --ASSUME_SORTED false --DUPLICATE_SCORING_STRATEGY SUM_OF_BASE_QUALITIES --PROGRAM_RECORD_ID MarkDuplicates --PROGRAM_GROUP_NAME MarkDuplicates --READ_NAME_REGEX <optimized capture of last three ':' separated fields as numeric values> --OPTICAL_DUPLICATE_PIXEL_DISTANCE 100 --MAX_OPTICAL_DUPLICATE_SET_SIZE 300000 --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 2 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+Jun 28, 2023 2:00:19 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+[Wed Jun 28 14:00:19 CEST 2023] Executing as matt@compute-0-4.local on Linux 3.10.0-693.5.2.el7.x86_64 amd64; OpenJDK 64-Bit Server VM 11.0.8-internal+0-adhoc..src; Deflater: Intel; Inflater: Intel; Provider GCS is available; Picard version: Version:4.1.8.0
+INFO	2023-06-28 14:00:19	MarkDuplicates	Start of doWork freeMemory: 107891968; totalMemory: 133169152; maxMemory: 4294967296
+INFO	2023-06-28 14:00:19	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2023-06-28 14:00:19	MarkDuplicates	Will retain up to 15561475 data points before spilling to disk.
+INFO	2023-06-28 14:00:35	MarkDuplicates	Read     1,000,000 records.  Elapsed time: 00:00:15s.  Time for last 1,000,000:   15s.  Last read position: Sm_000000F:708,270
+INFO	2023-06-28 14:00:35	MarkDuplicates	Tracking 634 as yet unmatched pairs. 634 records in RAM.
+INFO	2023-06-28 14:00:51	MarkDuplicates	Read     2,000,000 records.  Elapsed time: 00:00:31s.  Time for last 1,000,000:   15s.  Last read position: Sm_000000F:1,081,234
+INFO	2023-06-28 14:00:51	MarkDuplicates	Tracking 348 as yet unmatched pairs. 348 records in RAM.
+INFO	2023-06-28 14:01:05	MarkDuplicates	Read     3,000,000 records.  Elapsed time: 00:00:45s.  Time for last 1,000,000:   14s.  Last read position: Sm_000000F:1,546,270
+INFO	2023-06-28 14:01:05	MarkDuplicates	Tracking 1702 as yet unmatched pairs. 1702 records in RAM.
+INFO	2023-06-28 14:01:19	MarkDuplicates	Read     4,000,000 records.  Elapsed time: 00:00:59s.  Time for last 1,000,000:   14s.  Last read position: Sm_000000F:1,820,003
+INFO	2023-06-28 14:01:19	MarkDuplicates	Tracking 666 as yet unmatched pairs. 666 records in RAM.
+INFO	2023-06-28 14:01:33	MarkDuplicates	Read     5,000,000 records.  Elapsed time: 00:01:13s.  Time for last 1,000,000:   14s.  Last read position: Sm_000000F:2,078,804
+INFO	2023-06-28 14:01:33	MarkDuplicates	Tracking 922 as yet unmatched pairs. 922 records in RAM.
+INFO	2023-06-28 14:01:46	MarkDuplicates	Read     6,000,000 records.  Elapsed time: 00:01:26s.  Time for last 1,000,000:   12s.  Last read position: Sm_000000F:2,384,569
+INFO	2023-06-28 14:01:46	MarkDuplicates	Tracking 242 as yet unmatched pairs. 242 records in RAM.
+INFO	2023-06-28 14:02:00	MarkDuplicates	Read     7,000,000 records.  Elapsed time: 00:01:40s.  Time for last 1,000,000:   13s.  Last read position: Sm_000000F:2,688,485
+INFO	2023-06-28 14:02:00	MarkDuplicates	Tracking 562 as yet unmatched pairs. 562 records in RAM.
+INFO	2023-06-28 14:02:13	MarkDuplicates	Read     8,000,000 records.  Elapsed time: 00:01:53s.  Time for last 1,000,000:   13s.  Last read position: Sm_000000F:2,958,896
+INFO	2023-06-28 14:02:13	MarkDuplicates	Tracking 42 as yet unmatched pairs. 42 records in RAM.
+INFO	2023-06-28 14:02:28	MarkDuplicates	Read     9,000,000 records.  Elapsed time: 00:02:08s.  Time for last 1,000,000:   14s.  Last read position: Sm_000000F:3,413,350
+INFO	2023-06-28 14:02:29	MarkDuplicates	Tracking 930 as yet unmatched pairs. 930 records in RAM.
+INFO	2023-06-28 14:02:42	MarkDuplicates	Read    10,000,000 records.  Elapsed time: 00:02:22s.  Time for last 1,000,000:   14s.  Last read position: Sm_000001F:538,935
+INFO	2023-06-28 14:02:42	MarkDuplicates	Tracking 670 as yet unmatched pairs. 670 records in RAM.
+INFO	2023-06-28 14:02:56	MarkDuplicates	Read    11,000,000 records.  Elapsed time: 00:02:36s.  Time for last 1,000,000:   13s.  Last read position: Sm_000001F:1,065,477
+INFO	2023-06-28 14:02:56	MarkDuplicates	Tracking 136 as yet unmatched pairs. 136 records in RAM.
+INFO	2023-06-28 14:03:10	MarkDuplicates	Read    12,000,000 records.  Elapsed time: 00:02:50s.  Time for last 1,000,000:   14s.  Last read position: Sm_000001F:1,548,478
+INFO	2023-06-28 14:03:10	MarkDuplicates	Tracking 176 as yet unmatched pairs. 176 records in RAM.
+INFO	2023-06-28 14:03:24	MarkDuplicates	Read    13,000,000 records.  Elapsed time: 00:03:04s.  Time for last 1,000,000:   13s.  Last read position: Sm_000001F:1,951,359
+INFO	2023-06-28 14:03:27	MarkDuplicates	Tracking 166 as yet unmatched pairs. 166 records in RAM.
+INFO	2023-06-28 14:03:42	MarkDuplicates	Read    14,000,000 records.  Elapsed time: 00:03:22s.  Time for last 1,000,000:   17s.  Last read position: Sm_000002F:536,149
+INFO	2023-06-28 14:03:42	MarkDuplicates	Tracking 82 as yet unmatched pairs. 82 records in RAM.
+INFO	2023-06-28 14:03:57	MarkDuplicates	Read    15,000,000 records.  Elapsed time: 00:03:37s.  Time for last 1,000,000:   15s.  Last read position: Sm_000002F:1,119,412
+INFO	2023-06-28 14:03:57	MarkDuplicates	Tracking 612 as yet unmatched pairs. 612 records in RAM.
+INFO	2023-06-28 14:04:12	MarkDuplicates	Read    16,000,000 records.  Elapsed time: 00:03:52s.  Time for last 1,000,000:   14s.  Last read position: Sm_000003F:317,954
+INFO	2023-06-28 14:04:12	MarkDuplicates	Tracking 3236 as yet unmatched pairs. 3236 records in RAM.
+INFO	2023-06-28 14:04:46	MarkDuplicates	Read    17,000,000 records.  Elapsed time: 00:04:26s.  Time for last 1,000,000:   34s.  Last read position: Sm_000003F:999,718
+INFO	2023-06-28 14:04:46	MarkDuplicates	Tracking 1104 as yet unmatched pairs. 1104 records in RAM.
+INFO	2023-06-28 14:04:58	MarkDuplicates	Read    18,000,000 records.  Elapsed time: 00:04:38s.  Time for last 1,000,000:   11s.  Last read position: Sm_000003F:1,360,025
+INFO	2023-06-28 14:04:58	MarkDuplicates	Tracking 7600 as yet unmatched pairs. 7600 records in RAM.
+INFO	2023-06-28 14:05:09	MarkDuplicates	Read    19,000,000 records.  Elapsed time: 00:04:49s.  Time for last 1,000,000:   10s.  Last read position: Sm_000003F:1,524,553
+INFO	2023-06-28 14:05:09	MarkDuplicates	Tracking 536 as yet unmatched pairs. 536 records in RAM.
+INFO	2023-06-28 14:05:20	MarkDuplicates	Read    20,000,000 records.  Elapsed time: 00:05:00s.  Time for last 1,000,000:   10s.  Last read position: Sm_000004F:264,029
+INFO	2023-06-28 14:05:20	MarkDuplicates	Tracking 886 as yet unmatched pairs. 886 records in RAM.
+INFO	2023-06-28 14:05:29	MarkDuplicates	Read    21,000,000 records.  Elapsed time: 00:05:09s.  Time for last 1,000,000:    9s.  Last read position: Sm_000004F:742,694
+INFO	2023-06-28 14:05:29	MarkDuplicates	Tracking 92 as yet unmatched pairs. 92 records in RAM.
+INFO	2023-06-28 14:05:40	MarkDuplicates	Read    22,000,000 records.  Elapsed time: 00:05:20s.  Time for last 1,000,000:   10s.  Last read position: Sm_000004F:1,091,296
+INFO	2023-06-28 14:05:40	MarkDuplicates	Tracking 36 as yet unmatched pairs. 36 records in RAM.
+INFO	2023-06-28 14:05:48	MarkDuplicates	Read    23,000,000 records.  Elapsed time: 00:05:28s.  Time for last 1,000,000:    8s.  Last read position: Sm_000004F:1,195,759
+INFO	2023-06-28 14:05:48	MarkDuplicates	Tracking 106634 as yet unmatched pairs. 106634 records in RAM.
+INFO	2023-06-28 14:05:56	MarkDuplicates	Read    24,000,000 records.  Elapsed time: 00:05:36s.  Time for last 1,000,000:    7s.  Last read position: Sm_000004F:1,263,064
+INFO	2023-06-28 14:05:56	MarkDuplicates	Tracking 262 as yet unmatched pairs. 262 records in RAM.
+INFO	2023-06-28 14:06:05	MarkDuplicates	Read    25,000,000 records.  Elapsed time: 00:05:45s.  Time for last 1,000,000:    8s.  Last read position: Sm_000004F:1,498,560
+INFO	2023-06-28 14:06:05	MarkDuplicates	Tracking 6142 as yet unmatched pairs. 6142 records in RAM.
+INFO	2023-06-28 14:06:14	MarkDuplicates	Read    26,000,000 records.  Elapsed time: 00:05:54s.  Time for last 1,000,000:    9s.  Last read position: Sm_000004F:1,785,778
+INFO	2023-06-28 14:06:14	MarkDuplicates	Tracking 338 as yet unmatched pairs. 338 records in RAM.
+INFO	2023-06-28 14:06:23	MarkDuplicates	Read    27,000,000 records.  Elapsed time: 00:06:03s.  Time for last 1,000,000:    8s.  Last read position: Sm_000005F:375,629
+INFO	2023-06-28 14:06:23	MarkDuplicates	Tracking 96 as yet unmatched pairs. 96 records in RAM.
+INFO	2023-06-28 14:06:31	MarkDuplicates	Read    28,000,000 records.  Elapsed time: 00:06:11s.  Time for last 1,000,000:    8s.  Last read position: Sm_000005F:765,325
+INFO	2023-06-28 14:06:37	MarkDuplicates	Tracking 32 as yet unmatched pairs. 32 records in RAM.
+INFO	2023-06-28 14:06:46	MarkDuplicates	Read    29,000,000 records.  Elapsed time: 00:06:26s.  Time for last 1,000,000:   15s.  Last read position: Sm_000005F:1,102,588
+INFO	2023-06-28 14:06:46	MarkDuplicates	Tracking 134 as yet unmatched pairs. 134 records in RAM.
+INFO	2023-06-28 14:06:56	MarkDuplicates	Read    30,000,000 records.  Elapsed time: 00:06:36s.  Time for last 1,000,000:    9s.  Last read position: Sm_000005F:1,616,371
+INFO	2023-06-28 14:06:56	MarkDuplicates	Tracking 98 as yet unmatched pairs. 98 records in RAM.
+INFO	2023-06-28 14:07:04	MarkDuplicates	Read    31,000,000 records.  Elapsed time: 00:06:44s.  Time for last 1,000,000:    8s.  Last read position: Sm_000006F:531,017
+INFO	2023-06-28 14:07:04	MarkDuplicates	Tracking 1516 as yet unmatched pairs. 1516 records in RAM.
+INFO	2023-06-28 14:07:14	MarkDuplicates	Read    32,000,000 records.  Elapsed time: 00:06:54s.  Time for last 1,000,000:    9s.  Last read position: Sm_000006F:1,263,808
+INFO	2023-06-28 14:07:14	MarkDuplicates	Tracking 70 as yet unmatched pairs. 70 records in RAM.
+INFO	2023-06-28 14:07:21	MarkDuplicates	Read    33,000,000 records.  Elapsed time: 00:07:01s.  Time for last 1,000,000:    7s.  Last read position: Sm_000007F:306,029
+INFO	2023-06-28 14:07:21	MarkDuplicates	Tracking 130 as yet unmatched pairs. 130 records in RAM.
+INFO	2023-06-28 14:08:01	MarkDuplicates	Read    34,000,000 records.  Elapsed time: 00:07:41s.  Time for last 1,000,000:   39s.  Last read position: Sm_000007F:1,010,490
+INFO	2023-06-28 14:08:05	MarkDuplicates	Tracking 51 as yet unmatched pairs. 51 records in RAM.
+INFO	2023-06-28 14:08:14	MarkDuplicates	Read    35,000,000 records.  Elapsed time: 00:07:54s.  Time for last 1,000,000:   12s.  Last read position: Sm_000008F:267,248
+INFO	2023-06-28 14:08:14	MarkDuplicates	Tracking 132 as yet unmatched pairs. 132 records in RAM.
+INFO	2023-06-28 14:08:22	MarkDuplicates	Read    36,000,000 records.  Elapsed time: 00:08:02s.  Time for last 1,000,000:    8s.  Last read position: Sm_000008F:872,289
+INFO	2023-06-28 14:08:22	MarkDuplicates	Tracking 168 as yet unmatched pairs. 168 records in RAM.
+INFO	2023-06-28 14:08:30	MarkDuplicates	Read    37,000,000 records.  Elapsed time: 00:08:10s.  Time for last 1,000,000:    7s.  Last read position: Sm_000008F:1,421,516
+INFO	2023-06-28 14:08:30	MarkDuplicates	Tracking 97 as yet unmatched pairs. 97 records in RAM.
+INFO	2023-06-28 14:08:37	MarkDuplicates	Read    38,000,000 records.  Elapsed time: 00:08:17s.  Time for last 1,000,000:    7s.  Last read position: Sm_000009F:700,928
+INFO	2023-06-28 14:08:41	MarkDuplicates	Tracking 306 as yet unmatched pairs. 306 records in RAM.
+INFO	2023-06-28 14:08:48	MarkDuplicates	Read    39,000,000 records.  Elapsed time: 00:08:28s.  Time for last 1,000,000:   10s.  Last read position: Sm_000009F:1,180,324
+INFO	2023-06-28 14:08:48	MarkDuplicates	Tracking 2015 as yet unmatched pairs. 2015 records in RAM.
+INFO	2023-06-28 14:08:56	MarkDuplicates	Read    40,000,000 records.  Elapsed time: 00:08:36s.  Time for last 1,000,000:    7s.  Last read position: Sm_000009F:1,497,960
+INFO	2023-06-28 14:08:56	MarkDuplicates	Tracking 32145 as yet unmatched pairs. 32145 records in RAM.
+INFO	2023-06-28 14:09:03	MarkDuplicates	Read    41,000,000 records.  Elapsed time: 00:08:43s.  Time for last 1,000,000:    7s.  Last read position: Sm_000010F:74,458
+INFO	2023-06-28 14:09:16	MarkDuplicates	Tracking 61 as yet unmatched pairs. 61 records in RAM.
+INFO	2023-06-28 14:09:23	MarkDuplicates	Read    42,000,000 records.  Elapsed time: 00:09:03s.  Time for last 1,000,000:   19s.  Last read position: Sm_000010F:629,206
+INFO	2023-06-28 14:09:23	MarkDuplicates	Tracking 256 as yet unmatched pairs. 256 records in RAM.
+INFO	2023-06-28 14:09:31	MarkDuplicates	Read    43,000,000 records.  Elapsed time: 00:09:11s.  Time for last 1,000,000:    7s.  Last read position: Sm_000010F:1,123,823
+INFO	2023-06-28 14:09:31	MarkDuplicates	Tracking 19892 as yet unmatched pairs. 19892 records in RAM.
+INFO	2023-06-28 14:09:37	MarkDuplicates	Read    44,000,000 records.  Elapsed time: 00:09:17s.  Time for last 1,000,000:    6s.  Last read position: Sm_000011F:80,203
+INFO	2023-06-28 14:09:37	MarkDuplicates	Tracking 156 as yet unmatched pairs. 156 records in RAM.
+INFO	2023-06-28 14:09:44	MarkDuplicates	Read    45,000,000 records.  Elapsed time: 00:09:24s.  Time for last 1,000,000:    6s.  Last read position: Sm_000011F:459,986
+INFO	2023-06-28 14:09:44	MarkDuplicates	Tracking 2276 as yet unmatched pairs. 2276 records in RAM.
+INFO	2023-06-28 14:09:51	MarkDuplicates	Read    46,000,000 records.  Elapsed time: 00:09:31s.  Time for last 1,000,000:    6s.  Last read position: Sm_000011F:936,116
+INFO	2023-06-28 14:10:04	MarkDuplicates	Tracking 858 as yet unmatched pairs. 858 records in RAM.
+INFO	2023-06-28 14:10:10	MarkDuplicates	Read    47,000,000 records.  Elapsed time: 00:09:50s.  Time for last 1,000,000:   19s.  Last read position: Sm_000012F:73,746
+INFO	2023-06-28 14:10:10	MarkDuplicates	Tracking 6060 as yet unmatched pairs. 6060 records in RAM.
+INFO	2023-06-28 14:10:17	MarkDuplicates	Read    48,000,000 records.  Elapsed time: 00:09:57s.  Time for last 1,000,000:    6s.  Last read position: Sm_000012F:710,170
+INFO	2023-06-28 14:10:17	MarkDuplicates	Tracking 1534 as yet unmatched pairs. 1534 records in RAM.
+INFO	2023-06-28 14:10:23	MarkDuplicates	Read    49,000,000 records.  Elapsed time: 00:10:03s.  Time for last 1,000,000:    6s.  Last read position: Sm_000013F:410,128
+INFO	2023-06-28 14:10:23	MarkDuplicates	Tracking 1204 as yet unmatched pairs. 1204 records in RAM.
+INFO	2023-06-28 14:10:30	MarkDuplicates	Read    50,000,000 records.  Elapsed time: 00:10:10s.  Time for last 1,000,000:    6s.  Last read position: Sm_000013F:854,164
+INFO	2023-06-28 14:10:30	MarkDuplicates	Tracking 2624 as yet unmatched pairs. 2624 records in RAM.
+INFO	2023-06-28 14:10:46	MarkDuplicates	Read    51,000,000 records.  Elapsed time: 00:10:26s.  Time for last 1,000,000:   16s.  Last read position: Sm_000014F:462,740
+INFO	2023-06-28 14:10:46	MarkDuplicates	Tracking 194 as yet unmatched pairs. 194 records in RAM.
+INFO	2023-06-28 14:10:53	MarkDuplicates	Read    52,000,000 records.  Elapsed time: 00:10:33s.  Time for last 1,000,000:    6s.  Last read position: Sm_000014F:1,120,318
+INFO	2023-06-28 14:10:53	MarkDuplicates	Tracking 1972 as yet unmatched pairs. 1972 records in RAM.
+INFO	2023-06-28 14:11:00	MarkDuplicates	Read    53,000,000 records.  Elapsed time: 00:10:40s.  Time for last 1,000,000:    7s.  Last read position: Sm_000015F:547,168
+INFO	2023-06-28 14:11:00	MarkDuplicates	Tracking 290 as yet unmatched pairs. 290 records in RAM.
+INFO	2023-06-28 14:11:07	MarkDuplicates	Read    54,000,000 records.  Elapsed time: 00:10:47s.  Time for last 1,000,000:    6s.  Last read position: Sm_000015F:1,003,565
+INFO	2023-06-28 14:11:07	MarkDuplicates	Tracking 782 as yet unmatched pairs. 782 records in RAM.
+INFO	2023-06-28 14:11:13	MarkDuplicates	Read    55,000,000 records.  Elapsed time: 00:10:53s.  Time for last 1,000,000:    6s.  Last read position: Sm_000016F:299,077
+INFO	2023-06-28 14:11:13	MarkDuplicates	Tracking 130 as yet unmatched pairs. 130 records in RAM.
+INFO	2023-06-28 14:11:20	MarkDuplicates	Read    56,000,000 records.  Elapsed time: 00:11:00s.  Time for last 1,000,000:    6s.  Last read position: Sm_000016F:451,914
+INFO	2023-06-28 14:11:20	MarkDuplicates	Tracking 1392 as yet unmatched pairs. 1392 records in RAM.
+INFO	2023-06-28 14:11:26	MarkDuplicates	Read    57,000,000 records.  Elapsed time: 00:11:06s.  Time for last 1,000,000:    6s.  Last read position: Sm_000016F:1,205,367
+INFO	2023-06-28 14:11:26	MarkDuplicates	Tracking 178 as yet unmatched pairs. 178 records in RAM.
+INFO	2023-06-28 14:11:34	MarkDuplicates	Read    58,000,000 records.  Elapsed time: 00:11:14s.  Time for last 1,000,000:    7s.  Last read position: Sm_000017F:704,314
+INFO	2023-06-28 14:11:34	MarkDuplicates	Tracking 616 as yet unmatched pairs. 616 records in RAM.
+INFO	2023-06-28 14:11:41	MarkDuplicates	Read    59,000,000 records.  Elapsed time: 00:11:21s.  Time for last 1,000,000:    7s.  Last read position: Sm_000018F:94,430
+INFO	2023-06-28 14:11:41	MarkDuplicates	Tracking 11 as yet unmatched pairs. 11 records in RAM.
+INFO	2023-06-28 14:11:48	MarkDuplicates	Read    60,000,000 records.  Elapsed time: 00:11:28s.  Time for last 1,000,000:    6s.  Last read position: Sm_000018F:418,664
+INFO	2023-06-28 14:11:48	MarkDuplicates	Tracking 2018 as yet unmatched pairs. 2018 records in RAM.
+INFO	2023-06-28 14:11:54	MarkDuplicates	Read    61,000,000 records.  Elapsed time: 00:11:34s.  Time for last 1,000,000:    6s.  Last read position: Sm_000018F:1,040,227
+INFO	2023-06-28 14:11:54	MarkDuplicates	Tracking 1122 as yet unmatched pairs. 1122 records in RAM.
+INFO	2023-06-28 14:12:01	MarkDuplicates	Read    62,000,000 records.  Elapsed time: 00:11:41s.  Time for last 1,000,000:    6s.  Last read position: Sm_000019F:540,652
+INFO	2023-06-28 14:12:01	MarkDuplicates	Tracking 258 as yet unmatched pairs. 258 records in RAM.
+INFO	2023-06-28 14:12:08	MarkDuplicates	Read    63,000,000 records.  Elapsed time: 00:11:48s.  Time for last 1,000,000:    6s.  Last read position: Sm_000020F:45,494
+INFO	2023-06-28 14:12:08	MarkDuplicates	Tracking 9652 as yet unmatched pairs. 9652 records in RAM.
+INFO	2023-06-28 14:12:15	MarkDuplicates	Read    64,000,000 records.  Elapsed time: 00:11:55s.  Time for last 1,000,000:    7s.  Last read position: Sm_000020F:712,182
+INFO	2023-06-28 14:12:15	MarkDuplicates	Tracking 56 as yet unmatched pairs. 56 records in RAM.
+INFO	2023-06-28 14:12:23	MarkDuplicates	Read    65,000,000 records.  Elapsed time: 00:12:03s.  Time for last 1,000,000:    7s.  Last read position: Sm_000021F:497,288
+INFO	2023-06-28 14:12:23	MarkDuplicates	Tracking 162 as yet unmatched pairs. 162 records in RAM.
+INFO	2023-06-28 14:12:30	MarkDuplicates	Read    66,000,000 records.  Elapsed time: 00:12:10s.  Time for last 1,000,000:    6s.  Last read position: Sm_000022F:155,184
+INFO	2023-06-28 14:12:30	MarkDuplicates	Tracking 1820 as yet unmatched pairs. 1820 records in RAM.
+INFO	2023-06-28 14:13:07	MarkDuplicates	Read    67,000,000 records.  Elapsed time: 00:12:47s.  Time for last 1,000,000:   36s.  Last read position: Sm_000024F:327,716
+INFO	2023-06-28 14:13:07	MarkDuplicates	Tracking 202 as yet unmatched pairs. 202 records in RAM.
+INFO	2023-06-28 14:13:14	MarkDuplicates	Read    68,000,000 records.  Elapsed time: 00:12:54s.  Time for last 1,000,000:    7s.  Last read position: Sm_000025F:46,130
+INFO	2023-06-28 14:13:14	MarkDuplicates	Tracking 564 as yet unmatched pairs. 564 records in RAM.
+INFO	2023-06-28 14:13:21	MarkDuplicates	Read    69,000,000 records.  Elapsed time: 00:13:01s.  Time for last 1,000,000:    7s.  Last read position: Sm_000025F:539,490
+INFO	2023-06-28 14:13:21	MarkDuplicates	Tracking 224 as yet unmatched pairs. 224 records in RAM.
+INFO	2023-06-28 14:13:29	MarkDuplicates	Read    70,000,000 records.  Elapsed time: 00:13:09s.  Time for last 1,000,000:    7s.  Last read position: Sm_000027F:199,873
+INFO	2023-06-28 14:13:30	MarkDuplicates	Tracking 1994 as yet unmatched pairs. 1994 records in RAM.
+INFO	2023-06-28 14:13:36	MarkDuplicates	Read    71,000,000 records.  Elapsed time: 00:13:16s.  Time for last 1,000,000:    7s.  Last read position: Sm_000027F:741,810
+INFO	2023-06-28 14:13:36	MarkDuplicates	Tracking 108 as yet unmatched pairs. 108 records in RAM.
+INFO	2023-06-28 14:13:43	MarkDuplicates	Read    72,000,000 records.  Elapsed time: 00:13:23s.  Time for last 1,000,000:    7s.  Last read position: Sm_000028F:394,538
+INFO	2023-06-28 14:13:43	MarkDuplicates	Tracking 1696 as yet unmatched pairs. 1696 records in RAM.
+INFO	2023-06-28 14:13:50	MarkDuplicates	Read    73,000,000 records.  Elapsed time: 00:13:30s.  Time for last 1,000,000:    6s.  Last read position: Sm_000028F:571,765
+INFO	2023-06-28 14:13:50	MarkDuplicates	Tracking 9768 as yet unmatched pairs. 9768 records in RAM.
+INFO	2023-06-28 14:13:57	MarkDuplicates	Read    74,000,000 records.  Elapsed time: 00:13:37s.  Time for last 1,000,000:    6s.  Last read position: Sm_000029F:436,794
+INFO	2023-06-28 14:13:57	MarkDuplicates	Tracking 382 as yet unmatched pairs. 382 records in RAM.
+INFO	2023-06-28 14:14:04	MarkDuplicates	Read    75,000,000 records.  Elapsed time: 00:13:44s.  Time for last 1,000,000:    6s.  Last read position: Sm_000030F:55,669
+INFO	2023-06-28 14:14:04	MarkDuplicates	Tracking 162 as yet unmatched pairs. 162 records in RAM.
+INFO	2023-06-28 14:14:10	MarkDuplicates	Read    76,000,000 records.  Elapsed time: 00:13:50s.  Time for last 1,000,000:    6s.  Last read position: Sm_000030F:424,829
+INFO	2023-06-28 14:14:10	MarkDuplicates	Tracking 10083 as yet unmatched pairs. 10083 records in RAM.
+INFO	2023-06-28 14:14:16	MarkDuplicates	Read    77,000,000 records.  Elapsed time: 00:13:56s.  Time for last 1,000,000:    6s.  Last read position: Sm_000032F:399,954
+INFO	2023-06-28 14:14:16	MarkDuplicates	Tracking 76 as yet unmatched pairs. 76 records in RAM.
+INFO	2023-06-28 14:14:23	MarkDuplicates	Read    78,000,000 records.  Elapsed time: 00:14:03s.  Time for last 1,000,000:    6s.  Last read position: Sm_000033F:405,134
+INFO	2023-06-28 14:14:23	MarkDuplicates	Tracking 154 as yet unmatched pairs. 154 records in RAM.
+INFO	2023-06-28 14:14:30	MarkDuplicates	Read    79,000,000 records.  Elapsed time: 00:14:10s.  Time for last 1,000,000:    6s.  Last read position: Sm_000034F:202,319
+INFO	2023-06-28 14:14:30	MarkDuplicates	Tracking 50 as yet unmatched pairs. 50 records in RAM.
+INFO	2023-06-28 14:14:37	MarkDuplicates	Read    80,000,000 records.  Elapsed time: 00:14:17s.  Time for last 1,000,000:    7s.  Last read position: Sm_000036F:170,787
+INFO	2023-06-28 14:14:37	MarkDuplicates	Tracking 3346 as yet unmatched pairs. 3346 records in RAM.
+INFO	2023-06-28 14:14:45	MarkDuplicates	Read    81,000,000 records.  Elapsed time: 00:14:25s.  Time for last 1,000,000:    7s.  Last read position: Sm_000036F:527,218
+INFO	2023-06-28 14:14:45	MarkDuplicates	Tracking 76 as yet unmatched pairs. 76 records in RAM.
+INFO	2023-06-28 14:14:52	MarkDuplicates	Read    82,000,000 records.  Elapsed time: 00:14:32s.  Time for last 1,000,000:    7s.  Last read position: Sm_000038F:197,525
+INFO	2023-06-28 14:14:52	MarkDuplicates	Tracking 278 as yet unmatched pairs. 278 records in RAM.
+INFO	2023-06-28 14:14:58	MarkDuplicates	Read    83,000,000 records.  Elapsed time: 00:14:38s.  Time for last 1,000,000:    6s.  Last read position: Sm_000038F:688,437
+INFO	2023-06-28 14:14:58	MarkDuplicates	Tracking 512 as yet unmatched pairs. 512 records in RAM.
+INFO	2023-06-28 14:15:18	MarkDuplicates	Read    84,000,000 records.  Elapsed time: 00:14:58s.  Time for last 1,000,000:   20s.  Last read position: Sm_000040F:343,674
+INFO	2023-06-28 14:15:18	MarkDuplicates	Tracking 2092 as yet unmatched pairs. 2092 records in RAM.
+INFO	2023-06-28 14:15:26	MarkDuplicates	Read    85,000,000 records.  Elapsed time: 00:15:06s.  Time for last 1,000,000:    7s.  Last read position: Sm_000042F:509,692
+INFO	2023-06-28 14:15:26	MarkDuplicates	Tracking 712 as yet unmatched pairs. 712 records in RAM.
+INFO	2023-06-28 14:15:33	MarkDuplicates	Read    86,000,000 records.  Elapsed time: 00:15:13s.  Time for last 1,000,000:    7s.  Last read position: Sm_000047F:330,285
+INFO	2023-06-28 14:15:33	MarkDuplicates	Tracking 272 as yet unmatched pairs. 272 records in RAM.
+INFO	2023-06-28 14:15:40	MarkDuplicates	Read    87,000,000 records.  Elapsed time: 00:15:20s.  Time for last 1,000,000:    7s.  Last read position: Sm_000052F:384,286
+INFO	2023-06-28 14:15:40	MarkDuplicates	Tracking 308 as yet unmatched pairs. 308 records in RAM.
+INFO	2023-06-28 14:15:47	MarkDuplicates	Read    88,000,000 records.  Elapsed time: 00:15:27s.  Time for last 1,000,000:    6s.  Last read position: Sm_000061F:220,836
+INFO	2023-06-28 14:15:47	MarkDuplicates	Tracking 170 as yet unmatched pairs. 170 records in RAM.
+INFO	2023-06-28 14:15:54	MarkDuplicates	Read    89,000,000 records.  Elapsed time: 00:15:35s.  Time for last 1,000,000:    7s.  Last read position: Sm_000068F:27,631
+INFO	2023-06-28 14:15:54	MarkDuplicates	Tracking 502 as yet unmatched pairs. 502 records in RAM.
+INFO	2023-06-28 14:16:02	MarkDuplicates	Read    90,000,000 records.  Elapsed time: 00:15:42s.  Time for last 1,000,000:    7s.  Last read position: Sm_000078F:133,375
+INFO	2023-06-28 14:16:02	MarkDuplicates	Tracking 4841 as yet unmatched pairs. 4841 records in RAM.
+INFO	2023-06-28 14:16:10	MarkDuplicates	Read    91,000,000 records.  Elapsed time: 00:15:50s.  Time for last 1,000,000:    8s.  Last read position: Sm_000091F:59,944
+INFO	2023-06-28 14:16:10	MarkDuplicates	Tracking 4180 as yet unmatched pairs. 4180 records in RAM.
+INFO	2023-06-28 14:16:17	MarkDuplicates	Read    92,000,000 records.  Elapsed time: 00:15:57s.  Time for last 1,000,000:    7s.  Last read position: Sm_000111F:79,802
+INFO	2023-06-28 14:16:17	MarkDuplicates	Tracking 1914 as yet unmatched pairs. 1914 records in RAM.
+INFO	2023-06-28 14:16:24	MarkDuplicates	Read    93,000,000 records.  Elapsed time: 00:16:04s.  Time for last 1,000,000:    6s.  Last read position: Sm_plastid:38,859
+INFO	2023-06-28 14:16:24	MarkDuplicates	Tracking 1854 as yet unmatched pairs. 1854 records in RAM.
+INFO	2023-06-28 14:16:28	MarkDuplicates	Read 93738752 records. 0 pairs never matched.
+INFO	2023-06-28 14:16:45	MarkDuplicates	After buildSortedReadEndLists freeMemory: 178475192; totalMemory: 206569472; maxMemory: 4294967296
+INFO	2023-06-28 14:16:45	MarkDuplicates	Will retain up to 134217728 duplicate indices before spilling to disk.
+INFO	2023-06-28 14:16:45	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2023-06-28 14:17:27	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2023-06-28 14:18:14	MarkDuplicates	Sorting list of duplicate records.
+INFO	2023-06-28 14:18:17	MarkDuplicates	After generateDuplicateIndexes freeMemory: 763811824; totalMemory: 1866465280; maxMemory: 4294967296
+INFO	2023-06-28 14:18:17	MarkDuplicates	Marking 42169854 records as duplicates.
+INFO	2023-06-28 14:18:17	MarkDuplicates	Found 442972 optical duplicate clusters.
+INFO	2023-06-28 14:18:17	MarkDuplicates	Reads are assumed to be ordered by: coordinate
+INFO	2023-06-28 14:19:42	MarkDuplicates	Written    10,000,000 records.  Elapsed time: 00:01:24s.  Time for last 10,000,000:   84s.  Last read position: Sm_000001F:538,935
+INFO	2023-06-28 14:21:10	MarkDuplicates	Written    20,000,000 records.  Elapsed time: 00:02:52s.  Time for last 10,000,000:   87s.  Last read position: Sm_000004F:264,029
+INFO	2023-06-28 14:22:43	MarkDuplicates	Written    30,000,000 records.  Elapsed time: 00:04:25s.  Time for last 10,000,000:   92s.  Last read position: Sm_000005F:1,616,371
+INFO	2023-06-28 14:24:10	MarkDuplicates	Written    40,000,000 records.  Elapsed time: 00:05:52s.  Time for last 10,000,000:   87s.  Last read position: Sm_000009F:1,497,960
+INFO	2023-06-28 14:25:37	MarkDuplicates	Written    50,000,000 records.  Elapsed time: 00:07:19s.  Time for last 10,000,000:   87s.  Last read position: Sm_000013F:854,164
+INFO	2023-06-28 14:27:04	MarkDuplicates	Written    60,000,000 records.  Elapsed time: 00:08:47s.  Time for last 10,000,000:   87s.  Last read position: Sm_000018F:418,664
+INFO	2023-06-28 14:28:30	MarkDuplicates	Written    70,000,000 records.  Elapsed time: 00:10:12s.  Time for last 10,000,000:   85s.  Last read position: Sm_000027F:199,873
+INFO	2023-06-28 14:29:43	MarkDuplicates	Written    80,000,000 records.  Elapsed time: 00:11:25s.  Time for last 10,000,000:   73s.  Last read position: Sm_000036F:170,787
+INFO	2023-06-28 14:31:00	MarkDuplicates	Written    90,000,000 records.  Elapsed time: 00:12:42s.  Time for last 10,000,000:   77s.  Last read position: Sm_000078F:133,375
+INFO	2023-06-28 14:31:28	MarkDuplicates	Writing complete. Closing input iterator.
+INFO	2023-06-28 14:31:28	MarkDuplicates	Duplicate Index cleanup.
+INFO	2023-06-28 14:31:28	MarkDuplicates	Getting Memory Stats.
+INFO	2023-06-28 14:31:28	MarkDuplicates	Before output close freeMemory: 761817776; totalMemory: 1866465280; maxMemory: 4294967296
+INFO	2023-06-28 14:31:28	MarkDuplicates	Closed outputs. Getting more Memory Stats.
+INFO	2023-06-28 14:31:29	MarkDuplicates	After output close freeMemory: 108497304; totalMemory: 136314880; maxMemory: 4294967296
+[Wed Jun 28 14:31:29 CEST 2023] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 31.18 minutes.
+Runtime.totalMemory()=136314880
+Using GATK jar /home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -Xmx4g -jar /home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar MarkDuplicates -I P16809_105_1_WithRG.bam -O P16809_105_2_marked_duplicates.bam -M P16809_105_marked_dup_metrics.txt
+14:31:34.032 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Jun 28, 2023 2:31:34 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+14:31:34.244 INFO  SplitNCigarReads - ------------------------------------------------------------
+14:31:34.245 INFO  SplitNCigarReads - The Genome Analysis Toolkit (GATK) v4.1.8.0
+14:31:34.245 INFO  SplitNCigarReads - For support and documentation go to https://software.broadinstitute.org/gatk/
+14:31:34.245 INFO  SplitNCigarReads - Executing as matt@compute-0-4.local on Linux v3.10.0-693.5.2.el7.x86_64 amd64
+14:31:34.245 INFO  SplitNCigarReads - Java runtime: OpenJDK 64-Bit Server VM v11.0.8-internal+0-adhoc..src
+14:31:34.246 INFO  SplitNCigarReads - Start Date/Time: June 28, 2023 at 2:31:33 PM CEST
+14:31:34.246 INFO  SplitNCigarReads - ------------------------------------------------------------
+14:31:34.246 INFO  SplitNCigarReads - ------------------------------------------------------------
+14:31:34.247 INFO  SplitNCigarReads - HTSJDK Version: 2.22.0
+14:31:34.247 INFO  SplitNCigarReads - Picard Version: 2.22.8
+14:31:34.247 INFO  SplitNCigarReads - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+14:31:34.247 INFO  SplitNCigarReads - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+14:31:34.248 INFO  SplitNCigarReads - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+14:31:34.248 INFO  SplitNCigarReads - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+14:31:34.248 INFO  SplitNCigarReads - Deflater: IntelDeflater
+14:31:34.248 INFO  SplitNCigarReads - Inflater: IntelInflater
+14:31:34.248 INFO  SplitNCigarReads - GCS max retries/reopens: 20
+14:31:34.248 INFO  SplitNCigarReads - Requester pays: disabled
+14:31:34.249 INFO  SplitNCigarReads - Initializing engine
+14:31:34.571 INFO  SplitNCigarReads - Done initializing engine
+14:31:34.684 INFO  ProgressMeter - Starting traversal
+14:31:34.685 INFO  ProgressMeter -        Current Locus  Elapsed Minutes       Reads Processed     Reads/Minute
+14:31:44.902 INFO  ProgressMeter -    Sm_000000F:320085              0.2                428000        2514196.2
+14:31:54.923 INFO  ProgressMeter -    Sm_000000F:583267              0.3                752000        2229799.9
+14:32:04.932 INFO  ProgressMeter -    Sm_000000F:724079              0.5               1074000        2130529.7
+14:32:14.968 INFO  ProgressMeter -    Sm_000000F:811214              0.7               1347000        2006355.2
+14:32:24.981 INFO  ProgressMeter -    Sm_000000F:893191              0.8               1603000        1912279.3
+14:32:34.993 INFO  ProgressMeter -    Sm_000000F:981736              1.0               1835000        1825658.7
+14:32:45.008 INFO  ProgressMeter -   Sm_000000F:1108748              1.2               2060000        1757654.2
+14:32:55.008 INFO  ProgressMeter -   Sm_000000F:1197147              1.3               2291000        1711361.8
+14:33:05.033 INFO  ProgressMeter -   Sm_000000F:1384132              1.5               2581000        1714058.0
+14:33:15.062 INFO  ProgressMeter -   Sm_000000F:1521028              1.7               2880000        1721527.1
+14:33:25.346 INFO  ProgressMeter -   Sm_000000F:1554312              1.8               3139000        1701970.0
+14:33:35.415 INFO  ProgressMeter -   Sm_000000F:1578421              2.0               3409000        1694207.7
+14:33:45.533 INFO  ProgressMeter -   Sm_000000F:1638727              2.2               3674000        1684702.9
+14:33:55.573 INFO  ProgressMeter -   Sm_000000F:1762303              2.3               3947000        1680909.7
+14:34:05.586 INFO  ProgressMeter -   Sm_000000F:1868102              2.5               4180000        1662027.8
+14:34:15.606 INFO  ProgressMeter -   Sm_000000F:1935903              2.7               4426000        1650261.0
+14:34:25.606 INFO  ProgressMeter -   Sm_000000F:1979888              2.8               4714000        1654809.3
+14:34:35.616 INFO  ProgressMeter -   Sm_000000F:2095013              3.0               5023000        1665727.1
+14:34:45.656 INFO  ProgressMeter -   Sm_000000F:2193558              3.2               5289000        1661727.0
+14:34:55.673 INFO  ProgressMeter -   Sm_000000F:2245722              3.3               5562000        1660405.9
+14:35:05.701 INFO  ProgressMeter -   Sm_000000F:2327686              3.5               5821000        1655143.0
+14:35:15.718 INFO  ProgressMeter -   Sm_000000F:2417483              3.7               6078000        1649896.8
+14:35:25.738 INFO  ProgressMeter -   Sm_000000F:2456294              3.9               6300000        1635995.4
+14:35:35.761 INFO  ProgressMeter -   Sm_000000F:2535238              4.0               6530000        1625227.1
+14:35:45.780 INFO  ProgressMeter -   Sm_000000F:2589489              4.2               6777000        1619393.5
+14:35:55.938 INFO  ProgressMeter -   Sm_000000F:2715846              4.4               7104000        1631528.2
+14:36:05.948 INFO  ProgressMeter -   Sm_000000F:2816159              4.5               7386000        1633697.3
+14:36:15.959 INFO  ProgressMeter -   Sm_000000F:2906865              4.7               7651000        1632079.9
+14:36:25.961 INFO  ProgressMeter -   Sm_000000F:2927532              4.9               7885000        1624232.7
+14:36:35.968 INFO  ProgressMeter -   Sm_000000F:2987095              5.0               8119000        1616890.5
+14:36:45.981 INFO  ProgressMeter -   Sm_000000F:3123356              5.2               8357000        1610755.1
+14:36:56.013 INFO  ProgressMeter -   Sm_000000F:3270143              5.4               8646000        1614430.2
+14:37:06.168 INFO  ProgressMeter -   Sm_000000F:3334793              5.5               8885000        1608232.1
+14:37:16.181 INFO  ProgressMeter -   Sm_000000F:3510487              5.7               9158000        1609042.6
+14:37:26.309 INFO  ProgressMeter -    Sm_000001F:289911              5.9               9683000        1652281.0
+14:37:36.318 INFO  ProgressMeter -    Sm_000001F:566153              6.0              10058000        1668768.3
+14:37:46.611 INFO  ProgressMeter -    Sm_000001F:719840              6.2              10381000        1674701.5
+14:37:56.619 INFO  ProgressMeter -    Sm_000001F:916247              6.4              10697000        1680456.2
+14:38:06.637 INFO  ProgressMeter -   Sm_000001F:1061736              6.5              10986000        1681736.5
+14:38:16.685 INFO  ProgressMeter -   Sm_000001F:1166369              6.7              11249000        1678959.4
+14:38:26.705 INFO  ProgressMeter -   Sm_000001F:1248439              6.9              11511000        1676286.0
+14:38:36.733 INFO  ProgressMeter -   Sm_000001F:1418385              7.0              11778000        1674410.7
+14:38:46.822 INFO  ProgressMeter -   Sm_000001F:1554462              7.2              12006000        1666975.2
+14:38:56.824 INFO  ProgressMeter -   Sm_000001F:1707723              7.4              12275000        1665765.7
+14:39:06.843 INFO  ProgressMeter -   Sm_000001F:1758799              7.5              12580000        1669335.4
+14:39:16.872 INFO  ProgressMeter -   Sm_000001F:1865023              7.7              12860000        1669457.8
+14:39:27.047 INFO  ProgressMeter -    Sm_000002F:103159              7.9              13232000        1680744.9
+14:39:37.057 INFO  ProgressMeter -    Sm_000002F:330682              8.0              13699000        1703958.2
+14:39:47.151 INFO  ProgressMeter -    Sm_000002F:586594              8.2              14060000        1713015.1
+14:39:57.168 INFO  ProgressMeter -    Sm_000002F:765828              8.4              14380000        1717076.4
+14:40:07.176 INFO  ProgressMeter -    Sm_000002F:815151              8.5              14687000        1719483.9
+14:40:17.190 INFO  ProgressMeter -   Sm_000002F:1042993              8.7              14924000        1713747.6
+14:40:27.209 INFO  ProgressMeter -   Sm_000002F:1211495              8.9              15126000        1704261.2
+14:40:37.455 INFO  ProgressMeter -   Sm_000002F:1349444              9.0              15437000        1706468.7
+14:40:47.508 INFO  ProgressMeter -   Sm_000002F:1621955              9.2              15722000        1706375.1
+14:40:57.510 INFO  ProgressMeter -    Sm_000003F:448650              9.4              16104000        1716771.1
+14:41:07.560 INFO  ProgressMeter -    Sm_000003F:669801              9.5              16454000        1723307.9
+14:41:17.563 INFO  ProgressMeter -    Sm_000003F:915859              9.7              16740000        1723176.6
+14:41:27.566 INFO  ProgressMeter -   Sm_000003F:1002494              9.9              17019000        1722338.4
+14:41:37.590 INFO  ProgressMeter -   Sm_000003F:1113265             10.0              17270000        1718681.6
+14:41:47.823 INFO  ProgressMeter -   Sm_000003F:1236057             10.2              17524000        1714850.5
+14:41:57.863 INFO  ProgressMeter -   Sm_000003F:1307328             10.4              17765000        1710429.0
+14:42:07.878 INFO  ProgressMeter -   Sm_000003F:1360025             10.6              18000000        1705641.1
+14:42:17.899 INFO  ProgressMeter -   Sm_000003F:1402438             10.7              18285000        1705655.8
+14:42:27.900 INFO  ProgressMeter -   Sm_000003F:1462784             10.9              18604000        1708842.7
+14:42:37.921 INFO  ProgressMeter -   Sm_000003F:1486215             11.1              18911000        1710796.3
+14:42:47.982 INFO  ProgressMeter -   Sm_000003F:1613559             11.2              19207000        1711607.2
+14:42:57.989 INFO  ProgressMeter -   Sm_000003F:1752674             11.4              19475000        1710075.9
+14:43:08.110 INFO  ProgressMeter -    Sm_000004F:204345             11.6              19893000        1721284.5
+14:43:18.117 INFO  ProgressMeter -    Sm_000004F:430535             11.7              20363000        1736886.8
+14:43:28.124 INFO  ProgressMeter -    Sm_000004F:619006             11.9              20723000        1742800.4
+14:43:38.134 INFO  ProgressMeter -    Sm_000004F:791987             12.1              21059000        1746552.6
+14:43:48.136 INFO  ProgressMeter -    Sm_000004F:954001             12.2              21363000        1747603.8
+14:43:58.146 INFO  ProgressMeter -    Sm_000004F:991599             12.4              21640000        1746428.9
+14:44:08.151 INFO  ProgressMeter -   Sm_000004F:1060494             12.6              21916000        1745217.1
+14:44:18.156 INFO  ProgressMeter -   Sm_000004F:1146646             12.7              22178000        1742936.9
+14:44:28.163 INFO  ProgressMeter -   Sm_000004F:1186775             12.9              22388000        1736677.4
+14:44:38.171 INFO  ProgressMeter -   Sm_000004F:1190362             13.1              22557000        1727435.8
+14:44:48.183 INFO  ProgressMeter -   Sm_000004F:1194497             13.2              22726000        1718416.4
+14:44:58.214 INFO  ProgressMeter -   Sm_000004F:1195346             13.4              22936000        1712645.1
+14:45:08.236 INFO  ProgressMeter -   Sm_000004F:1196388             13.6              23116000        1704824.5
+14:45:18.247 INFO  ProgressMeter -   Sm_000004F:1199776             13.7              23314000        1698526.3
+14:45:28.285 INFO  ProgressMeter -   Sm_000004F:1200462             13.9              23513000        1692400.5
+14:45:38.307 INFO  ProgressMeter -   Sm_000004F:1201200             14.1              23722000        1687155.7
+14:45:48.322 INFO  ProgressMeter -   Sm_000004F:1246177             14.2              23967000        1684580.2
+14:45:58.358 INFO  ProgressMeter -   Sm_000004F:1294543             14.4              24206000        1681610.6
+14:46:08.378 INFO  ProgressMeter -   Sm_000004F:1378003             14.6              24454000        1679356.1
+14:46:18.378 INFO  ProgressMeter -   Sm_000004F:1439106             14.7              24700000        1677053.0
+14:46:28.382 INFO  ProgressMeter -   Sm_000004F:1497716             14.9              24925000        1673387.8
+14:46:38.694 INFO  ProgressMeter -   Sm_000004F:1566916             15.1              25148000        1669098.4
+14:46:48.702 INFO  ProgressMeter -   Sm_000004F:1628273             15.2              25347000        1663887.7
+14:46:58.706 INFO  ProgressMeter -   Sm_000004F:1687961             15.4              25602000        1662431.5
+14:47:08.720 INFO  ProgressMeter -   Sm_000004F:1766425             15.6              25891000        1663172.9
+14:47:18.999 INFO  ProgressMeter -     Sm_000005F:87485             15.7              26293000        1670611.3
+14:47:29.366 INFO  ProgressMeter -    Sm_000005F:309832             15.9              26859000        1688042.1
+14:47:39.391 INFO  ProgressMeter -    Sm_000005F:458413             16.1              27264000        1695689.4
+14:47:49.501 INFO  ProgressMeter -    Sm_000005F:581559             16.2              27614000        1699643.8
+14:47:59.516 INFO  ProgressMeter -    Sm_000005F:741561             16.4              27943000        1702407.2
+14:48:09.707 INFO  ProgressMeter -    Sm_000005F:868468             16.6              28222000        1701796.6
+14:48:19.748 INFO  ProgressMeter -    Sm_000005F:919465             16.8              28520000        1702581.5
+14:48:29.751 INFO  ProgressMeter -   Sm_000005F:1033719             16.9              28791000        1701820.4
+14:48:39.935 INFO  ProgressMeter -   Sm_000005F:1144162             17.1              29043000        1699665.2
+14:48:49.973 INFO  ProgressMeter -   Sm_000005F:1297541             17.3              29289000        1697444.0
+14:48:59.995 INFO  ProgressMeter -   Sm_000005F:1414356             17.4              29517000        1694255.0
+14:49:10.041 INFO  ProgressMeter -   Sm_000005F:1503891             17.6              29769000        1692454.2
+14:49:20.066 INFO  ProgressMeter -   Sm_000005F:1640031             17.8              30052000        1692466.5
+14:49:30.078 INFO  ProgressMeter -    Sm_000006F:345679             17.9              30589000        1706670.7
+14:49:40.080 INFO  ProgressMeter -    Sm_000006F:539322             18.1              31010000        1714216.2
+14:49:50.082 INFO  ProgressMeter -    Sm_000006F:837035             18.3              31315000        1715270.1
+14:50:00.090 INFO  ProgressMeter -    Sm_000006F:969356             18.4              31581000        1714177.2
+14:50:10.108 INFO  ProgressMeter -   Sm_000006F:1161065             18.6              31833000        1712338.5
+14:50:20.121 INFO  ProgressMeter -   Sm_000006F:1286405             18.8              32048000        1708566.0
+14:50:30.133 INFO  ProgressMeter -     Sm_000007F:53529             18.9              32295000        1706554.1
+14:50:40.142 INFO  ProgressMeter -    Sm_000007F:254730             19.1              32823000        1719297.8
+14:50:50.471 INFO  ProgressMeter -    Sm_000007F:467889             19.3              33281000        1727708.9
+14:51:00.498 INFO  ProgressMeter -    Sm_000007F:664384             19.4              33631000        1730866.7
+14:51:10.744 INFO  ProgressMeter -    Sm_000007F:879764             19.6              33901000        1729562.0
+14:51:20.746 INFO  ProgressMeter -   Sm_000007F:1176437             19.8              34158000        1727974.7
+14:51:30.791 INFO  ProgressMeter -   Sm_000007F:1435554             19.9              34373000        1724248.1
+14:51:40.794 INFO  ProgressMeter -     Sm_000008F:14486             20.1              34573000        1719895.7
+14:51:50.805 INFO  ProgressMeter -    Sm_000008F:300435             20.3              35129000        1733169.2
+14:52:00.811 INFO  ProgressMeter -    Sm_000008F:607572             20.4              35570000        1740605.6
+14:52:10.815 INFO  ProgressMeter -    Sm_000008F:818263             20.6              35924000        1743704.3
+14:52:20.820 INFO  ProgressMeter -    Sm_000008F:902437             20.8              36221000        1744003.2
+14:52:30.833 INFO  ProgressMeter -    Sm_000008F:940143             20.9              36401000        1738697.8
+14:52:40.835 INFO  ProgressMeter -   Sm_000008F:1076026             21.1              36662000        1737332.4
+14:52:51.076 INFO  ProgressMeter -   Sm_000008F:1310082             21.3              36888000        1734016.8
+14:53:01.094 INFO  ProgressMeter -   Sm_000008F:1493774             21.4              37114000        1731060.7
+14:53:11.098 INFO  ProgressMeter -    Sm_000009F:387346             21.6              37500000        1735560.7
+14:53:21.123 INFO  ProgressMeter -    Sm_000009F:633080             21.8              37861000        1738820.9
+14:53:31.124 INFO  ProgressMeter -    Sm_000009F:763008             21.9              38188000        1740516.3
+14:53:41.132 INFO  ProgressMeter -    Sm_000009F:936357             22.1              38499000        1741450.5
+14:53:51.153 INFO  ProgressMeter -   Sm_000009F:1088929             22.3              38791000        1741503.3
+14:54:01.179 INFO  ProgressMeter -   Sm_000009F:1182569             22.4              39046000        1739896.4
+14:54:11.237 INFO  ProgressMeter -   Sm_000009F:1334784             22.6              39285000        1737568.3
+14:54:21.241 INFO  ProgressMeter -   Sm_000009F:1494963             22.8              39509000        1734683.2
+14:54:31.254 INFO  ProgressMeter -   Sm_000009F:1495924             22.9              39674000        1729257.1
+14:54:41.277 INFO  ProgressMeter -   Sm_000009F:1497260             23.1              39807000        1722512.3
+14:54:51.345 INFO  ProgressMeter -   Sm_000009F:1497826             23.3              39943000        1715937.8
+14:55:01.436 INFO  ProgressMeter -   Sm_000009F:1498135             23.4              40077000        1709344.2
+14:55:11.770 INFO  ProgressMeter -   Sm_000009F:1498425             23.6              40197000        1701959.8
+14:55:21.779 INFO  ProgressMeter -   Sm_000009F:1498792             23.8              40322000        1695278.4
+14:55:31.809 INFO  ProgressMeter -   Sm_000009F:1500063             24.0              40452000        1688875.4
+14:55:41.838 INFO  ProgressMeter -   Sm_000009F:1500489             24.1              40608000        1683637.9
+14:55:51.845 INFO  ProgressMeter -   Sm_000009F:1505705             24.3              40813000        1680516.7
+14:56:01.845 INFO  ProgressMeter -    Sm_000010F:171016             24.5              41147000        1682721.5
+14:56:11.850 INFO  ProgressMeter -    Sm_000010F:423914             24.6              41552000        1687777.0
+14:56:21.874 INFO  ProgressMeter -    Sm_000010F:594958             24.8              41910000        1690840.9
+14:56:31.880 INFO  ProgressMeter -    Sm_000010F:777276             25.0              42216000        1691804.8
+14:56:41.916 INFO  ProgressMeter -    Sm_000010F:857033             25.1              42463000        1690372.4
+14:56:52.167 INFO  ProgressMeter -   Sm_000010F:1095135             25.3              42715000        1688917.4
+14:57:02.189 INFO  ProgressMeter -   Sm_000010F:1123731             25.5              42953000        1687183.8
+14:57:12.204 INFO  ProgressMeter -   Sm_000010F:1124285             25.6              43203000        1685952.1
+14:57:22.283 INFO  ProgressMeter -   Sm_000010F:1151885             25.8              43434000        1683926.8
+14:57:32.366 INFO  ProgressMeter -   Sm_000010F:1328984             26.0              43655000        1681539.2
+14:57:42.369 INFO  ProgressMeter -     Sm_000011F:76084             26.1              43994000        1683784.3
+14:57:52.382 INFO  ProgressMeter -    Sm_000011F:278053             26.3              44547000        1694128.7
+14:58:02.385 INFO  ProgressMeter -    Sm_000011F:459635             26.5              44989000        1700157.5
+14:58:12.437 INFO  ProgressMeter -    Sm_000011F:595938             26.6              45398000        1704820.3
+14:58:22.457 INFO  ProgressMeter -    Sm_000011F:740471             26.8              45723000        1706325.1
+14:58:32.943 INFO  ProgressMeter -    Sm_000011F:948173             27.0              46032000        1706725.2
+14:58:43.318 INFO  ProgressMeter -   Sm_000011F:1196671             27.1              46315000        1706278.6
+14:58:53.323 INFO  ProgressMeter -   Sm_000011F:1237275             27.3              46566000        1705051.2
+14:59:03.325 INFO  ProgressMeter -     Sm_000012F:67038             27.5              46877000        1706026.4
+14:59:13.330 INFO  ProgressMeter -    Sm_000012F:335560             27.6              47324000        1711904.4
+14:59:23.337 INFO  ProgressMeter -    Sm_000012F:463843             27.8              47707000        1715411.7
+14:59:33.342 INFO  ProgressMeter -    Sm_000012F:719161             28.0              48033000        1716837.8
+14:59:43.344 INFO  ProgressMeter -    Sm_000012F:890659             28.1              48327000        1717115.0
+14:59:53.390 INFO  ProgressMeter -   Sm_000012F:1209888             28.3              48559000        1715155.6
+15:00:03.391 INFO  ProgressMeter -    Sm_000013F:407141             28.5              48992000        1720320.4
+15:00:13.610 INFO  ProgressMeter -    Sm_000013F:511210             28.6              49388000        1723915.7
+15:00:24.001 INFO  ProgressMeter -    Sm_000013F:767072             28.8              49746000        1725978.2
+15:00:34.358 INFO  ProgressMeter -    Sm_000013F:870440             29.0              50025000        1725324.2
+15:00:44.359 INFO  ProgressMeter -   Sm_000013F:1124965             29.2              50260000        1723522.1
+15:00:54.367 INFO  ProgressMeter -     Sm_000014F:88045             29.3              50519000        1722552.8
+15:01:04.368 INFO  ProgressMeter -    Sm_000014F:374419             29.5              50890000        1725394.7
+15:01:14.379 INFO  ProgressMeter -    Sm_000014F:742662             29.7              51262000        1728230.7
+15:01:24.387 INFO  ProgressMeter -    Sm_000014F:909197             29.8              51571000        1728925.7
+15:01:34.410 INFO  ProgressMeter -   Sm_000014F:1041028             30.0              51846000        1728466.0
+15:01:44.460 INFO  ProgressMeter -   Sm_000014F:1168660             30.2              52130000        1728283.0
+15:01:54.460 INFO  ProgressMeter -    Sm_000015F:204791             30.3              52516000        1731511.7
+15:02:04.570 INFO  ProgressMeter -    Sm_000015F:511562             30.5              52949000        1736142.8
+15:02:14.580 INFO  ProgressMeter -    Sm_000015F:633760             30.7              53298000        1738078.4
+15:02:24.594 INFO  ProgressMeter -    Sm_000015F:783479             30.8              53616000        1738983.8
+15:02:34.610 INFO  ProgressMeter -    Sm_000015F:961723             31.0              53885000        1738295.9
+15:02:44.645 INFO  ProgressMeter -   Sm_000015F:1118164             31.2              54116000        1736380.3
+15:02:54.686 INFO  ProgressMeter -    Sm_000016F:109354             31.3              54488000        1738978.7
+15:03:04.798 INFO  ProgressMeter -    Sm_000016F:274582             31.5              54972000        1745041.3
+15:03:14.798 INFO  ProgressMeter -    Sm_000016F:356613             31.7              55347000        1747697.0
+15:03:24.826 INFO  ProgressMeter -    Sm_000016F:406504             31.8              55736000        1750740.8
+15:03:34.845 INFO  ProgressMeter -    Sm_000016F:455403             32.0              56015000        1750324.7
+15:03:44.859 INFO  ProgressMeter -    Sm_000016F:762699             32.2              56349000        1751625.4
+15:03:54.864 INFO  ProgressMeter -    Sm_000016F:939220             32.3              56603000        1750447.6
+15:04:05.111 INFO  ProgressMeter -   Sm_000016F:1074166             32.5              56848000        1748788.1
+15:04:15.131 INFO  ProgressMeter -     Sm_000017F:93122             32.7              57149000        1749062.1
+15:04:25.131 INFO  ProgressMeter -    Sm_000017F:383026             32.8              57537000        1752000.2
+15:04:35.143 INFO  ProgressMeter -    Sm_000017F:577110             33.0              57817000        1751626.0
+15:04:45.546 INFO  ProgressMeter -    Sm_000017F:757628             33.2              58067000        1750007.5
+15:04:55.587 INFO  ProgressMeter -    Sm_000017F:889764             33.3              58290000        1747912.6
+15:05:05.621 INFO  ProgressMeter -    Sm_000017F:944731             33.5              58489000        1745128.5
+15:05:15.629 INFO  ProgressMeter -   Sm_000017F:1017114             33.7              58701000        1742780.5
+15:05:25.637 INFO  ProgressMeter -   Sm_000017F:1130055             33.8              58885000        1739628.4
+15:05:35.892 INFO  ProgressMeter -    Sm_000018F:216816             34.0              59317000        1743586.9
+15:05:45.902 INFO  ProgressMeter -    Sm_000018F:379670             34.2              59759000        1748009.6
+15:05:55.907 INFO  ProgressMeter -    Sm_000018F:542374             34.4              60151000        1750933.9
+15:06:05.910 INFO  ProgressMeter -    Sm_000018F:670140             34.5              60462000        1751489.5
+15:06:15.922 INFO  ProgressMeter -    Sm_000018F:878279             34.7              60726000        1750671.2
+15:06:25.982 INFO  ProgressMeter -    Sm_000018F:985451             34.9              60942000        1748446.9
+15:06:35.988 INFO  ProgressMeter -    Sm_000019F:255529             35.0              61322000        1750972.4
+15:06:46.060 INFO  ProgressMeter -    Sm_000019F:377225             35.2              61696000        1753246.9
+15:06:56.152 INFO  ProgressMeter -    Sm_000019F:546825             35.4              62016000        1753956.1
+15:07:06.167 INFO  ProgressMeter -    Sm_000019F:738828             35.5              62319000        1754245.1
+15:07:16.266 INFO  ProgressMeter -    Sm_000019F:903663             35.7              62558000        1752668.6
+15:07:26.321 INFO  ProgressMeter -   Sm_000019F:1014377             35.9              62786000        1750844.1
+15:07:36.318 INFO  ProgressMeter -    Sm_000020F:171637             36.0              63127000        1752204.7
+15:07:46.322 INFO  ProgressMeter -    Sm_000020F:448452             36.2              63526000        1755156.0
+15:07:56.354 INFO  ProgressMeter -    Sm_000020F:633888             36.4              63903000        1757453.5
+15:08:06.356 INFO  ProgressMeter -    Sm_000020F:825207             36.5              64205000        1757700.7
+15:08:16.646 INFO  ProgressMeter -   Sm_000020F:1016051             36.7              64458000        1756380.7
+15:08:26.794 INFO  ProgressMeter -    Sm_000021F:435558             36.9              64899000        1760284.8
+15:08:36.798 INFO  ProgressMeter -    Sm_000021F:687086             37.0              65241000        1761594.4
+15:08:46.816 INFO  ProgressMeter -    Sm_000021F:879962             37.2              65540000        1761726.1
+15:08:56.822 INFO  ProgressMeter -    Sm_000022F:143099             37.4              65958000        1765049.0
+15:09:06.840 INFO  ProgressMeter -    Sm_000022F:681906             37.5              66348000        1767591.0
+15:09:16.838 INFO  ProgressMeter -     Sm_000024F:73194             37.7              66699000        1769085.4
+15:09:26.843 INFO  ProgressMeter -    Sm_000024F:459945             37.9              67174000        1773838.7
+15:09:36.944 INFO  ProgressMeter -    Sm_000024F:631345             38.0              67523000        1775163.0
+15:09:46.944 INFO  ProgressMeter -    Sm_000024F:811324             38.2              67834000        1775559.3
+15:09:57.367 INFO  ProgressMeter -    Sm_000025F:175195             38.4              68323000        1780264.0
+15:10:07.580 INFO  ProgressMeter -    Sm_000025F:395589             38.5              68826000        1785451.5
+15:10:17.592 INFO  ProgressMeter -    Sm_000025F:576515             38.7              69170000        1786641.4
+15:10:27.826 INFO  ProgressMeter -    Sm_000025F:747372             38.9              69516000        1787702.4
+15:10:37.833 INFO  ProgressMeter -    Sm_000027F:145367             39.1              69855000        1788748.2
+15:10:47.884 INFO  ProgressMeter -    Sm_000027F:299306             39.2              70202000        1789956.4
+15:10:57.888 INFO  ProgressMeter -    Sm_000027F:388124             39.4              70473000        1789258.8
+15:11:07.907 INFO  ProgressMeter -    Sm_000027F:564915             39.6              70723000        1788026.4
+15:11:17.961 INFO  ProgressMeter -    Sm_000027F:732114             39.7              70967000        1786627.0
+15:11:27.964 INFO  ProgressMeter -     Sm_000028F:11626             39.9              71227000        1785675.6
+15:11:37.972 INFO  ProgressMeter -    Sm_000028F:323763             40.1              71768000        1791746.1
+15:11:47.975 INFO  ProgressMeter -    Sm_000028F:453937             40.2              72194000        1794911.4
+15:11:57.983 INFO  ProgressMeter -    Sm_000028F:530513             40.4              72566000        1796709.2
+15:12:07.994 INFO  ProgressMeter -    Sm_000028F:571312             40.6              72903000        1797626.9
+15:12:18.002 INFO  ProgressMeter -    Sm_000028F:722348             40.7              73264000        1799128.7
+15:12:28.065 INFO  ProgressMeter -    Sm_000029F:329508             40.9              73736000        1803292.5
+15:12:38.601 INFO  ProgressMeter -    Sm_000029F:513482             41.1              74183000        1806465.8
+15:12:48.610 INFO  ProgressMeter -    Sm_000029F:667590             41.2              74525000        1807451.7
+15:12:58.621 INFO  ProgressMeter -    Sm_000029F:798787             41.4              74863000        1808332.3
+15:13:08.635 INFO  ProgressMeter -    Sm_000030F:228735             41.6              75363000        1813099.7
+15:13:18.647 INFO  ProgressMeter -    Sm_000030F:424004             41.7              75783000        1815916.3
+15:13:28.666 INFO  ProgressMeter -    Sm_000030F:476000             41.9              76173000        1817985.8
+15:13:38.679 INFO  ProgressMeter -    Sm_000030F:753503             42.1              76482000        1818118.4
+15:13:48.694 INFO  ProgressMeter -    Sm_000032F:300667             42.2              76967000        1822417.3
+15:13:59.007 INFO  ProgressMeter -     Sm_000033F:97635             42.4              77428000        1825901.7
+15:14:09.021 INFO  ProgressMeter -    Sm_000033F:365046             42.6              77953000        1831074.7
+15:14:19.034 INFO  ProgressMeter -    Sm_000033F:520512             42.7              78332000        1832792.7
+15:14:29.037 INFO  ProgressMeter -     Sm_000034F:43525             42.9              78702000        1834295.3
+15:14:39.076 INFO  ProgressMeter -    Sm_000034F:367970             43.1              79214000        1839058.9
+15:14:49.085 INFO  ProgressMeter -    Sm_000034F:722648             43.2              79614000        1841212.6
+15:14:59.334 INFO  ProgressMeter -    Sm_000036F:194732             43.4              80154000        1846406.2
+15:15:09.346 INFO  ProgressMeter -    Sm_000036F:338285             43.6              80639000        1850466.2
+15:15:19.379 INFO  ProgressMeter -    Sm_000036F:552846             43.7              81038000        1852513.8
+15:15:29.395 INFO  ProgressMeter -    Sm_000037F:277633             43.9              81390000        1853489.5
+15:15:39.400 INFO  ProgressMeter -    Sm_000037F:477215             44.1              81574000        1850650.0
+15:15:49.400 INFO  ProgressMeter -    Sm_000038F:220177             44.2              82039000        1854188.4
+15:15:59.416 INFO  ProgressMeter -    Sm_000038F:462686             44.4              82463000        1856766.0
+15:16:09.437 INFO  ProgressMeter -    Sm_000038F:564536             44.6              82811000        1857615.9
+15:16:19.451 INFO  ProgressMeter -    Sm_000039F:243338             44.7              83219000        1859804.5
+15:16:29.465 INFO  ProgressMeter -    Sm_000039F:575601             44.9              83503000        1859217.4
+15:16:39.469 INFO  ProgressMeter -    Sm_000040F:143801             45.1              83724000        1857243.3
+15:16:49.601 INFO  ProgressMeter -      Sm_000041F:3269             45.2              84149000        1859706.0
+15:16:59.903 INFO  ProgressMeter -     Sm_000042F:74566             45.4              84726000        1865378.1
+15:17:09.909 INFO  ProgressMeter -    Sm_000044F:174686             45.6              85125000        1867307.3
+15:17:19.929 INFO  ProgressMeter -    Sm_000044F:412829             45.8              85468000        1867987.0
+15:17:30.336 INFO  ProgressMeter -    Sm_000047F:278932             45.9              85957000        1871580.2
+15:17:40.345 INFO  ProgressMeter -     Sm_000052F:30067             46.1              86493000        1876435.9
+15:17:50.374 INFO  ProgressMeter -    Sm_000052F:234619             46.3              86880000        1878020.9
+15:18:00.436 INFO  ProgressMeter -     Sm_000054F:31875             46.4              87345000        1881252.8
+15:18:10.729 INFO  ProgressMeter -       Sm_000061F:744             46.6              87766000        1883361.6
+15:18:20.744 INFO  ProgressMeter -     Sm_000063F:29517             46.8              88227000        1886497.0
+15:18:30.745 INFO  ProgressMeter -    Sm_000065F:159596             46.9              88786000        1891707.5
+15:18:40.752 INFO  ProgressMeter -     Sm_000070F:46119             47.1              89297000        1895858.7
+15:18:51.094 INFO  ProgressMeter -    Sm_000078F:114369             47.3              89901000        1901722.8
+15:19:01.406 INFO  ProgressMeter -    Sm_000078F:174470             47.4              90215000        1901451.5
+15:19:11.419 INFO  ProgressMeter -    Sm_000078F:221046             47.6              90674000        1904426.5
+15:19:21.427 INFO  ProgressMeter -     Sm_000092F:91709             47.8              91141000        1907552.9
+15:19:31.427 INFO  ProgressMeter -     Sm_000108F:49216             47.9              91682000        1912205.5
+15:19:41.432 INFO  ProgressMeter -    Sm_000115F:105978             48.1              92323000        1918900.4
+15:19:51.448 INFO  ProgressMeter -     Sm_000188F:29664             48.3              92919000        1924611.0
+15:20:01.551 INFO  ProgressMeter - Sm_mitochondrion:2784             48.4              93720000        1934454.5
+15:20:01.654 INFO  SplitNCigarReads - 0 read(s) filtered by: AllowAllReadsReadFilter 
+
+15:20:01.697 INFO  OverhangFixingManager - Overhang Fixing Manager saved 370840 reads in the first pass
+15:20:01.700 INFO  SplitNCigarReads - Starting traversal pass 2
+15:20:12.105 INFO  ProgressMeter -    Sm_000000F:302157             48.6              94093000        1935128.3
+15:20:23.197 INFO  ProgressMeter -    Sm_000000F:474805             48.8              94310000        1932244.7
+15:20:33.954 INFO  ProgressMeter -    Sm_000000F:633487             49.0              94575000        1930582.1
+15:20:44.913 INFO  ProgressMeter -    Sm_000000F:715167             49.2              94789000        1927762.9
+15:20:54.932 INFO  ProgressMeter -    Sm_000000F:795638             49.3              95047000        1926468.3
+15:21:05.984 INFO  ProgressMeter -    Sm_000000F:878559             49.5              95260000        1923603.1
+15:21:15.994 INFO  ProgressMeter -    Sm_000000F:979201             49.7              95488000        1921733.7
+15:21:27.053 INFO  ProgressMeter -   Sm_000000F:1012905             49.9              95653000        1917939.2
+15:21:37.166 INFO  ProgressMeter -   Sm_000000F:1129577             50.0              95868000        1915775.7
+15:21:47.188 INFO  ProgressMeter -   Sm_000000F:1223229             50.2              96073000        1913485.2
+15:21:57.694 INFO  ProgressMeter -   Sm_000000F:1374755             50.4              96282000        1910983.4
+15:22:07.704 INFO  ProgressMeter -   Sm_000000F:1480930             50.6              96559000        1910156.2
+15:22:17.761 INFO  ProgressMeter -   Sm_000000F:1554120             50.7              96800000        1908595.1
+15:22:30.415 INFO  ProgressMeter -   Sm_000000F:1554701             50.9              97028000        1905168.9
+15:22:40.448 INFO  ProgressMeter -   Sm_000000F:1621231             51.1              97262000        1903513.1
+15:22:53.910 INFO  ProgressMeter -   Sm_000000F:1698785             51.3              97493000        1899692.3
+15:23:03.968 INFO  ProgressMeter -   Sm_000000F:1806551             51.5              97716000        1897838.4
+15:23:13.972 INFO  ProgressMeter -   Sm_000000F:1870465             51.7              97932000        1895894.1
+15:23:23.997 INFO  ProgressMeter -   Sm_000000F:1935706             51.8              98153000        1894046.6
+15:23:36.601 INFO  ProgressMeter -   Sm_000000F:1979347             52.0              98402000        1891184.8
+15:23:46.624 INFO  ProgressMeter -   Sm_000000F:2068674             52.2              98679000        1890439.1
+15:23:56.890 INFO  ProgressMeter -   Sm_000000F:2131101             52.4              98871000        1887929.0
+15:24:06.893 INFO  ProgressMeter -   Sm_000000F:2212287             52.5              99125000        1886773.3
+15:24:17.355 INFO  ProgressMeter -   Sm_000000F:2261948             52.7              99354000        1884875.8
+15:24:27.382 INFO  ProgressMeter -   Sm_000000F:2329450             52.9              99593000        1883438.6
+15:24:37.789 INFO  ProgressMeter -   Sm_000000F:2387403             53.1              99755000        1880334.4
+15:24:47.805 INFO  ProgressMeter -   Sm_000000F:2452956             53.2              99967000        1878419.9
+15:24:57.816 INFO  ProgressMeter -   Sm_000000F:2511573             53.4             100176000        1876464.0
+15:25:07.854 INFO  ProgressMeter -   Sm_000000F:2539066             53.6             100323000        1873346.8
+15:25:18.021 INFO  ProgressMeter -   Sm_000000F:2634829             53.7             100572000        1872072.9
+15:25:28.037 INFO  ProgressMeter -   Sm_000000F:2713619             53.9             100813000        1870745.9
+15:25:38.091 INFO  ProgressMeter -   Sm_000000F:2791671             54.1             101044000        1869220.2
+15:25:48.102 INFO  ProgressMeter -   Sm_000000F:2842001             54.2             101206000        1866456.7
+15:25:58.713 INFO  ProgressMeter -   Sm_000000F:2907968             54.4             101434000        1864579.6
+15:26:08.805 INFO  ProgressMeter -   Sm_000000F:2927108             54.6             101615000        1862149.2
+15:26:18.841 INFO  ProgressMeter -   Sm_000000F:2984843             54.7             101845000        1860660.7
+15:26:28.882 INFO  ProgressMeter -   Sm_000000F:3074339             54.9             102034000        1858432.2
+15:26:38.887 INFO  ProgressMeter -   Sm_000000F:3181035             55.1             102262000        1856944.6
+15:26:50.942 INFO  ProgressMeter -   Sm_000000F:3278806             55.3             102485000        1854229.0
+15:27:00.973 INFO  ProgressMeter -   Sm_000000F:3413403             55.4             102740000        1853237.6
+15:27:12.802 INFO  ProgressMeter -      Sm_000001F:2866             55.6             102910000        1849725.5
+15:27:22.808 INFO  ProgressMeter -    Sm_000001F:278185             55.8             103392000        1852835.2
+15:27:32.817 INFO  ProgressMeter -    Sm_000001F:431094             56.0             103617000        1851333.4
+15:27:42.830 INFO  ProgressMeter -    Sm_000001F:613025             56.1             103890000        1850692.3
+15:27:52.846 INFO  ProgressMeter -    Sm_000001F:712485             56.3             104109000        1849095.4
+15:28:02.876 INFO  ProgressMeter -    Sm_000001F:877352             56.5             104374000        1848314.8
+15:28:13.523 INFO  ProgressMeter -    Sm_000001F:960081             56.6             104544000        1845524.9
+15:28:23.525 INFO  ProgressMeter -   Sm_000001F:1076814             56.8             104790000        1844440.3
+15:28:33.569 INFO  ProgressMeter -   Sm_000001F:1147171             57.0             104952000        1841864.7
+15:28:43.722 INFO  ProgressMeter -   Sm_000001F:1239194             57.2             105180000        1840400.6
+15:28:53.734 INFO  ProgressMeter -   Sm_000001F:1304650             57.3             105349000        1837990.7
+15:29:03.780 INFO  ProgressMeter -   Sm_000001F:1471137             57.5             105578000        1836621.4
+15:29:13.828 INFO  ProgressMeter -   Sm_000001F:1582146             57.7             105781000        1834807.1
+15:29:24.417 INFO  ProgressMeter -   Sm_000001F:1677347             57.8             105954000        1832199.1
+15:29:37.572 INFO  ProgressMeter -   Sm_000001F:1758612             58.0             106243000        1830258.0
+15:29:47.591 INFO  ProgressMeter -   Sm_000001F:1831272             58.2             106506000        1829525.3
+15:30:00.549 INFO  ProgressMeter -   Sm_000001F:1951093             58.4             106737000        1826717.1
+15:30:11.004 INFO  ProgressMeter -    Sm_000002F:137718             58.6             107117000        1827769.3
+15:30:21.010 INFO  ProgressMeter -    Sm_000002F:315314             58.8             107372000        1826921.8
+15:30:33.425 INFO  ProgressMeter -    Sm_000002F:489024             59.0             107660000        1825395.5
+15:30:43.684 INFO  ProgressMeter -    Sm_000002F:681743             59.1             107943000        1824903.3
+15:30:54.991 INFO  ProgressMeter -    Sm_000002F:785377             59.3             108152000        1822630.4
+15:31:04.991 INFO  ProgressMeter -    Sm_000002F:807560             59.5             108413000        1821911.1
+15:31:15.576 INFO  ProgressMeter -    Sm_000002F:984918             59.7             108580000        1819323.7
+15:31:26.375 INFO  ProgressMeter -   Sm_000002F:1130871             59.9             108777000        1817145.1
+15:31:36.540 INFO  ProgressMeter -   Sm_000002F:1298133             60.0             108983000        1815447.9
+15:31:47.211 INFO  ProgressMeter -   Sm_000002F:1349456             60.2             109176000        1813290.8
+15:31:57.239 INFO  ProgressMeter -   Sm_000002F:1558766             60.4             109427000        1812429.0
+15:32:07.248 INFO  ProgressMeter -    Sm_000003F:170996             60.5             109606000        1810391.7
+15:32:17.270 INFO  ProgressMeter -    Sm_000003F:490032             60.7             109890000        1810088.7
+15:32:27.291 INFO  ProgressMeter -    Sm_000003F:627152             60.9             110086000        1808341.8
+15:32:37.312 INFO  ProgressMeter -    Sm_000003F:766641             61.0             110324000        1807293.5
+15:32:48.292 INFO  ProgressMeter -    Sm_000003F:920143             61.2             110495000        1804684.1
+15:32:58.301 INFO  ProgressMeter -   Sm_000003F:1001327             61.4             110749000        1803917.7
+15:33:08.970 INFO  ProgressMeter -   Sm_000003F:1057138             61.6             110914000        1801387.8
+15:33:19.001 INFO  ProgressMeter -   Sm_000003F:1185020             61.7             111132000        1800040.8
+15:33:30.456 INFO  ProgressMeter -   Sm_000003F:1236353             61.9             111318000        1797495.1
+15:33:40.483 INFO  ProgressMeter -   Sm_000003F:1309756             62.1             111525000        1795991.1
+15:33:50.485 INFO  ProgressMeter -   Sm_000003F:1360009             62.3             111735000        1794555.4
+15:34:00.491 INFO  ProgressMeter -   Sm_000003F:1371017             62.4             111915000        1792645.4
+15:34:10.490 INFO  ProgressMeter -   Sm_000003F:1444501             62.6             112207000        1792537.2
+15:34:20.506 INFO  ProgressMeter -   Sm_000003F:1483519             62.8             112418000        1791131.3
+15:34:30.506 INFO  ProgressMeter -   Sm_000003F:1510182             62.9             112709000        1791011.8
+15:34:40.524 INFO  ProgressMeter -   Sm_000003F:1596355             63.1             112915000        1789537.3
+15:34:50.542 INFO  ProgressMeter -   Sm_000003F:1716393             63.3             113144000        1788434.1
+15:35:00.564 INFO  ProgressMeter -   Sm_000003F:1757229             63.4             113310000        1786341.6
+15:35:13.026 INFO  ProgressMeter -    Sm_000004F:204330             63.6             113631000        1785556.0
+15:35:23.633 INFO  ProgressMeter -    Sm_000004F:399582             63.8             114025000        1786783.7
+15:35:33.635 INFO  ProgressMeter -    Sm_000004F:542398             64.0             114267000        1785910.7
+15:35:43.707 INFO  ProgressMeter -    Sm_000004F:665488             64.2             114556000        1785741.9
+15:35:53.724 INFO  ProgressMeter -    Sm_000004F:739107             64.3             114734000        1783874.6
+15:36:06.610 INFO  ProgressMeter -    Sm_000004F:854662             64.5             114976000        1781687.4
+15:36:16.651 INFO  ProgressMeter -    Sm_000004F:975245             64.7             115236000        1781097.5
+15:36:29.535 INFO  ProgressMeter -    Sm_000004F:998837             64.9             115463000        1778702.6
+15:36:39.573 INFO  ProgressMeter -   Sm_000004F:1076730             65.1             115700000        1777772.3
+15:36:53.325 INFO  ProgressMeter -   Sm_000004F:1167930             65.3             115934000        1775115.9
+15:37:03.337 INFO  ProgressMeter -   Sm_000004F:1186767             65.5             116125000        1773509.5
+15:37:13.879 INFO  ProgressMeter -   Sm_000004F:1190199             65.7             116277000        1771078.0
+15:37:23.959 INFO  ProgressMeter -   Sm_000004F:1191576             65.8             116378000        1768092.1
+15:37:34.449 INFO  ProgressMeter -   Sm_000004F:1194855             66.0             116544000        1765923.9
+15:37:44.460 INFO  ProgressMeter -   Sm_000004F:1195727             66.2             116733000        1764326.7
+15:37:54.488 INFO  ProgressMeter -   Sm_000004F:1196368             66.3             116850000        1761645.0
+15:38:04.657 INFO  ProgressMeter -   Sm_000004F:1199621             66.5             117011000        1759576.7
+15:38:14.680 INFO  ProgressMeter -   Sm_000004F:1200196             66.7             117199000        1757987.2
+15:38:24.692 INFO  ProgressMeter -   Sm_000004F:1200630             66.8             117312000        1755288.7
+15:38:34.709 INFO  ProgressMeter -   Sm_000004F:1201378             67.0             117510000        1753870.1
+15:38:48.040 INFO  ProgressMeter -   Sm_000004F:1250071             67.2             117722000        1751227.0
+15:38:58.123 INFO  ProgressMeter -   Sm_000004F:1289917             67.4             117935000        1750021.1
+15:39:08.144 INFO  ProgressMeter -   Sm_000004F:1377763             67.6             118173000        1749217.2
+15:39:18.265 INFO  ProgressMeter -   Sm_000004F:1400575             67.7             118340000        1747326.7
+15:39:28.286 INFO  ProgressMeter -   Sm_000004F:1468893             67.9             118561000        1746283.0
+15:39:38.294 INFO  ProgressMeter -   Sm_000004F:1498364             68.1             118715000        1744265.9
+15:39:48.324 INFO  ProgressMeter -   Sm_000004F:1575130             68.2             118912000        1742879.6
+15:40:00.989 INFO  ProgressMeter -   Sm_000004F:1630212             68.4             119095000        1740178.0
+15:40:10.992 INFO  ProgressMeter -   Sm_000004F:1693281             68.6             119349000        1739652.0
+15:40:22.897 INFO  ProgressMeter -   Sm_000004F:1762074             68.8             119583000        1738035.7
+15:40:33.008 INFO  ProgressMeter -       Sm_000005F:206             69.0             119818000        1737196.4
+15:40:43.858 INFO  ProgressMeter -    Sm_000005F:179602             69.2             120236000        1738698.3
+15:40:53.865 INFO  ProgressMeter -    Sm_000005F:298476             69.3             120585000        1739550.0
+15:41:03.931 INFO  ProgressMeter -    Sm_000005F:420199             69.5             120889000        1739725.1
+15:41:13.941 INFO  ProgressMeter -    Sm_000005F:499986             69.7             121139000        1739146.9
+15:41:27.152 INFO  ProgressMeter -    Sm_000005F:613395             69.9             121425000        1737760.1
+15:41:37.157 INFO  ProgressMeter -    Sm_000005F:742747             70.0             121715000        1737762.9
+15:41:47.917 INFO  ProgressMeter -    Sm_000005F:850496             70.2             121895000        1735888.3
+15:41:58.554 INFO  ProgressMeter -    Sm_000005F:915528             70.4             122178000        1735536.8
+15:42:09.113 INFO  ProgressMeter -    Sm_000005F:977743             70.6             122376000        1734014.6
+15:42:19.129 INFO  ProgressMeter -   Sm_000005F:1069488             70.7             122637000        1733612.6
+15:42:29.144 INFO  ProgressMeter -   Sm_000005F:1149551             70.9             122804000        1731886.5
+15:42:39.176 INFO  ProgressMeter -   Sm_000005F:1302182             71.1             123044000        1731189.0
+15:42:49.179 INFO  ProgressMeter -   Sm_000005F:1414589             71.2             123260000        1730169.7
+15:42:59.194 INFO  ProgressMeter -   Sm_000005F:1488352             71.4             123414000        1728282.1
+15:43:09.818 INFO  ProgressMeter -   Sm_000005F:1591880             71.6             123695000        1727932.5
+15:43:19.908 INFO  ProgressMeter -    Sm_000006F:104310             71.8             123951000        1727450.6
+15:43:29.930 INFO  ProgressMeter -    Sm_000006F:316872             71.9             124261000        1727749.3
+15:43:39.947 INFO  ProgressMeter -    Sm_000006F:495129             72.1             124632000        1728894.1
+15:43:49.955 INFO  ProgressMeter -    Sm_000006F:620697             72.3             124830000        1727643.3
+15:43:59.960 INFO  ProgressMeter -    Sm_000006F:868310             72.4             125080000        1727117.4
+15:44:09.977 INFO  ProgressMeter -    Sm_000006F:948959             72.6             125264000        1725679.9
+15:44:19.994 INFO  ProgressMeter -   Sm_000006F:1072532             72.8             125499000        1724950.5
+15:44:29.999 INFO  ProgressMeter -   Sm_000006F:1213575             72.9             125638000        1722912.2
+15:44:40.031 INFO  ProgressMeter -   Sm_000006F:1419515             73.1             125832000        1721625.1
+15:44:52.644 INFO  ProgressMeter -     Sm_000007F:94291             73.3             126085000        1720138.8
+15:45:02.653 INFO  ProgressMeter -    Sm_000007F:213183             73.5             126496000        1721827.4
+15:45:12.666 INFO  ProgressMeter -    Sm_000007F:307379             73.6             126754000        1721428.9
+15:45:22.801 INFO  ProgressMeter -    Sm_000007F:474921             73.8             127037000        1721323.9
+15:45:32.818 INFO  ProgressMeter -    Sm_000007F:653469             74.0             127349000        1721656.4
+15:45:42.924 INFO  ProgressMeter -    Sm_000007F:772764             74.1             127517000        1720011.0
+15:45:52.962 INFO  ProgressMeter -   Sm_000007F:1043059             74.3             127779000        1719664.3
+15:46:03.003 INFO  ProgressMeter -   Sm_000007F:1245605             74.5             127954000        1718149.9
+15:46:13.082 INFO  ProgressMeter -   Sm_000007F:1477948             74.6             128150000        1716909.4
+15:46:24.119 INFO  ProgressMeter -        Sm_000008F:90             74.8             128298000        1714666.0
+15:46:34.713 INFO  ProgressMeter -    Sm_000008F:276064             75.0             128780000        1717056.0
+15:46:45.182 INFO  ProgressMeter -    Sm_000008F:393747             75.2             129054000        1716715.9
+15:46:55.870 INFO  ProgressMeter -    Sm_000008F:647813             75.4             129343000        1716492.5
+15:47:05.873 INFO  ProgressMeter -    Sm_000008F:820039             75.5             129694000        1717350.9
+15:47:15.879 INFO  ProgressMeter -    Sm_000008F:902065             75.7             129889000        1716143.8
+15:47:26.743 INFO  ProgressMeter -    Sm_000008F:928234             75.9             130073000        1714472.9
+15:47:36.775 INFO  ProgressMeter -    Sm_000008F:969586             76.0             130237000        1712859.7
+15:47:47.324 INFO  ProgressMeter -   Sm_000008F:1118594             76.2             130486000        1712175.4
+15:47:59.956 INFO  ProgressMeter -   Sm_000008F:1385347             76.4             130697000        1710219.9
+15:48:10.279 INFO  ProgressMeter -   Sm_000008F:1556615             76.6             130894000        1708949.9
+15:48:20.285 INFO  ProgressMeter -    Sm_000009F:263742             76.8             131139000        1708428.9
+15:48:30.315 INFO  ProgressMeter -    Sm_000009F:531651             76.9             131482000        1709175.5
+15:48:40.345 INFO  ProgressMeter -    Sm_000009F:671001             77.1             131684000        1708089.2
+15:48:50.351 INFO  ProgressMeter -    Sm_000009F:771032             77.3             131970000        1708104.1
+15:49:00.371 INFO  ProgressMeter -    Sm_000009F:895470             77.4             132128000        1706460.6
+15:49:10.426 INFO  ProgressMeter -   Sm_000009F:1039912             77.6             132401000        1706293.4
+15:49:20.438 INFO  ProgressMeter -   Sm_000009F:1098862             77.8             132597000        1705152.8
+15:49:30.695 INFO  ProgressMeter -   Sm_000009F:1205656             77.9             132836000        1704479.2
+15:49:40.723 INFO  ProgressMeter -   Sm_000009F:1320421             78.1             132996000        1702880.3
+15:49:50.753 INFO  ProgressMeter -   Sm_000009F:1494807             78.3             133201000        1701862.1
+15:50:00.811 INFO  ProgressMeter -   Sm_000009F:1495847             78.4             133380000        1700507.0
+15:50:11.051 INFO  ProgressMeter -   Sm_000009F:1496123             78.6             133490000        1698214.3
+15:50:21.291 INFO  ProgressMeter -   Sm_000009F:1497711             78.8             133640000        1696439.3
+15:50:31.326 INFO  ProgressMeter -   Sm_000009F:1498067             78.9             133788000        1694720.3
+15:50:41.816 INFO  ProgressMeter -   Sm_000009F:1498425             79.1             133936000        1692845.6
+15:50:51.859 INFO  ProgressMeter -   Sm_000009F:1498737             79.3             134041000        1690596.5
+15:51:01.873 INFO  ProgressMeter -   Sm_000009F:1500044             79.5             134187000        1688882.8
+15:51:11.882 INFO  ProgressMeter -   Sm_000009F:1500534             79.6             134362000        1687541.9
+15:51:21.927 INFO  ProgressMeter -   Sm_000009F:1505618             79.8             134526000        1686056.4
+15:51:31.933 INFO  ProgressMeter -     Sm_000010F:83024             80.0             134747000        1685304.1
+15:51:42.557 INFO  ProgressMeter -    Sm_000010F:285002             80.1             135066000        1685560.7
+15:51:52.569 INFO  ProgressMeter -    Sm_000010F:457543             80.3             135386000        1686043.4
+15:52:02.573 INFO  ProgressMeter -    Sm_000010F:565300             80.5             135607000        1685296.3
+15:52:12.620 INFO  ProgressMeter -    Sm_000010F:743727             80.6             135902000        1685455.0
+15:52:22.639 INFO  ProgressMeter -    Sm_000010F:851830             80.8             136088000        1684273.4
+15:52:36.082 INFO  ProgressMeter -    Sm_000010F:925312             81.0             136310000        1682355.9
+15:52:46.092 INFO  ProgressMeter -   Sm_000010F:1123452             81.2             136560000        1681978.5
+15:52:56.098 INFO  ProgressMeter -   Sm_000010F:1123934             81.4             136787000        1681320.6
+15:53:06.126 INFO  ProgressMeter -   Sm_000010F:1124333             81.5             136955000        1679934.4
+15:53:16.130 INFO  ProgressMeter -   Sm_000010F:1151846             81.7             137168000        1679113.0
+15:53:26.366 INFO  ProgressMeter -   Sm_000010F:1289333             81.9             137315000        1677409.4
+15:53:36.525 INFO  ProgressMeter -   Sm_000010F:1419046             82.0             137527000        1676531.9
+15:53:46.877 INFO  ProgressMeter -    Sm_000011F:100802             82.2             137821000        1676589.6
+15:53:59.783 INFO  ProgressMeter -    Sm_000011F:264054             82.4             138242000        1677322.0
+15:54:12.542 INFO  ProgressMeter -    Sm_000011F:415527             82.6             138647000        1677906.7
+15:54:22.551 INFO  ProgressMeter -    Sm_000011F:570924             82.8             139040000        1679272.3
+15:54:32.818 INFO  ProgressMeter -    Sm_000011F:686444             83.0             139297000        1678906.9
+15:54:42.822 INFO  ProgressMeter -    Sm_000011F:811144             83.1             139592000        1679088.1
+15:54:52.840 INFO  ProgressMeter -    Sm_000011F:952978             83.3             139805000        1678279.6
+15:55:05.807 INFO  ProgressMeter -   Sm_000011F:1197486             83.5             140054000        1676918.2
+15:55:15.813 INFO  ProgressMeter -   Sm_000011F:1242895             83.7             140313000        1676671.4
+15:55:25.917 INFO  ProgressMeter -       Sm_000012F:825             83.9             140453000        1674973.4
+15:55:35.973 INFO  ProgressMeter -    Sm_000012F:160112             84.0             140878000        1676690.9
+15:55:46.234 INFO  ProgressMeter -    Sm_000012F:375890             84.2             141135000        1676337.6
+15:55:58.932 INFO  ProgressMeter -    Sm_000012F:464364             84.4             141474000        1676150.5
+15:56:08.955 INFO  ProgressMeter -    Sm_000012F:723176             84.6             141787000        1676541.0
+15:56:18.966 INFO  ProgressMeter -    Sm_000012F:800141             84.7             141995000        1675694.5
+15:56:28.967 INFO  ProgressMeter -   Sm_000012F:1110543             84.9             142234000        1675219.7
+15:56:38.966 INFO  ProgressMeter -    Sm_000013F:122843             85.1             142433000        1674276.9
+15:56:51.776 INFO  ProgressMeter -    Sm_000013F:421562             85.3             142838000        1674834.4
+15:57:01.779 INFO  ProgressMeter -    Sm_000013F:557541             85.5             143219000        1676025.8
+15:57:11.789 INFO  ProgressMeter -    Sm_000013F:726190             85.6             143455000        1675516.0
+15:57:21.793 INFO  ProgressMeter -    Sm_000013F:854156             85.8             143738000        1675558.4
+15:57:32.224 INFO  ProgressMeter -   Sm_000013F:1021838             86.0             143901000        1674066.2
+15:57:42.237 INFO  ProgressMeter -   Sm_000013F:1204777             86.1             144115000        1673307.1
+15:57:52.386 INFO  ProgressMeter -    Sm_000014F:220047             86.3             144388000        1673190.5
+15:58:03.864 INFO  ProgressMeter -    Sm_000014F:462135             86.5             144737000        1673524.8
+15:58:13.877 INFO  ProgressMeter -    Sm_000014F:765951             86.7             145088000        1674352.8
+15:58:23.887 INFO  ProgressMeter -    Sm_000014F:908262             86.8             145270000        1673232.0
+15:58:33.899 INFO  ProgressMeter -    Sm_000014F:995273             87.0             145547000        1673206.3
+15:58:43.922 INFO  ProgressMeter -   Sm_000014F:1120157             87.2             145737000        1672178.9
+15:58:54.601 INFO  ProgressMeter -      Sm_000015F:3950             87.3             145976000        1671507.7
+15:59:04.605 INFO  ProgressMeter -    Sm_000015F:289383             87.5             146356000        1672665.8
+15:59:14.764 INFO  ProgressMeter -    Sm_000015F:497111             87.7             146615000        1672389.6
+15:59:25.168 INFO  ProgressMeter -    Sm_000015F:621991             87.8             146959000        1673004.2
+15:59:35.168 INFO  ProgressMeter -    Sm_000015F:696786             88.0             147188000        1672437.9
+15:59:45.206 INFO  ProgressMeter -    Sm_000015F:886185             88.2             147448000        1672213.4
+15:59:55.437 INFO  ProgressMeter -    Sm_000015F:971768             88.3             147644000        1671204.7
+16:00:05.457 INFO  ProgressMeter -   Sm_000015F:1134742             88.5             147880000        1670717.9
+16:00:15.686 INFO  ProgressMeter -     Sm_000016F:89962             88.7             148104000        1670031.6
+16:00:25.786 INFO  ProgressMeter -    Sm_000016F:197664             88.9             148441000        1670660.8
+16:00:35.830 INFO  ProgressMeter -    Sm_000016F:356379             89.0             148841000        1672012.6
+16:00:45.910 INFO  ProgressMeter -    Sm_000016F:356610             89.2             149082000        1671564.9
+16:00:56.739 INFO  ProgressMeter -    Sm_000016F:393224             89.4             149380000        1671523.6
+16:01:06.743 INFO  ProgressMeter -    Sm_000016F:411910             89.5             149634000        1671248.1
+16:01:16.757 INFO  ProgressMeter -    Sm_000016F:566263             89.7             149858000        1670635.4
+16:01:26.766 INFO  ProgressMeter -    Sm_000016F:815535             89.9             150158000        1670872.5
+16:01:36.795 INFO  ProgressMeter -    Sm_000016F:924339             90.0             150303000        1669381.0
+16:01:46.853 INFO  ProgressMeter -   Sm_000016F:1040965             90.2             150565000        1669183.2
+16:01:57.310 INFO  ProgressMeter -   Sm_000016F:1201693             90.4             150732000        1667812.2
+16:02:10.529 INFO  ProgressMeter -    Sm_000017F:250097             90.6             151122000        1668061.1
+16:02:20.551 INFO  ProgressMeter -    Sm_000017F:498275             90.8             151438000        1668473.2
+16:02:30.560 INFO  ProgressMeter -    Sm_000017F:625190             90.9             151620000        1667413.9
+16:02:41.452 INFO  ProgressMeter -    Sm_000017F:803771             91.1             151873000        1666868.5
+16:02:51.459 INFO  ProgressMeter -    Sm_000017F:899984             91.3             152066000        1665937.2
+16:03:02.088 INFO  ProgressMeter -    Sm_000017F:963796             91.5             152275000        1664995.6
+16:03:13.352 INFO  ProgressMeter -   Sm_000017F:1032901             91.6             152477000        1663788.7
+16:03:23.624 INFO  ProgressMeter -     Sm_000018F:19994             91.8             152661000        1662690.4
+16:03:33.854 INFO  ProgressMeter -    Sm_000018F:176664             92.0             152985000        1663130.8
+16:03:46.388 INFO  ProgressMeter -    Sm_000018F:347544             92.2             153334000        1663148.2
+16:03:56.391 INFO  ProgressMeter -    Sm_000018F:417722             92.4             153722000        1664346.7
+16:04:06.999 INFO  ProgressMeter -    Sm_000018F:543148             92.5             153955000        1663684.7
+16:04:17.005 INFO  ProgressMeter -    Sm_000018F:688546             92.7             154241000        1663777.0
+16:04:27.111 INFO  ProgressMeter -    Sm_000018F:851495             92.9             154428000        1662773.1
+16:04:37.156 INFO  ProgressMeter -    Sm_000018F:973853             93.0             154662000        1662296.1
+16:04:47.176 INFO  ProgressMeter -    Sm_000019F:108062             93.2             154890000        1661764.3
+16:04:58.214 INFO  ProgressMeter -    Sm_000019F:260440             93.4             155178000        1661574.3
+16:05:09.078 INFO  ProgressMeter -    Sm_000019F:424433             93.6             155503000        1661832.7
+16:05:19.093 INFO  ProgressMeter -    Sm_000019F:525967             93.7             155704000        1661017.8
+16:05:29.107 INFO  ProgressMeter -    Sm_000019F:713565             93.9             155968000        1660876.7
+16:05:39.145 INFO  ProgressMeter -    Sm_000019F:827968             94.1             156160000        1659963.9
+16:05:49.175 INFO  ProgressMeter -    Sm_000019F:954645             94.2             156383000        1659385.7
+16:05:59.217 INFO  ProgressMeter -   Sm_000019F:1018790             94.4             156549000        1658202.3
+16:06:09.224 INFO  ProgressMeter -    Sm_000020F:185106             94.6             156870000        1658672.5
+16:06:19.235 INFO  ProgressMeter -    Sm_000020F:378835             94.7             157137000        1658569.3
+16:06:29.297 INFO  ProgressMeter -    Sm_000020F:505514             94.9             157373000        1658125.6
+16:06:39.314 INFO  ProgressMeter -    Sm_000020F:680981             95.1             157712000        1658779.2
+16:06:49.608 INFO  ProgressMeter -    Sm_000020F:800708             95.2             157925000        1658027.9
+16:06:59.625 INFO  ProgressMeter -   Sm_000020F:1006802             95.4             158184000        1657841.0
+16:07:10.349 INFO  ProgressMeter -    Sm_000021F:293498             95.6             158421000        1657220.8
+16:07:23.252 INFO  ProgressMeter -    Sm_000021F:540870             95.8             158772000        1657164.3
+16:07:33.272 INFO  ProgressMeter -    Sm_000021F:793350             96.0             159112000        1657823.4
+16:07:43.283 INFO  ProgressMeter -    Sm_000021F:880167             96.1             159293000        1656828.9
+16:07:53.351 INFO  ProgressMeter -    Sm_000022F:130996             96.3             159626000        1657399.8
+16:08:04.001 INFO  ProgressMeter -    Sm_000022F:396508             96.5             159881000        1656994.0
+16:08:14.167 INFO  ProgressMeter -    Sm_000022F:685960             96.7             160089000        1656241.0
+16:08:24.169 INFO  ProgressMeter -     Sm_000023F:74562             96.8             160386000        1656457.2
+16:08:34.741 INFO  ProgressMeter -    Sm_000024F:296536             97.0             160697000        1656654.4
+16:08:47.693 INFO  ProgressMeter -    Sm_000024F:492268             97.2             161049000        1656596.4
+16:08:57.705 INFO  ProgressMeter -    Sm_000024F:689817             97.4             161374000        1657095.4
+16:09:07.721 INFO  ProgressMeter -    Sm_000024F:819096             97.6             161585000        1656422.4
+16:09:19.533 INFO  ProgressMeter -    Sm_000025F:107793             97.7             161923000        1656544.5
+16:09:29.542 INFO  ProgressMeter -    Sm_000025F:379438             97.9             162385000        1658440.6
+16:09:39.547 INFO  ProgressMeter -    Sm_000025F:504515             98.1             162694000        1658771.3
+16:09:49.565 INFO  ProgressMeter -    Sm_000025F:576398             98.2             162908000        1658130.4
+16:09:59.567 INFO  ProgressMeter -    Sm_000025F:714152             98.4             163227000        1658563.2
+16:10:09.567 INFO  ProgressMeter -    Sm_000025F:827966             98.6             163420000        1657716.9
+16:10:19.573 INFO  ProgressMeter -    Sm_000027F:204530             98.7             163772000        1658482.0
+16:10:29.739 INFO  ProgressMeter -    Sm_000027F:299120             98.9             163938000        1657319.7
+16:10:40.361 INFO  ProgressMeter -    Sm_000027F:388379             99.1             164212000        1657123.9
+16:10:51.110 INFO  ProgressMeter -    Sm_000027F:563347             99.3             164419000        1656218.6
+16:11:01.138 INFO  ProgressMeter -    Sm_000027F:701698             99.4             164676000        1656019.4
+16:11:11.167 INFO  ProgressMeter -    Sm_000027F:794494             99.6             164836000        1654846.4
+16:11:23.545 INFO  ProgressMeter -    Sm_000028F:151624             99.8             165187000        1654942.7
+16:11:36.390 INFO  ProgressMeter -    Sm_000028F:367398            100.0             165609000        1655619.5
+16:11:46.410 INFO  ProgressMeter -    Sm_000028F:461129            100.2             165977000        1656532.9
+16:11:56.471 INFO  ProgressMeter -    Sm_000028F:493029            100.4             166210000        1656086.7
+16:12:09.681 INFO  ProgressMeter -    Sm_000028F:570855            100.6             166542000        1655762.5
+16:12:19.756 INFO  ProgressMeter -    Sm_000028F:631010            100.8             166907000        1656625.7
+16:12:29.765 INFO  ProgressMeter -     Sm_000029F:22506            100.9             167103000        1655829.8
+16:12:41.441 INFO  ProgressMeter -    Sm_000029F:348848            101.1             167504000        1656608.6
+16:12:54.708 INFO  ProgressMeter -    Sm_000029F:513507            101.3             167922000        1657119.0
+16:13:05.284 INFO  ProgressMeter -    Sm_000029F:658213            101.5             168250000        1657472.4
+16:13:15.304 INFO  ProgressMeter -    Sm_000029F:740845            101.7             168470000        1656913.8
+16:13:28.783 INFO  ProgressMeter -     Sm_000030F:82135            101.9             168842000        1656911.6
+16:13:38.792 INFO  ProgressMeter -    Sm_000030F:308863            102.1             169239000        1658093.2
+16:13:48.805 INFO  ProgressMeter -    Sm_000030F:423903            102.2             169475000        1657695.3
+16:13:59.293 INFO  ProgressMeter -    Sm_000030F:424848            102.4             169751000        1657560.8
+16:14:09.297 INFO  ProgressMeter -    Sm_000030F:651645            102.6             170090000        1658171.4
+16:14:20.067 INFO  ProgressMeter -       Sm_000031F:138            102.8             170304000        1657357.2
+16:14:30.458 INFO  ProgressMeter -    Sm_000032F:297643            102.9             170702000        1658435.3
+16:14:40.461 INFO  ProgressMeter -     Sm_000033F:72296            103.1             171095000        1659565.7
+16:14:50.468 INFO  ProgressMeter -    Sm_000033F:225739            103.3             171413000        1659964.5
+16:15:00.479 INFO  ProgressMeter -    Sm_000033F:380856            103.4             171715000        1660206.8
+16:15:10.491 INFO  ProgressMeter -    Sm_000033F:508115            103.6             172012000        1660399.3
+16:15:20.506 INFO  ProgressMeter -    Sm_000033F:668009            103.8             172241000        1659935.6
+16:15:31.199 INFO  ProgressMeter -    Sm_000034F:152854            103.9             172555000        1660110.4
+16:15:41.956 INFO  ProgressMeter -    Sm_000034F:372344            104.1             172965000        1661189.3
+16:15:51.958 INFO  ProgressMeter -    Sm_000034F:590148            104.3             173244000        1661209.3
+16:16:02.085 INFO  ProgressMeter -     Sm_000036F:75787            104.5             173509000        1661062.5
+16:16:13.993 INFO  ProgressMeter -    Sm_000036F:194733            104.7             173893000        1661581.2
+16:16:24.170 INFO  ProgressMeter -    Sm_000036F:294155            104.8             174323000        1662994.7
+16:16:34.180 INFO  ProgressMeter -    Sm_000036F:443278            105.0             174600000        1662990.4
+16:16:44.680 INFO  ProgressMeter -    Sm_000036F:570875            105.2             174852000        1662619.6
+16:16:54.728 INFO  ProgressMeter -    Sm_000037F:281985            105.3             175145000        1662757.9
+16:17:04.743 INFO  ProgressMeter -    Sm_000037F:441214            105.5             175285000        1661454.0
+16:17:14.749 INFO  ProgressMeter -    Sm_000038F:149146            105.7             175652000        1662305.0
+16:17:25.150 INFO  ProgressMeter -    Sm_000038F:328223            105.8             175964000        1662530.5
+16:17:35.867 INFO  ProgressMeter -    Sm_000038F:497232            106.0             176246000        1662389.4
+16:17:45.872 INFO  ProgressMeter -    Sm_000038F:581008            106.2             176586000        1662980.5
+16:17:55.877 INFO  ProgressMeter -     Sm_000039F:79935            106.4             176782000        1662216.1
+16:18:05.891 INFO  ProgressMeter -    Sm_000039F:518179            106.5             177154000        1663104.2
+16:18:15.904 INFO  ProgressMeter -    Sm_000039F:577065            106.7             177288000        1661758.7
+16:18:25.911 INFO  ProgressMeter -    Sm_000040F:266779            106.9             177550000        1661616.9
+16:18:36.317 INFO  ProgressMeter -    Sm_000040F:503134            107.0             177833000        1661568.3
+16:18:46.848 INFO  ProgressMeter -    Sm_000041F:281698            107.2             178170000        1661992.5
+16:18:58.284 INFO  ProgressMeter -    Sm_000042F:270980            107.4             178537000        1662459.4
+16:19:08.428 INFO  ProgressMeter -    Sm_000044F:199437            107.6             178912000        1663332.7
+16:19:18.492 INFO  ProgressMeter -    Sm_000044F:331658            107.7             179151000        1662961.2
+16:19:30.549 INFO  ProgressMeter -     Sm_000047F:95706            107.9             179475000        1662867.2
+16:19:40.560 INFO  ProgressMeter -    Sm_000047F:412166            108.1             179894000        1664176.6
+16:19:51.023 INFO  ProgressMeter -     Sm_000052F:30324            108.3             180280000        1665061.4
+16:20:01.030 INFO  ProgressMeter -    Sm_000052F:141940            108.4             180528000        1664787.5
+16:20:11.034 INFO  ProgressMeter -     Sm_000053F:87577            108.6             180861000        1665297.5
+16:20:21.577 INFO  ProgressMeter -     Sm_000054F:33157            108.8             181175000        1665494.3
+16:20:32.530 INFO  ProgressMeter -      Sm_000060F:6239            109.0             181417000        1664924.8
+16:20:43.986 INFO  ProgressMeter -    Sm_000061F:241991            109.2             181754000        1665099.8
+16:20:53.992 INFO  ProgressMeter -     Sm_000064F:37834            109.3             182095000        1665679.3
+16:21:04.351 INFO  ProgressMeter -     Sm_000065F:12446            109.5             182406000        1665892.9
+16:21:14.394 INFO  ProgressMeter -      Sm_000068F:9121            109.7             182730000        1666304.9
+16:21:24.393 INFO  ProgressMeter -    Sm_000070F:123387            109.8             183122000        1667345.5
+16:21:36.550 INFO  ProgressMeter -     Sm_000078F:66425            110.0             183568000        1668328.6
+16:21:46.576 INFO  ProgressMeter -    Sm_000078F:143780            110.2             183870000        1668539.6
+16:21:56.580 INFO  ProgressMeter -    Sm_000078F:197294            110.4             184146000        1668519.4
+16:22:08.833 INFO  ProgressMeter -    Sm_000078F:221841            110.6             184466000        1668332.0
+16:22:19.055 INFO  ProgressMeter -      Sm_000092F:8715            110.7             184821000        1668970.9
+16:22:29.229 INFO  ProgressMeter -     Sm_000099F:18632            110.9             185112000        1669043.2
+16:22:39.230 INFO  ProgressMeter -    Sm_000108F:100521            111.1             185472000        1669779.4
+16:22:51.383 INFO  ProgressMeter -     Sm_000111F:96775            111.3             185870000        1670316.7
+16:23:03.189 INFO  ProgressMeter -     Sm_000135F:18560            111.5             186269000        1670947.6
+16:23:14.756 INFO  ProgressMeter -        Sm_000362F:98            111.7             186691000        1671842.2
+16:23:27.428 INFO  ProgressMeter -    Sm_plastid:113945            111.9             187300000        1674129.6
+16:23:31.327 INFO  SplitNCigarReads - 0 read(s) filtered by: AllowAllReadsReadFilter 
+
+16:23:31.328 INFO  ProgressMeter - Sm_mitochondrion:36593            111.9             187477504        1674742.9
+16:23:31.329 INFO  ProgressMeter - Traversal complete. Processed 187477504 total reads in 111.9 minutes.
+16:29:51.177 INFO  SplitNCigarReads - Shutting down engine
+[June 28, 2023 at 4:29:51 PM CEST] org.broadinstitute.hellbender.tools.walkers.rnaseq.SplitNCigarReads done. Elapsed time: 118.29 minutes.
+Runtime.totalMemory()=434110464
+Using GATK jar /home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -Xmx4g -jar /home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar SplitNCigarReads -R ../../ref/Skeletonema_marinoi_Ref_v1.1.2.fasta -I P16809_105_2_marked_duplicates.bam -O P16809_105_3_marked_duplicates.Nsplit.bam

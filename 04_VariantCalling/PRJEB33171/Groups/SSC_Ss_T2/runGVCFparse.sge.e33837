@@ -1,0 +1,404 @@
+10:30:20.835 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Jul 12, 2023 10:30:21 AM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+10:30:21.152 INFO  CombineGVCFs - ------------------------------------------------------------
+10:30:21.153 INFO  CombineGVCFs - The Genome Analysis Toolkit (GATK) v4.1.8.0
+10:30:21.153 INFO  CombineGVCFs - For support and documentation go to https://software.broadinstitute.org/gatk/
+10:30:21.154 INFO  CombineGVCFs - Executing as matt@compute-0-4.local on Linux v3.10.0-693.5.2.el7.x86_64 amd64
+10:30:21.154 INFO  CombineGVCFs - Java runtime: OpenJDK 64-Bit Server VM v11.0.8-internal+0-adhoc..src
+10:30:21.154 INFO  CombineGVCFs - Start Date/Time: July 12, 2023 at 10:30:20 AM CEST
+10:30:21.154 INFO  CombineGVCFs - ------------------------------------------------------------
+10:30:21.154 INFO  CombineGVCFs - ------------------------------------------------------------
+10:30:21.156 INFO  CombineGVCFs - HTSJDK Version: 2.22.0
+10:30:21.156 INFO  CombineGVCFs - Picard Version: 2.22.8
+10:30:21.156 INFO  CombineGVCFs - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+10:30:21.156 INFO  CombineGVCFs - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+10:30:21.156 INFO  CombineGVCFs - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+10:30:21.157 INFO  CombineGVCFs - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+10:30:21.157 INFO  CombineGVCFs - Deflater: IntelDeflater
+10:30:21.157 INFO  CombineGVCFs - Inflater: IntelInflater
+10:30:21.157 INFO  CombineGVCFs - GCS max retries/reopens: 20
+10:30:21.157 INFO  CombineGVCFs - Requester pays: disabled
+10:30:21.157 INFO  CombineGVCFs - Initializing engine
+10:30:21.520 INFO  FeatureManager - Using codec VCFCodec to read file file:///proj/data25/AlleleIsoformSpecificExpression/04_VariantCalling/PRJEB33171/Groups/SSC_Ss_T2/../../ERR3393450/ERR3393450_4_HapCalled.g.vcf.gz
+10:30:21.582 INFO  FeatureManager - Using codec VCFCodec to read file file:///proj/data25/AlleleIsoformSpecificExpression/04_VariantCalling/PRJEB33171/Groups/SSC_Ss_T2/../../ERR3393451/ERR3393451_4_HapCalled.g.vcf.gz
+10:30:21.608 INFO  FeatureManager - Using codec VCFCodec to read file file:///proj/data25/AlleleIsoformSpecificExpression/04_VariantCalling/PRJEB33171/Groups/SSC_Ss_T2/../../ERR3393452/ERR3393452_4_HapCalled.g.vcf.gz
+10:30:21.781 INFO  CombineGVCFs - Done initializing engine
+10:30:21.814 INFO  ProgressMeter - Starting traversal
+10:30:21.815 INFO  ProgressMeter -        Current Locus  Elapsed Minutes    Variants Processed  Variants/Minute
+10:30:24.435 WARN  ReferenceConfidenceVariantContextMerger - Detected invalid annotations: When trying to merge variant contexts at location Sm_000000F:19576 the annotation MLEAC=[1, 0] was not a numerical value and was ignored
+10:30:31.822 INFO  ProgressMeter -    Sm_000000F:118334              0.2                355000        2128722.8
+10:30:41.822 INFO  ProgressMeter -    Sm_000000F:337334              0.3               1012000        3034937.8
+10:30:51.823 INFO  ProgressMeter -    Sm_000000F:551334              0.5               1654000        3307228.3
+10:31:01.823 INFO  ProgressMeter -    Sm_000000F:761667              0.7               2285000        3426814.6
+10:31:11.832 INFO  ProgressMeter -    Sm_000000F:992334              0.8               2977000        3571257.2
+10:31:21.837 INFO  ProgressMeter -   Sm_000000F:1237334              1.0               3712000        3710701.3
+10:31:31.855 INFO  ProgressMeter -   Sm_000000F:1494334              1.2               4483000        3840376.9
+10:31:41.870 INFO  ProgressMeter -   Sm_000000F:1725667              1.3               5177000        3880082.4
+10:31:51.874 INFO  ProgressMeter -   Sm_000000F:1962667              1.5               5888000        3922805.3
+10:32:01.886 INFO  ProgressMeter -   Sm_000000F:2210334              1.7               6631000        3975777.2
+10:32:11.899 INFO  ProgressMeter -   Sm_000000F:2457334              1.8               7372000        4018059.1
+10:32:21.906 INFO  ProgressMeter -   Sm_000000F:2706000              2.0               8118000        4055924.3
+10:32:31.907 INFO  ProgressMeter -   Sm_000000F:2999000              2.2               8997000        4149525.0
+10:32:41.920 INFO  ProgressMeter -   Sm_000000F:3259667              2.3               9779000        4187889.0
+10:32:51.930 INFO  ProgressMeter -   Sm_000000F:3525000              2.5              10575000        4226759.5
+10:33:01.932 INFO  ProgressMeter -    Sm_000001F:264119              2.7              11396000        4270377.3
+10:33:11.934 INFO  ProgressMeter -    Sm_000001F:545452              2.8              12240000        4316978.1
+10:33:21.934 INFO  ProgressMeter -    Sm_000001F:827786              3.0              13087000        4359451.3
+10:33:31.939 INFO  ProgressMeter -   Sm_000001F:1112786              3.2              13942000        4399865.4
+10:33:41.946 INFO  ProgressMeter -   Sm_000001F:1396452              3.3              14793000        4435017.2
+10:33:51.953 INFO  ProgressMeter -   Sm_000001F:1680452              3.5              15645000        4467064.5
+10:34:01.953 INFO  ProgressMeter -   Sm_000001F:1965119              3.7              16499000        4496906.5
+10:34:11.955 INFO  ProgressMeter -    Sm_000002F:238541              3.8              17386000        4532738.9
+10:34:21.963 INFO  ProgressMeter -    Sm_000002F:537541              4.0              18283000        4567933.1
+10:34:31.971 INFO  ProgressMeter -    Sm_000002F:831207              4.2              19164000        4596510.2
+10:34:41.973 INFO  ProgressMeter -   Sm_000002F:1125541              4.3              20047000        4623421.2
+10:34:51.982 INFO  ProgressMeter -   Sm_000002F:1419207              4.5              20928000        4647791.9
+10:35:01.989 INFO  ProgressMeter -   Sm_000002F:1731207              4.7              21864000        4682233.2
+10:35:11.994 INFO  ProgressMeter -    Sm_000003F:225608              4.8              22784000        4711023.2
+10:35:22.004 INFO  ProgressMeter -    Sm_000003F:530608              5.0              23699000        4736831.6
+10:35:32.008 INFO  ProgressMeter -    Sm_000003F:838941              5.2              24624000        4762985.5
+10:35:42.018 INFO  ProgressMeter -   Sm_000003F:1139608              5.3              25526000        4783090.7
+10:35:52.020 INFO  ProgressMeter -   Sm_000003F:1431275              5.5              26401000        4797201.7
+10:36:02.022 INFO  ProgressMeter -   Sm_000003F:1734608              5.7              27311000        4816655.7
+10:36:12.031 INFO  ProgressMeter -    Sm_000004F:243416              5.8              28221000        4834915.7
+10:36:22.042 INFO  ProgressMeter -    Sm_000004F:542416              6.0              29118000        4849941.8
+10:36:32.047 INFO  ProgressMeter -    Sm_000004F:843416              6.2              30021000        4865219.6
+10:36:42.057 INFO  ProgressMeter -   Sm_000004F:1150416              6.3              30942000        4882469.6
+10:36:52.057 INFO  ProgressMeter -   Sm_000004F:1457083              6.5              31862000        4898806.4
+10:37:02.063 INFO  ProgressMeter -   Sm_000004F:1760750              6.7              32773000        4912904.0
+10:37:12.339 INFO  ProgressMeter -    Sm_000005F:231679              6.8              33656000        4918981.6
+10:37:22.342 INFO  ProgressMeter -    Sm_000005F:533346              7.0              34561000        4931098.4
+10:37:32.343 INFO  ProgressMeter -    Sm_000005F:828012              7.2              35445000        4939748.4
+10:37:42.348 INFO  ProgressMeter -   Sm_000005F:1113012              7.3              36300000        4944022.2
+10:37:52.354 INFO  ProgressMeter -   Sm_000005F:1414012              7.5              37203000        4954465.7
+10:38:04.571 INFO  ProgressMeter -   Sm_000005F:1414346              7.7              37204000        4823794.8
+10:38:14.574 INFO  ProgressMeter -   Sm_000005F:1717346              7.9              38113000        4837104.8
+10:38:24.573 INFO  ProgressMeter -    Sm_000006F:294275              8.0              39035000        4851499.1
+10:38:34.578 INFO  ProgressMeter -    Sm_000006F:597608              8.2              39945000        4863808.5
+10:38:44.586 INFO  ProgressMeter -    Sm_000006F:906608              8.4              40872000        4877608.3
+10:38:54.596 INFO  ProgressMeter -   Sm_000006F:1215275              8.5              41798000        4890742.8
+10:39:04.603 INFO  ProgressMeter -   Sm_000006F:1530275              8.7              42743000        4905583.1
+10:39:14.606 INFO  ProgressMeter -    Sm_000007F:185945              8.9              43666000        4917425.4
+10:39:24.612 INFO  ProgressMeter -    Sm_000007F:491278              9.0              44582000        4928030.2
+10:39:34.614 INFO  ProgressMeter -    Sm_000007F:798945              9.2              45505000        4939055.5
+10:39:44.614 INFO  ProgressMeter -   Sm_000007F:1110945              9.4              46441000        4951074.9
+10:39:54.620 INFO  ProgressMeter -   Sm_000007F:1424945              9.5              47383000        4963259.7
+10:40:04.630 INFO  ProgressMeter -    Sm_000008F:194518              9.7              48317000        4974168.5
+10:40:14.640 INFO  ProgressMeter -    Sm_000008F:488185              9.9              49198000        4979344.7
+10:40:24.647 INFO  ProgressMeter -    Sm_000008F:795518             10.0              50120000        4988454.5
+10:40:34.652 INFO  ProgressMeter -   Sm_000008F:1100851             10.2              51036000        4996695.7
+10:40:44.653 INFO  ProgressMeter -   Sm_000008F:1407851             10.4              51957000        5005185.9
+10:40:54.653 INFO  ProgressMeter -    Sm_000009F:125430             10.5              52887000        5014269.1
+10:41:04.657 INFO  ProgressMeter -    Sm_000009F:435430             10.7              53817000        5023038.3
+10:41:14.657 INFO  ProgressMeter -    Sm_000009F:737097             10.9              54722000        5029272.0
+10:41:24.664 INFO  ProgressMeter -   Sm_000009F:1041097             11.0              55634000        5035898.1
+10:41:34.673 INFO  ProgressMeter -   Sm_000009F:1346430             11.2              56550000        5042668.7
+10:41:44.680 INFO  ProgressMeter -    Sm_000010F:150961             11.4              57483000        5050749.4
+10:41:54.689 INFO  ProgressMeter -    Sm_000010F:459961             11.5              58410000        5058069.8
+10:42:04.690 INFO  ProgressMeter -    Sm_000010F:760961             11.7              59313000        5063176.2
+10:42:14.700 INFO  ProgressMeter -   Sm_000010F:1059295             11.9              60208000        5067416.3
+10:42:24.706 INFO  ProgressMeter -   Sm_000010F:1374961             12.0              61155000        5075869.0
+10:42:34.710 INFO  ProgressMeter -    Sm_000011F:200394             12.2              62092000        5083293.0
+10:42:44.712 INFO  ProgressMeter -    Sm_000011F:502394             12.4              62998000        5088033.9
+10:42:54.714 INFO  ProgressMeter -    Sm_000011F:802394             12.5              63898000        5092157.1
+10:43:04.722 INFO  ProgressMeter -   Sm_000011F:1108394             12.7              64816000        5097561.2
+10:43:14.730 INFO  ProgressMeter -     Sm_000012F:18906             12.9              65733000        5102734.5
+10:43:24.734 INFO  ProgressMeter -    Sm_000012F:328240             13.0              66661000        5108651.1
+10:43:34.739 INFO  ProgressMeter -    Sm_000012F:626906             13.2              67557000        5111990.6
+10:43:44.744 INFO  ProgressMeter -    Sm_000012F:934906             13.4              68481000        5117339.1
+10:43:54.751 INFO  ProgressMeter -   Sm_000012F:1244906             13.5              69411000        5122986.3
+10:44:04.758 INFO  ProgressMeter -    Sm_000013F:162550             13.7              70351000        5129225.2
+10:44:14.758 INFO  ProgressMeter -    Sm_000013F:472216             13.9              71280000        5134565.0
+10:44:24.768 INFO  ProgressMeter -    Sm_000013F:780550             14.0              72205000        5139432.4
+10:44:34.771 INFO  ProgressMeter -   Sm_000013F:1086883             14.2              73124000        5143805.8
+10:44:44.780 INFO  ProgressMeter -     Sm_000014F:95423             14.4              74045000        5148181.0
+10:44:54.783 INFO  ProgressMeter -    Sm_000014F:401423             14.5              74963000        5152285.1
+10:45:04.791 INFO  ProgressMeter -    Sm_000014F:703090             14.7              75868000        5155383.6
+10:45:14.800 INFO  ProgressMeter -   Sm_000014F:1004423             14.9              76772000        5158339.7
+10:45:24.806 INFO  ProgressMeter -   Sm_000014F:1304090             15.0              77671000        5160915.2
+10:45:34.811 INFO  ProgressMeter -    Sm_000015F:269033             15.2              78597000        5165214.3
+10:45:44.812 INFO  ProgressMeter -    Sm_000015F:574033             15.4              79512000        5168727.5
+10:45:54.819 INFO  ProgressMeter -    Sm_000015F:877700             15.6              80423000        5171874.9
+10:46:04.819 INFO  ProgressMeter -   Sm_000015F:1185700             15.7              81347000        5175821.1
+10:46:14.820 INFO  ProgressMeter -    Sm_000016F:240756             15.9              82270000        5179616.1
+10:46:24.822 INFO  ProgressMeter -    Sm_000016F:549089             16.1              83195000        5183456.8
+10:46:34.824 INFO  ProgressMeter -    Sm_000016F:857089             16.2              84119000        5187146.3
+10:46:44.833 INFO  ProgressMeter -   Sm_000016F:1165422             16.4              85044000        5190795.3
+10:46:54.838 INFO  ProgressMeter -    Sm_000017F:235605             16.6              85966000        5194199.9
+10:47:04.845 INFO  ProgressMeter -    Sm_000017F:545938             16.7              86897000        5198069.8
+10:47:14.845 INFO  ProgressMeter -    Sm_000017F:851271             16.9              87813000        5201010.8
+10:47:24.855 INFO  ProgressMeter -   Sm_000017F:1157938             17.1              88733000        5204078.0
+10:47:34.862 INFO  ProgressMeter -    Sm_000018F:277467             17.2              89639000        5206287.8
+10:47:44.864 INFO  ProgressMeter -    Sm_000018F:574467             17.4              90530000        5207617.3
+10:47:54.868 INFO  ProgressMeter -    Sm_000018F:881134             17.6              91450000        5210564.0
+10:48:04.877 INFO  ProgressMeter -    Sm_000019F:123787             17.7              92376000        5213769.3
+10:48:14.879 INFO  ProgressMeter -    Sm_000019F:423121             17.9              93274000        5215383.2
+10:48:24.888 INFO  ProgressMeter -    Sm_000019F:731787             18.1              94200000        5218484.8
+10:48:34.894 INFO  ProgressMeter -   Sm_000019F:1042454             18.2              95132000        5221878.0
+10:48:44.903 INFO  ProgressMeter -    Sm_000020F:286227             18.4              96081000        5226110.7
+10:48:54.906 INFO  ProgressMeter -    Sm_000020F:591561             18.6              96997000        5228521.3
+10:49:04.907 INFO  ProgressMeter -    Sm_000020F:898894             18.7              97919000        5231218.8
+10:49:14.916 INFO  ProgressMeter -    Sm_000021F:167646             18.9              98838000        5233672.9
+10:49:24.922 INFO  ProgressMeter -    Sm_000021F:478313             19.1              99770000        5236780.1
+10:49:34.927 INFO  ProgressMeter -    Sm_000021F:781646             19.2             100680000        5238693.2
+10:49:44.929 INFO  ProgressMeter -    Sm_000022F:137386             19.4             101587000        5240432.2
+10:49:54.930 INFO  ProgressMeter -    Sm_000022F:449052             19.6             102522000        5243578.0
+10:50:04.934 INFO  ProgressMeter -    Sm_000022F:758386             19.7             103450000        5246302.4
+10:50:14.938 INFO  ProgressMeter -    Sm_000023F:148626             19.9             104397000        5249936.5
+10:50:24.942 INFO  ProgressMeter -    Sm_000024F:313158             20.1             105337000        5253161.1
+10:50:34.948 INFO  ProgressMeter -    Sm_000024F:618158             20.2             106252000        5255087.4
+10:50:49.211 INFO  ProgressMeter -     Sm_000025F:45259             20.5             107100000        5235474.1
+10:50:59.211 INFO  ProgressMeter -    Sm_000025F:346926             20.6             108005000        5237046.2
+10:51:09.214 INFO  ProgressMeter -    Sm_000025F:651259             20.8             108918000        5238965.2
+10:51:19.222 INFO  ProgressMeter -    Sm_000027F:104221             21.0             109834000        5240976.1
+10:51:29.228 INFO  ProgressMeter -    Sm_000027F:410554             21.1             110753000        5243105.4
+10:51:39.238 INFO  ProgressMeter -    Sm_000027F:717554             21.3             111674000        5245279.0
+10:51:49.243 INFO  ProgressMeter -    Sm_000028F:184976             21.5             112569000        5246227.4
+10:51:59.251 INFO  ProgressMeter -    Sm_000028F:485643             21.6             113471000        5247472.7
+10:52:09.255 INFO  ProgressMeter -    Sm_000028F:791310             21.8             114388000        5249403.4
+10:52:19.258 INFO  ProgressMeter -    Sm_000029F:300000             22.0             115315000        5251764.2
+10:52:29.258 INFO  ProgressMeter -    Sm_000029F:605333             22.1             116231000        5253604.1
+10:52:39.265 INFO  ProgressMeter -    Sm_000030F:102289             22.3             117132000        5254716.1
+10:52:49.273 INFO  ProgressMeter -    Sm_000030F:415623             22.5             118072000        5257544.2
+10:52:59.275 INFO  ProgressMeter -    Sm_000030F:730623             22.6             119017000        5260574.9
+10:53:09.278 INFO  ProgressMeter -    Sm_000032F:137183             22.8             119955000        5263250.3
+10:53:19.283 INFO  ProgressMeter -    Sm_000032F:444183             23.0             120876000        5265138.6
+10:53:29.289 INFO  ProgressMeter -    Sm_000032F:749183             23.1             121791000        5266736.5
+10:53:39.290 INFO  ProgressMeter -    Sm_000033F:295813             23.3             122700000        5268072.8
+10:53:49.292 INFO  ProgressMeter -    Sm_000033F:579147             23.5             123550000        5266871.1
+10:53:59.294 INFO  ProgressMeter -    Sm_000034F:140482             23.6             124474000        5268818.8
+10:54:09.301 INFO  ProgressMeter -    Sm_000034F:419815             23.8             125312000        5267105.9
+10:54:19.309 INFO  ProgressMeter -    Sm_000034F:702815             24.0             126161000        5265872.4
+10:54:29.318 INFO  ProgressMeter -    Sm_000036F:246522             24.1             127035000        5265688.6
+10:54:39.330 INFO  ProgressMeter -    Sm_000036F:542522             24.3             127923000        5266083.6
+10:54:49.335 INFO  ProgressMeter -    Sm_000037F:182079             24.5             128835000        5267458.0
+10:54:59.343 INFO  ProgressMeter -    Sm_000037F:495079             24.6             129774000        5269910.3
+10:55:09.350 INFO  ProgressMeter -    Sm_000038F:111657             24.8             130687000        5271284.4
+10:55:19.356 INFO  ProgressMeter -    Sm_000038F:405323             25.0             131568000        5271361.5
+10:55:29.364 INFO  ProgressMeter -     Sm_000039F:10180             25.1             132470000        5272266.4
+10:55:39.366 INFO  ProgressMeter -    Sm_000039F:319513             25.3             133398000        5274208.2
+10:55:49.366 INFO  ProgressMeter -      Sm_000040F:3877             25.5             134329000        5276249.4
+10:55:59.374 INFO  ProgressMeter -    Sm_000040F:313877             25.6             135259000        5278197.5
+10:56:09.377 INFO  ProgressMeter -     Sm_000041F:32133             25.8             136204000        5280719.0
+10:56:19.377 INFO  ProgressMeter -    Sm_000041F:340133             26.0             137128000        5282409.3
+10:56:29.381 INFO  ProgressMeter -     Sm_000042F:92072             26.1             138068000        5284677.0
+10:56:39.382 INFO  ProgressMeter -    Sm_000042F:407405             26.3             139014000        5287154.2
+10:56:49.390 INFO  ProgressMeter -    Sm_000044F:165662             26.5             139952000        5289274.5
+10:56:59.399 INFO  ProgressMeter -    Sm_000044F:476995             26.6             140886000        5291214.7
+10:57:09.401 INFO  ProgressMeter -    Sm_000047F:273800             26.8             141815000        5292967.2
+10:57:19.403 INFO  ProgressMeter -    Sm_000051F:144177             27.0             142752000        5294994.8
+10:57:29.404 INFO  ProgressMeter -    Sm_000052F:285750             27.1             143680000        5296668.9
+10:57:39.413 INFO  ProgressMeter -    Sm_000053F:193441             27.3             144625000        5298919.5
+10:57:49.413 INFO  ProgressMeter -    Sm_000054F:115540             27.5             145558000        5300734.8
+10:57:59.415 INFO  ProgressMeter -     Sm_000060F:52599             27.6             146504000        5302992.3
+10:58:09.417 INFO  ProgressMeter -     Sm_000061F:42358             27.8             147458000        5305513.7
+10:58:19.417 INFO  ProgressMeter -     Sm_000063F:24343             28.0             148378000        5306789.1
+10:58:29.420 INFO  ProgressMeter -     Sm_000064F:10128             28.1             149313000        5308576.4
+10:58:39.421 INFO  ProgressMeter -      Sm_000065F:1270             28.3             150249000        5310384.2
+10:58:49.424 INFO  ProgressMeter -      Sm_000067F:3046             28.5             151198000        5312621.3
+10:58:59.430 INFO  ProgressMeter -     Sm_000068F:12614             28.6             152120000        5313880.0
+10:59:09.434 INFO  ProgressMeter -     Sm_000070F:35136             28.8             153046000        5315269.2
+10:59:19.441 INFO  ProgressMeter -     Sm_000078F:44358             29.0             153948000        5315804.4
+10:59:29.449 INFO  ProgressMeter -     Sm_000080F:96006             29.1             154845000        5316158.9
+10:59:39.458 INFO  ProgressMeter -    Sm_000087F:167890             29.3             155798000        5318417.9
+10:59:49.460 INFO  ProgressMeter -     Sm_000092F:46784             29.5             156711000        5319314.7
+10:59:59.465 INFO  ProgressMeter -    Sm_000096F:148572             29.6             157646000        5320934.9
+11:00:09.465 INFO  ProgressMeter -     Sm_000100F:70676             29.8             158584000        5322652.6
+11:00:19.471 INFO  ProgressMeter -     Sm_000108F:24760             30.0             159536000        5324800.7
+11:00:29.473 INFO  ProgressMeter -    Sm_000111F:157570             30.1             160444000        5325476.4
+11:00:39.478 INFO  ProgressMeter -      Sm_000135F:1579             30.3             161364000        5326531.9
+11:00:49.485 INFO  ProgressMeter -      Sm_000146F:1174             30.5             162300000        5328095.3
+11:00:59.486 INFO  ProgressMeter -     Sm_000164F:52332             30.6             163230000        5329466.1
+11:01:09.486 INFO  ProgressMeter -    Sm_plastid:101342             30.8             164175000        5331306.3
+11:01:11.646 INFO  ProgressMeter - Sm_mitochondrion:43474             30.8             164383338        5331838.6
+11:01:11.646 INFO  ProgressMeter - Traversal complete. Processed 164383338 total variants in 30.8 minutes.
+11:01:11.698 INFO  CombineGVCFs - Shutting down engine
+[July 12, 2023 at 11:01:11 AM CEST] org.broadinstitute.hellbender.tools.walkers.CombineGVCFs done. Elapsed time: 30.85 minutes.
+Runtime.totalMemory()=2147483648
+Using GATK jar /home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -Xmx4g -jar /home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar CombineGVCFs -R ../../../ref/Skeletonema_marinoi_Ref_v1.1.2.fasta --variant ../../ERR3393450/ERR3393450_4_HapCalled.g.vcf.gz --variant ../../ERR3393451/ERR3393451_4_HapCalled.g.vcf.gz --variant ../../ERR3393452/ERR3393452_4_HapCalled.g.vcf.gz -O SSC_Ss_T2.g.vcf.gz
+11:01:16.105 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Jul 12, 2023 11:01:16 AM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+11:01:16.480 INFO  GenotypeGVCFs - ------------------------------------------------------------
+11:01:16.481 INFO  GenotypeGVCFs - The Genome Analysis Toolkit (GATK) v4.1.8.0
+11:01:16.482 INFO  GenotypeGVCFs - For support and documentation go to https://software.broadinstitute.org/gatk/
+11:01:16.482 INFO  GenotypeGVCFs - Executing as matt@compute-0-4.local on Linux v3.10.0-693.5.2.el7.x86_64 amd64
+11:01:16.482 INFO  GenotypeGVCFs - Java runtime: OpenJDK 64-Bit Server VM v11.0.8-internal+0-adhoc..src
+11:01:16.483 INFO  GenotypeGVCFs - Start Date/Time: July 12, 2023 at 11:01:16 AM CEST
+11:01:16.483 INFO  GenotypeGVCFs - ------------------------------------------------------------
+11:01:16.483 INFO  GenotypeGVCFs - ------------------------------------------------------------
+11:01:16.485 INFO  GenotypeGVCFs - HTSJDK Version: 2.22.0
+11:01:16.485 INFO  GenotypeGVCFs - Picard Version: 2.22.8
+11:01:16.485 INFO  GenotypeGVCFs - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+11:01:16.485 INFO  GenotypeGVCFs - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+11:01:16.485 INFO  GenotypeGVCFs - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+11:01:16.486 INFO  GenotypeGVCFs - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+11:01:16.486 INFO  GenotypeGVCFs - Deflater: IntelDeflater
+11:01:16.486 INFO  GenotypeGVCFs - Inflater: IntelInflater
+11:01:16.486 INFO  GenotypeGVCFs - GCS max retries/reopens: 20
+11:01:16.487 INFO  GenotypeGVCFs - Requester pays: disabled
+11:01:16.487 INFO  GenotypeGVCFs - Initializing engine
+11:01:16.724 INFO  FeatureManager - Using codec VCFCodec to read file file:///proj/data25/AlleleIsoformSpecificExpression/04_VariantCalling/PRJEB33171/Groups/SSC_Ss_T2/SSC_Ss_T2.g.vcf.gz
+11:01:16.816 INFO  GenotypeGVCFs - Done initializing engine
+11:01:16.899 INFO  ProgressMeter - Starting traversal
+11:01:16.900 INFO  ProgressMeter -        Current Locus  Elapsed Minutes    Variants Processed  Variants/Minute
+11:01:18.261 WARN  InbreedingCoeff - InbreedingCoeff will not be calculated; at least 10 samples must have called genotypes
+11:01:26.911 INFO  ProgressMeter -    Sm_000000F:267000              0.2                267000        1600399.6
+11:01:36.914 INFO  ProgressMeter -    Sm_000000F:682000              0.3                682000        2044671.0
+11:01:46.922 INFO  ProgressMeter -   Sm_000000F:1102000              0.5               1102000        2202458.3
+11:01:56.939 INFO  ProgressMeter -   Sm_000000F:1541000              0.7               1541000        2309248.5
+11:02:06.940 INFO  ProgressMeter -   Sm_000000F:2012000              0.8               2012000        2412518.2
+11:02:16.949 INFO  ProgressMeter -   Sm_000000F:2484000              1.0               2484000        2481973.1
+11:02:26.964 INFO  ProgressMeter -   Sm_000000F:2961000              1.2               2961000        2535717.9
+11:02:36.974 INFO  ProgressMeter -   Sm_000000F:3464000              1.3               3464000        2595631.5
+11:02:46.992 INFO  ProgressMeter -    Sm_000001F:421452              1.5               3956000        2634640.1
+11:02:57.010 INFO  ProgressMeter -    Sm_000001F:909452              1.7               4444000        2663470.2
+11:03:07.018 INFO  ProgressMeter -   Sm_000001F:1407452              1.8               4942000        2692772.2
+11:03:17.028 INFO  ProgressMeter -   Sm_000001F:1901452              2.0               5436000        2715103.9
+11:03:27.032 INFO  ProgressMeter -    Sm_000002F:382207              2.2               5939000        2738296.5
+11:03:37.047 INFO  ProgressMeter -    Sm_000002F:878207              2.3               6435000        2754964.4
+11:03:47.060 INFO  ProgressMeter -   Sm_000002F:1374207              2.5               6931000        2769445.9
+11:03:57.060 INFO  ProgressMeter -     Sm_000003F:97941              2.7               7467000        2797327.7
+11:04:07.071 INFO  ProgressMeter -    Sm_000003F:618941              2.8               7988000        2816461.1
+11:04:17.077 INFO  ProgressMeter -   Sm_000003F:1119941              3.0               8489000        2826886.9
+11:04:27.090 INFO  ProgressMeter -   Sm_000003F:1619941              3.2               8989000        2835795.8
+11:04:37.095 INFO  ProgressMeter -    Sm_000004F:326416              3.3               9490000        2844226.9
+11:04:47.102 INFO  ProgressMeter -    Sm_000004F:803416              3.5               9967000        2844977.7
+11:04:57.106 INFO  ProgressMeter -   Sm_000004F:1315416              3.7              10479000        2855248.5
+11:05:07.125 INFO  ProgressMeter -   Sm_000004F:1810416              3.8              10974000        2859984.8
+11:05:17.137 INFO  ProgressMeter -    Sm_000005F:478012              4.0              11465000        2863422.4
+11:05:27.155 INFO  ProgressMeter -    Sm_000005F:969012              4.2              11956000        2866516.2
+11:05:37.171 INFO  ProgressMeter -   Sm_000005F:1462012              4.3              12449000        2869854.9
+11:05:47.171 INFO  ProgressMeter -    Sm_000006F:234608              4.5              12952000        2875336.2
+11:05:57.186 INFO  ProgressMeter -    Sm_000006F:732608              4.7              13450000        2879202.0
+11:06:07.191 INFO  ProgressMeter -   Sm_000006F:1251608              4.8              13969000        2887250.7
+11:06:17.200 INFO  ProgressMeter -    Sm_000007F:129611              5.0              14499000        2896903.1
+11:06:27.214 INFO  ProgressMeter -    Sm_000007F:625611              5.2              14995000        2899321.3
+11:06:37.224 INFO  ProgressMeter -   Sm_000007F:1136611              5.3              15506000        2904434.3
+11:06:47.239 INFO  ProgressMeter -    Sm_000008F:120851              5.5              16032000        2911917.8
+11:06:57.246 INFO  ProgressMeter -    Sm_000008F:615851              5.7              16527000        2913564.4
+11:07:07.259 INFO  ProgressMeter -   Sm_000008F:1115851              5.8              17027000        2915923.4
+11:07:17.272 INFO  ProgressMeter -     Sm_000009F:54430              6.0              17558000        2923312.6
+11:07:27.286 INFO  ProgressMeter -    Sm_000009F:581430              6.2              18085000        2929646.4
+11:07:37.296 INFO  ProgressMeter -   Sm_000009F:1070430              6.3              18574000        2929683.8
+11:07:47.299 INFO  ProgressMeter -     Sm_000010F:66961              6.5              19077000        2931923.5
+11:07:57.320 INFO  ProgressMeter -    Sm_000010F:583961              6.7              19594000        2936017.2
+11:08:07.330 INFO  ProgressMeter -   Sm_000010F:1082961              6.8              20093000        2937358.4
+11:08:17.343 INFO  ProgressMeter -    Sm_000011F:131060              7.0              20628000        2943752.2
+11:08:27.349 INFO  ProgressMeter -    Sm_000011F:624060              7.2              21121000        2944042.2
+11:08:37.357 INFO  ProgressMeter -   Sm_000011F:1123060              7.3              21620000        2945122.9
+11:08:47.365 INFO  ProgressMeter -    Sm_000012F:242906              7.5              22135000        2948286.8
+11:08:57.384 INFO  ProgressMeter -    Sm_000012F:743906              7.7              22636000        2949418.4
+11:09:07.389 INFO  ProgressMeter -   Sm_000012F:1256906              7.8              23149000        2952120.0
+11:09:17.396 INFO  ProgressMeter -    Sm_000013F:385216              8.0              23673000        2956070.4
+11:09:27.415 INFO  ProgressMeter -    Sm_000013F:899216              8.2              24187000        2958564.0
+11:09:37.435 INFO  ProgressMeter -    Sm_000014F:106756              8.3              24693000        2959992.8
+11:09:47.451 INFO  ProgressMeter -    Sm_000014F:596756              8.5              25183000        2959508.5
+11:09:57.468 INFO  ProgressMeter -   Sm_000014F:1089756              8.7              25676000        2959382.8
+11:10:07.483 INFO  ProgressMeter -    Sm_000015F:253033              8.8              26183000        2960856.3
+11:10:17.500 INFO  ProgressMeter -    Sm_000015F:754033              9.0              26684000        2961598.2
+11:10:27.507 INFO  ProgressMeter -      Sm_000016F:2422              9.2              27185000        2962367.0
+11:10:37.518 INFO  ProgressMeter -    Sm_000016F:500422              9.3              27683000        2962766.1
+11:10:47.518 INFO  ProgressMeter -   Sm_000016F:1019422              9.5              28202000        2965416.4
+11:10:57.527 INFO  ProgressMeter -    Sm_000017F:304271              9.7              28724000        2968239.5
+11:11:07.528 INFO  ProgressMeter -    Sm_000017F:824271              9.8              29244000        2970809.0
+11:11:17.540 INFO  ProgressMeter -    Sm_000018F:153800             10.0              29756000        2972429.4
+11:11:27.543 INFO  ProgressMeter -    Sm_000018F:646800             10.2              30249000        2972178.5
+11:11:37.556 INFO  ProgressMeter -     Sm_000019F:89787             10.3              30758000        2973434.6
+11:11:47.560 INFO  ProgressMeter -    Sm_000019F:602787             10.5              31271000        2975073.7
+11:11:57.566 INFO  ProgressMeter -     Sm_000020F:21227             10.7              31762000        2974592.1
+11:12:07.571 INFO  ProgressMeter -    Sm_000020F:534227             10.8              32275000        2976158.5
+11:12:17.581 INFO  ProgressMeter -      Sm_000021F:3646             11.0              32782000        2977110.0
+11:12:27.584 INFO  ProgressMeter -    Sm_000021F:532646             11.2              33311000        2980032.3
+11:12:37.585 INFO  ProgressMeter -     Sm_000022F:81052             11.3              33806000        2979880.6
+11:12:47.595 INFO  ProgressMeter -    Sm_000022F:603052             11.5              34328000        2982039.8
+11:12:57.608 INFO  ProgressMeter -     Sm_000024F:73824             11.7              34873000        2986094.1
+11:13:07.623 INFO  ProgressMeter -    Sm_000024F:588824             11.8              35388000        2987493.0
+11:13:17.639 INFO  ProgressMeter -    Sm_000025F:240259             12.0              35895000        2988183.0
+11:13:27.650 INFO  ProgressMeter -    Sm_000025F:743259             12.2              36398000        2988546.0
+11:13:37.659 INFO  ProgressMeter -    Sm_000027F:404887             12.3              36912000        2989798.3
+11:13:47.667 INFO  ProgressMeter -     Sm_000028F:85976             12.5              37424000        2990861.3
+11:13:57.679 INFO  ProgressMeter -    Sm_000028F:581976             12.7              37920000        2990618.8
+11:14:07.685 INFO  ProgressMeter -    Sm_000029F:306666             12.8              38445000        2992663.3
+11:14:17.687 INFO  ProgressMeter -      Sm_000030F:8289             13.0              38950000        2993133.9
+11:14:27.689 INFO  ProgressMeter -    Sm_000030F:547289             13.2              39489000        2996176.0
+11:14:37.698 INFO  ProgressMeter -    Sm_000032F:176183             13.3              40024000        2998808.7
+11:14:47.707 INFO  ProgressMeter -    Sm_000032F:683183             13.5              40531000        2999308.1
+11:14:57.711 INFO  ProgressMeter -    Sm_000033F:414813             13.7              41019000        2998424.7
+11:15:07.716 INFO  ProgressMeter -    Sm_000034F:195148             13.8              41546000        3000375.5
+11:15:17.725 INFO  ProgressMeter -    Sm_000034F:719148             14.0              42070000        3002051.6
+11:15:27.733 INFO  ProgressMeter -    Sm_000036F:484522             14.2              42583000        3002919.5
+11:15:37.740 INFO  ProgressMeter -    Sm_000037F:356079             14.3              43119000        3005366.9
+11:15:47.751 INFO  ProgressMeter -    Sm_000038F:186323             14.5              43637000        3006507.4
+11:15:57.762 INFO  ProgressMeter -    Sm_000038F:693323             14.7              44144000        3006872.8
+11:16:07.769 INFO  ProgressMeter -    Sm_000039F:537513             14.8              44684000        3009466.0
+11:16:17.770 INFO  ProgressMeter -    Sm_000040F:465543             15.0              45238000        3012954.1
+11:16:27.783 INFO  ProgressMeter -    Sm_000041F:406799             15.2              45776000        3015272.0
+11:16:37.795 INFO  ProgressMeter -    Sm_000042F:389405             15.3              46320000        3017936.9
+11:16:47.804 INFO  ProgressMeter -    Sm_000044F:362995             15.5              46848000        3019516.5
+11:16:57.817 INFO  ProgressMeter -    Sm_000047F:386133             15.7              47384000        3021563.0
+11:17:07.834 INFO  ProgressMeter -    Sm_000052F:312416             15.8              47920000        3023553.7
+11:17:17.845 INFO  ProgressMeter -     Sm_000054F:47206             16.0              48451000        3025212.7
+11:17:27.845 INFO  ProgressMeter -    Sm_000060F:218932             16.2              49001000        3028039.7
+11:17:37.859 INFO  ProgressMeter -    Sm_000063F:103009             16.3              49538000        3029973.7
+11:17:47.867 INFO  ProgressMeter -    Sm_000064F:315128             16.5              50076000        3031947.6
+11:17:57.872 INFO  ProgressMeter -    Sm_000067F:222712             16.7              50619000        3034190.8
+11:18:07.875 INFO  ProgressMeter -    Sm_000070F:165802             16.8              51146000        3035446.0
+11:18:17.883 INFO  ProgressMeter -    Sm_000080F:124006             17.0              51643000        3034898.7
+11:18:27.884 INFO  ProgressMeter -      Sm_000092F:7784             17.2              52198000        3037758.1
+11:18:37.896 INFO  ProgressMeter -    Sm_000099F:129531             17.3              52730000        3039204.8
+11:18:47.914 INFO  ProgressMeter -     Sm_000108F:55093             17.5              53209000        3037580.9
+11:18:57.922 INFO  ProgressMeter -     Sm_000116F:68391             17.7              53711000        3037316.9
+11:19:07.928 INFO  ProgressMeter -     Sm_000148F:52597             17.9              54241000        3038632.0
+11:19:17.930 INFO  ProgressMeter - Sm_mitochondrion:140             18.0              54751000        3038824.1
+11:19:18.761 INFO  ProgressMeter - Sm_mitochondrion:43140             18.0              54794446        3038899.4
+11:19:18.761 INFO  ProgressMeter - Traversal complete. Processed 54794446 total variants in 18.0 minutes.
+11:19:18.791 INFO  GenotypeGVCFs - Shutting down engine
+[July 12, 2023 at 11:19:18 AM CEST] org.broadinstitute.hellbender.tools.walkers.GenotypeGVCFs done. Elapsed time: 18.05 minutes.
+Runtime.totalMemory()=2147483648
+Using GATK jar /home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -Xmx4g -jar /home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar GenotypeGVCFs -R ../../../ref/Skeletonema_marinoi_Ref_v1.1.2.fasta -V SSC_Ss_T2.g.vcf.gz -O SSC_Ss_T2_genotype.vcf.gz
+11:19:22.634 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Jul 12, 2023 11:19:22 AM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+11:19:22.879 INFO  VariantFiltration - ------------------------------------------------------------
+11:19:22.880 INFO  VariantFiltration - The Genome Analysis Toolkit (GATK) v4.1.8.0
+11:19:22.880 INFO  VariantFiltration - For support and documentation go to https://software.broadinstitute.org/gatk/
+11:19:22.880 INFO  VariantFiltration - Executing as matt@compute-0-4.local on Linux v3.10.0-693.5.2.el7.x86_64 amd64
+11:19:22.880 INFO  VariantFiltration - Java runtime: OpenJDK 64-Bit Server VM v11.0.8-internal+0-adhoc..src
+11:19:22.881 INFO  VariantFiltration - Start Date/Time: July 12, 2023 at 11:19:22 AM CEST
+11:19:22.882 INFO  VariantFiltration - ------------------------------------------------------------
+11:19:22.882 INFO  VariantFiltration - ------------------------------------------------------------
+11:19:22.884 INFO  VariantFiltration - HTSJDK Version: 2.22.0
+11:19:22.884 INFO  VariantFiltration - Picard Version: 2.22.8
+11:19:22.884 INFO  VariantFiltration - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+11:19:22.884 INFO  VariantFiltration - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+11:19:22.884 INFO  VariantFiltration - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+11:19:22.885 INFO  VariantFiltration - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+11:19:22.885 INFO  VariantFiltration - Deflater: IntelDeflater
+11:19:22.885 INFO  VariantFiltration - Inflater: IntelInflater
+11:19:22.885 INFO  VariantFiltration - GCS max retries/reopens: 20
+11:19:22.886 INFO  VariantFiltration - Requester pays: disabled
+11:19:22.886 INFO  VariantFiltration - Initializing engine
+11:19:23.254 INFO  FeatureManager - Using codec VCFCodec to read file file:///proj/data25/AlleleIsoformSpecificExpression/04_VariantCalling/PRJEB33171/Groups/SSC_Ss_T2/SSC_Ss_T2_genotype.vcf.gz
+11:19:23.325 INFO  VariantFiltration - Done initializing engine
+11:19:23.443 INFO  ProgressMeter - Starting traversal
+11:19:23.443 INFO  ProgressMeter -        Current Locus  Elapsed Minutes    Variants Processed  Variants/Minute
+11:19:33.541 INFO  ProgressMeter -   Sm_000001F:1475918              0.2                 26000         154501.3
+11:19:43.658 INFO  ProgressMeter -    Sm_000005F:270558              0.3                 56000         166221.4
+11:19:53.665 INFO  ProgressMeter -    Sm_000010F:258306              0.5                 91000         180669.1
+11:20:03.693 INFO  ProgressMeter -    Sm_000016F:372513              0.7                126000         187830.8
+11:20:13.755 INFO  ProgressMeter -    Sm_000025F:830454              0.8                162000         193194.5
+11:20:23.863 INFO  ProgressMeter -     Sm_000053F:61784              1.0                201000         199606.1
+11:20:27.331 INFO  ProgressMeter -     Sm_000166F:11292              1.1                215373         202266.2
+11:20:27.331 INFO  ProgressMeter - Traversal complete. Processed 215373 total variants in 1.1 minutes.
+11:20:27.383 INFO  VariantFiltration - Shutting down engine
+[July 12, 2023 at 11:20:27 AM CEST] org.broadinstitute.hellbender.tools.walkers.filters.VariantFiltration done. Elapsed time: 1.08 minutes.
+Runtime.totalMemory()=2147483648
+Using GATK jar /home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -Xmx4g -jar /home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar VariantFiltration -R ../../../ref/Skeletonema_marinoi_Ref_v1.1.2.fasta -V SSC_Ss_T2_genotype.vcf.gz -O SSC_Ss_T2_filtered.vcf.gz -window 35 -cluster 3 --filter-name FS --filter-expression FS > 30.0 --filter-name QD --filter-expression QD < 2.0 --filter-name DP --filter-expression DP < 30

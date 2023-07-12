@@ -34,17 +34,17 @@ sample5 = "P18257_108"
 sample6 = "P18257_109"
 
 gvcf1 = "../../" + sample1 + "/" + sample1 + "_4_HapCalled.g.vcf.gz"
-pickle1 = sample1 + "/" + sample1 + ".pickle"
+pickle1 = "../../" + sample1 + "/" + sample1 + ".pickle"
 gvcf2 = "../../" + sample2 + "/" + sample2 + "_4_HapCalled.g.vcf.gz"
-pickle2 = sample2 + "/" + sample2 + ".pickle"
+pickle2 = "../../" + sample2 + "/" + sample2 + ".pickle"
 gvcf3 = "../../" + sample3 + "/" + sample3 + "_4_HapCalled.g.vcf.gz"
-pickle3 = sample3 + "/" + sample3 + ".pickle"
+pickle3 = "../../" + sample3 + "/" + sample3 + ".pickle"
 gvcf4 = "../../" + sample4 + "/" + sample4 + "_4_HapCalled.g.vcf.gz"
-pickle4 = sample4 + "/" + sample4 + ".pickle"
+pickle4 = "../../" + sample4 + "/" + sample4 + ".pickle"
 gvcf5 = "../../" + sample5 + "/" + sample5 + "_4_HapCalled.g.vcf.gz"
-pickle5 = sample5 + "/" + sample5 + ".pickle"
+pickle5 = "../../" + sample5 + "/" + sample5 + ".pickle"
 gvcf6 = "../../" + sample6 + "/" + sample6 + "_4_HapCalled.g.vcf.gz"
-pickle6 = sample6 + "/" + sample6 + ".pickle"
+pickle6 = "../../" + sample6 + "/" + sample6 + ".pickle"
 
 
 # Define depth threshold
@@ -130,7 +130,7 @@ def getfilestats(inputfile, outputfile):
 
 	statsdict = {}
 
-	with open(inputfile, 'r') as infile:
+	with gzip.open(inputfile, 'rt') as infile:
 		for line in infile:
 			if not line.startswith('#'):
 				chrom = line.split("\t")[0]

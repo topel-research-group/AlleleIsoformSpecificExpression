@@ -1,0 +1,8 @@
+#$ -cwd
+#$ -q Annotation-2,Annotation-3,Annotation-4
+#$ -pe mpi 1
+#$ -S /bin/bash
+
+module load Anaconda3/v2019.10
+
+multiqc -ip .

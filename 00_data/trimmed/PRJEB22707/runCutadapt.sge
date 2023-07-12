@@ -1,0 +1,21 @@
+#$ -cwd
+#$ -q Annotation-4
+#$ -pe mpi 40
+#$ -S /bin/bash
+
+module load Anaconda3/v2019.10
+module load FastQC/v0.11.9
+
+SamplePath=../../raw/PRJEB22707
+
+ls ../../raw/PRJEB22707/*fastq.gz | grep -o "ERR......." | while read i; do
+	IN1=${SamplePath}/${i}_1.fastq.gz
+
+	OUT1=${i}_1.trimmed.fastq.gz
+
+	cutadapt -j $NSLOTS \
+	-m 40 -q 30,30 \
+	-o $OUT1 $IN1
+
+	fastqc -t $NSLOTS $OUT1
+done

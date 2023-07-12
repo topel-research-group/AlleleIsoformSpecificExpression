@@ -1,0 +1,172 @@
+13:14:47.815 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+[Wed Jun 28 13:14:47 CEST 2023] AddOrReplaceReadGroups --INPUT SRR16492765_sorted.bam --OUTPUT SRR16492765_1_WithRG.bam --RGLB foo --RGPL ILLUMINA --RGPU bar --RGSM SRR16492765 --RGID 1 --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 2 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+Jun 28, 2023 1:14:48 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+[Wed Jun 28 13:14:48 CEST 2023] Executing as matt@compute-0-3.local on Linux 3.10.0-693.5.2.el7.x86_64 amd64; OpenJDK 64-Bit Server VM 11.0.8-internal+0-adhoc..src; Deflater: Intel; Inflater: Intel; Provider GCS is available; Picard version: Version:4.1.8.0
+INFO	2023-06-28 13:14:51	AddOrReplaceReadGroups	Created read-group ID=1 PL=ILLUMINA LB=foo SM=SRR16492765
+
+INFO	2023-06-28 13:15:12	AddOrReplaceReadGroups	Processed     1,000,000 records.  Elapsed time: 00:00:20s.  Time for last 1,000,000:   20s.  Last read position: Sm_000001F:1,895,212
+INFO	2023-06-28 13:15:29	AddOrReplaceReadGroups	Processed     2,000,000 records.  Elapsed time: 00:00:38s.  Time for last 1,000,000:   17s.  Last read position: Sm_000004F:1,285,435
+INFO	2023-06-28 13:15:35	AddOrReplaceReadGroups	Processed     3,000,000 records.  Elapsed time: 00:00:43s.  Time for last 1,000,000:    5s.  Last read position: Sm_000009F:700,128
+INFO	2023-06-28 13:18:23	AddOrReplaceReadGroups	Processed     4,000,000 records.  Elapsed time: 00:03:31s.  Time for last 1,000,000:  167s.  Last read position: Sm_000010F:203,875
+INFO	2023-06-28 13:18:36	AddOrReplaceReadGroups	Processed     5,000,000 records.  Elapsed time: 00:03:45s.  Time for last 1,000,000:   13s.  Last read position: Sm_000015F:227,724
+INFO	2023-06-28 13:19:34	AddOrReplaceReadGroups	Processed     6,000,000 records.  Elapsed time: 00:04:42s.  Time for last 1,000,000:   57s.  Last read position: Sm_000018F:928,835
+INFO	2023-06-28 13:19:38	AddOrReplaceReadGroups	Processed     7,000,000 records.  Elapsed time: 00:04:47s.  Time for last 1,000,000:    4s.  Last read position: Sm_000029F:685,182
+INFO	2023-06-28 13:21:19	AddOrReplaceReadGroups	Processed     8,000,000 records.  Elapsed time: 00:06:28s.  Time for last 1,000,000:  100s.  Last read position: Sm_000040F:139,720
+INFO	2023-06-28 13:21:27	AddOrReplaceReadGroups	Processed     9,000,000 records.  Elapsed time: 00:06:35s.  Time for last 1,000,000:    7s.  Last read position: Sm_plastid:39,858
+[Wed Jun 28 13:22:23 CEST 2023] picard.sam.AddOrReplaceReadGroups done. Elapsed time: 7.60 minutes.
+Runtime.totalMemory()=2147483648
+Using GATK jar /home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -Xmx4g -jar /home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar AddOrReplaceReadGroups -I SRR16492765_sorted.bam -O SRR16492765_1_WithRG.bam -LB foo -PL ILLUMINA -PU bar -SM SRR16492765
+13:22:37.244 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+[Wed Jun 28 13:22:41 CEST 2023] MarkDuplicates --INPUT SRR16492765_1_WithRG.bam --OUTPUT SRR16492765_2_marked_duplicates.bam --METRICS_FILE SRR16492765_marked_dup_metrics.txt --MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP 50000 --MAX_FILE_HANDLES_FOR_READ_ENDS_MAP 8000 --SORTING_COLLECTION_SIZE_RATIO 0.25 --TAG_DUPLICATE_SET_MEMBERS false --REMOVE_SEQUENCING_DUPLICATES false --TAGGING_POLICY DontTag --CLEAR_DT true --DUPLEX_UMI false --ADD_PG_TAG_TO_READS true --REMOVE_DUPLICATES false --ASSUME_SORTED false --DUPLICATE_SCORING_STRATEGY SUM_OF_BASE_QUALITIES --PROGRAM_RECORD_ID MarkDuplicates --PROGRAM_GROUP_NAME MarkDuplicates --READ_NAME_REGEX <optimized capture of last three ':' separated fields as numeric values> --OPTICAL_DUPLICATE_PIXEL_DISTANCE 100 --MAX_OPTICAL_DUPLICATE_SET_SIZE 300000 --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 2 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+Jun 28, 2023 1:22:41 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+[Wed Jun 28 13:22:41 CEST 2023] Executing as matt@compute-0-3.local on Linux 3.10.0-693.5.2.el7.x86_64 amd64; OpenJDK 64-Bit Server VM 11.0.8-internal+0-adhoc..src; Deflater: Intel; Inflater: Intel; Provider GCS is available; Picard version: Version:4.1.8.0
+INFO	2023-06-28 13:22:56	MarkDuplicates	Start of doWork freeMemory: 128865328; totalMemory: 154140672; maxMemory: 4294967296
+INFO	2023-06-28 13:22:56	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2023-06-28 13:22:56	MarkDuplicates	Will retain up to 15561475 data points before spilling to disk.
+WARNING	2023-06-28 13:23:19	AbstractOpticalDuplicateFinderCommandLineProgram	A field field parsed out of a read name was expected to contain an integer and did not. Read name: SRR16492765.348863. Cause: String 'SRR16492765.348863' did not start with a parsable number.
+INFO	2023-06-28 13:23:31	MarkDuplicates	Read     1,000,000 records.  Elapsed time: 00:00:11s.  Time for last 1,000,000:    9s.  Last read position: Sm_000001F:1,895,212
+INFO	2023-06-28 13:23:36	MarkDuplicates	Tracking 12 as yet unmatched pairs. 12 records in RAM.
+INFO	2023-06-28 13:23:42	MarkDuplicates	Read     2,000,000 records.  Elapsed time: 00:00:23s.  Time for last 1,000,000:   11s.  Last read position: Sm_000004F:1,285,435
+INFO	2023-06-28 13:23:42	MarkDuplicates	Tracking 308 as yet unmatched pairs. 308 records in RAM.
+INFO	2023-06-28 13:23:54	MarkDuplicates	Read     3,000,000 records.  Elapsed time: 00:00:34s.  Time for last 1,000,000:   11s.  Last read position: Sm_000009F:700,128
+INFO	2023-06-28 13:23:54	MarkDuplicates	Tracking 30 as yet unmatched pairs. 30 records in RAM.
+INFO	2023-06-28 13:24:02	MarkDuplicates	Read     4,000,000 records.  Elapsed time: 00:00:42s.  Time for last 1,000,000:    8s.  Last read position: Sm_000010F:203,875
+INFO	2023-06-28 13:24:02	MarkDuplicates	Tracking 458 as yet unmatched pairs. 458 records in RAM.
+INFO	2023-06-28 13:24:12	MarkDuplicates	Read     5,000,000 records.  Elapsed time: 00:00:52s.  Time for last 1,000,000:    9s.  Last read position: Sm_000015F:227,724
+INFO	2023-06-28 13:24:12	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2023-06-28 13:24:22	MarkDuplicates	Read     6,000,000 records.  Elapsed time: 00:01:03s.  Time for last 1,000,000:   10s.  Last read position: Sm_000018F:928,835
+INFO	2023-06-28 13:24:22	MarkDuplicates	Tracking 684 as yet unmatched pairs. 684 records in RAM.
+INFO	2023-06-28 13:24:34	MarkDuplicates	Read     7,000,000 records.  Elapsed time: 00:01:14s.  Time for last 1,000,000:   11s.  Last read position: Sm_000029F:685,182
+INFO	2023-06-28 13:24:34	MarkDuplicates	Tracking 486 as yet unmatched pairs. 486 records in RAM.
+INFO	2023-06-28 13:24:44	MarkDuplicates	Read     8,000,000 records.  Elapsed time: 00:01:24s.  Time for last 1,000,000:    9s.  Last read position: Sm_000040F:139,720
+INFO	2023-06-28 13:24:44	MarkDuplicates	Tracking 294 as yet unmatched pairs. 294 records in RAM.
+INFO	2023-06-28 13:24:54	MarkDuplicates	Read     9,000,000 records.  Elapsed time: 00:01:34s.  Time for last 1,000,000:   10s.  Last read position: Sm_plastid:39,858
+INFO	2023-06-28 13:24:54	MarkDuplicates	Tracking 1830 as yet unmatched pairs. 1830 records in RAM.
+INFO	2023-06-28 13:24:56	MarkDuplicates	Read 9184710 records. 0 pairs never matched.
+INFO	2023-06-28 13:24:56	MarkDuplicates	After buildSortedReadEndLists freeMemory: 700305968; totalMemory: 1716518912; maxMemory: 4294967296
+INFO	2023-06-28 13:24:56	MarkDuplicates	Will retain up to 134217728 duplicate indices before spilling to disk.
+INFO	2023-06-28 13:24:57	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2023-06-28 13:25:01	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2023-06-28 13:25:03	MarkDuplicates	Sorting list of duplicate records.
+INFO	2023-06-28 13:25:03	MarkDuplicates	After generateDuplicateIndexes freeMemory: 1689551848; totalMemory: 2791309312; maxMemory: 4294967296
+INFO	2023-06-28 13:25:03	MarkDuplicates	Marking 1911224 records as duplicates.
+INFO	2023-06-28 13:25:03	MarkDuplicates	Found 0 optical duplicate clusters.
+INFO	2023-06-28 13:25:03	MarkDuplicates	Reads are assumed to be ordered by: coordinate
+INFO	2023-06-28 13:29:22	MarkDuplicates	Writing complete. Closing input iterator.
+INFO	2023-06-28 13:29:23	MarkDuplicates	Duplicate Index cleanup.
+INFO	2023-06-28 13:29:23	MarkDuplicates	Getting Memory Stats.
+INFO	2023-06-28 13:29:23	MarkDuplicates	Before output close freeMemory: 92048416; totalMemory: 119537664; maxMemory: 4294967296
+INFO	2023-06-28 13:31:05	MarkDuplicates	Closed outputs. Getting more Memory Stats.
+INFO	2023-06-28 13:31:05	MarkDuplicates	After output close freeMemory: 77696160; totalMemory: 104857600; maxMemory: 4294967296
+[Wed Jun 28 13:31:05 CEST 2023] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 8.48 minutes.
+Runtime.totalMemory()=104857600
+Using GATK jar /home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -Xmx4g -jar /home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar MarkDuplicates -I SRR16492765_1_WithRG.bam -O SRR16492765_2_marked_duplicates.bam -M SRR16492765_marked_dup_metrics.txt
+13:31:15.454 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Jun 28, 2023 1:31:16 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+13:31:16.129 INFO  SplitNCigarReads - ------------------------------------------------------------
+13:31:16.133 INFO  SplitNCigarReads - The Genome Analysis Toolkit (GATK) v4.1.8.0
+13:31:16.134 INFO  SplitNCigarReads - For support and documentation go to https://software.broadinstitute.org/gatk/
+13:31:16.134 INFO  SplitNCigarReads - Executing as matt@compute-0-3.local on Linux v3.10.0-693.5.2.el7.x86_64 amd64
+13:31:16.134 INFO  SplitNCigarReads - Java runtime: OpenJDK 64-Bit Server VM v11.0.8-internal+0-adhoc..src
+13:31:16.135 INFO  SplitNCigarReads - Start Date/Time: June 28, 2023 at 1:31:15 PM CEST
+13:31:16.135 INFO  SplitNCigarReads - ------------------------------------------------------------
+13:31:16.139 INFO  SplitNCigarReads - ------------------------------------------------------------
+13:31:16.141 INFO  SplitNCigarReads - HTSJDK Version: 2.22.0
+13:31:16.141 INFO  SplitNCigarReads - Picard Version: 2.22.8
+13:31:16.141 INFO  SplitNCigarReads - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+13:31:16.141 INFO  SplitNCigarReads - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+13:31:16.141 INFO  SplitNCigarReads - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+13:31:16.142 INFO  SplitNCigarReads - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+13:31:16.142 INFO  SplitNCigarReads - Deflater: IntelDeflater
+13:31:16.142 INFO  SplitNCigarReads - Inflater: IntelInflater
+13:31:16.142 INFO  SplitNCigarReads - GCS max retries/reopens: 20
+13:31:16.142 INFO  SplitNCigarReads - Requester pays: disabled
+13:31:16.142 INFO  SplitNCigarReads - Initializing engine
+13:31:18.813 INFO  SplitNCigarReads - Done initializing engine
+13:31:18.948 INFO  ProgressMeter - Starting traversal
+13:31:18.949 INFO  ProgressMeter -        Current Locus  Elapsed Minutes       Reads Processed     Reads/Minute
+13:31:28.969 INFO  ProgressMeter -   Sm_000000F:1554127              0.2                198000        1185865.4
+13:31:38.999 INFO  ProgressMeter -   Sm_000000F:2277158              0.3                480000        1436480.6
+13:31:49.047 INFO  ProgressMeter -   Sm_000000F:2900226              0.5                613000        1222008.1
+13:31:59.100 INFO  ProgressMeter -   Sm_000000F:3287015              0.7                703000        1050534.2
+13:32:09.107 INFO  ProgressMeter -    Sm_000001F:566487              0.8                790000         945013.8
+13:32:19.117 INFO  ProgressMeter -    Sm_000002F:787001              1.0               1135000        1131830.9
+13:32:29.259 INFO  ProgressMeter -   Sm_000003F:1433830              1.2               1451000        1238248.3
+13:32:39.269 INFO  ProgressMeter -   Sm_000004F:1004028              1.3               1833000        1369307.0
+13:32:49.282 INFO  ProgressMeter -    Sm_000005F:247616              1.5               2148000        1426721.1
+13:32:59.487 INFO  ProgressMeter -        Sm_000008F:48              1.7               2701000        1611943.9
+13:33:14.231 INFO  ProgressMeter -       Sm_000008F:484              1.9               2702000        1406290.7
+13:33:24.268 INFO  ProgressMeter -   Sm_000009F:1298945              2.1               3094000        1481351.4
+13:33:34.757 INFO  ProgressMeter -   Sm_000009F:1496072              2.3               3466000        1531290.7
+13:33:44.764 INFO  ProgressMeter -   Sm_000009F:1505958              2.4               3898000        1603961.2
+13:33:54.965 INFO  ProgressMeter -     Sm_000011F:22614              2.6               4283000        1647149.3
+13:34:08.097 INFO  ProgressMeter -     Sm_000011F:36799              2.8               4284000        1519624.9
+13:34:18.111 INFO  ProgressMeter -   Sm_000012F:1071620              3.0               4652000        1557928.3
+13:34:28.117 INFO  ProgressMeter -    Sm_000015F:921606              3.2               5098000        1616983.9
+13:34:38.317 INFO  ProgressMeter -      Sm_000017F:7694              3.3               5537000        1666365.7
+13:34:48.323 INFO  ProgressMeter -    Sm_000018F:767620              3.5               5982000        1714253.0
+13:35:04.437 INFO  ProgressMeter -    Sm_000018F:780595              3.8               5983000        1592013.8
+13:35:14.439 INFO  ProgressMeter -   Sm_000020F:1016059              3.9               6331000        1613069.0
+13:35:24.952 INFO  ProgressMeter -      Sm_000028F:5909              4.1               6807000        1660223.7
+13:35:34.967 INFO  ProgressMeter -    Sm_000032F:492104              4.3               7336000        1719267.5
+13:35:44.969 INFO  ProgressMeter -    Sm_000038F:155274              4.4               7827000        1765362.6
+13:35:54.978 INFO  ProgressMeter -    Sm_000060F:309247              4.6               8412000        1828530.0
+13:36:04.980 INFO  ProgressMeter -    Sm_000078F:221668              4.8               8716000        1828333.3
+13:36:11.892 INFO  SplitNCigarReads - 0 read(s) filtered by: AllowAllReadsReadFilter 
+
+13:36:11.942 INFO  OverhangFixingManager - Overhang Fixing Manager saved 13486 reads in the first pass
+13:36:11.945 INFO  SplitNCigarReads - Starting traversal pass 2
+13:36:14.992 INFO  ProgressMeter -    Sm_000000F:979490              4.9               9290000        1882840.9
+13:36:25.210 INFO  ProgressMeter -   Sm_000000F:1638842              5.1               9537000        1868430.8
+13:36:35.211 INFO  ProgressMeter -   Sm_000000F:2552732              5.3               9741000        1848042.3
+13:36:51.815 INFO  ProgressMeter -   Sm_000000F:2556808              5.5               9742000        1756021.9
+13:37:01.862 INFO  ProgressMeter -   Sm_000000F:2940994              5.7               9817000        1717700.2
+13:37:12.286 INFO  ProgressMeter -   Sm_000001F:1106881              5.9              10056000        1707609.8
+13:37:22.928 INFO  ProgressMeter -     Sm_000002F:27015              6.1              10197000        1680925.8
+13:37:32.938 INFO  ProgressMeter -    Sm_000003F:992800              6.2              10532000        1689679.9
+13:37:42.998 INFO  ProgressMeter -   Sm_000003F:1614605              6.4              10667000        1666514.8
+13:37:53.000 INFO  ProgressMeter -    Sm_000004F:885606              6.6              10858000        1653292.7
+13:38:03.031 INFO  ProgressMeter -   Sm_000004F:1152996              6.7              11127000        1652189.4
+13:38:13.088 INFO  ProgressMeter -   Sm_000004F:1697928              6.9              11281000        1634382.7
+13:38:28.081 INFO  ProgressMeter -       Sm_000006F:260              7.2              11567000        1617268.4
+13:38:38.725 INFO  ProgressMeter -   Sm_000007F:1192573              7.3              11872000        1619737.4
+13:38:50.040 INFO  ProgressMeter -   Sm_000008F:1311050              7.5              12084000        1607303.2
+13:39:00.042 INFO  ProgressMeter -   Sm_000009F:1494972              7.7              12414000        1615379.1
+13:39:10.056 INFO  ProgressMeter -   Sm_000009F:1495576              7.9              12491000        1590848.8
+13:39:20.829 INFO  ProgressMeter -   Sm_000009F:1495885              8.0              12576000        1565867.0
+13:39:31.202 INFO  ProgressMeter -   Sm_000009F:1500610              8.2              12876000        1569436.9
+13:39:41.246 INFO  ProgressMeter -   Sm_000009F:1506169              8.4              13139000        1569469.9
+13:39:51.330 INFO  ProgressMeter -   Sm_000010F:1338677              8.5              13447000        1574654.7
+13:40:01.349 INFO  ProgressMeter -    Sm_000012F:204315              8.7              13700000        1573506.9
+13:40:22.633 INFO  ProgressMeter -    Sm_000012F:208733              9.1              13701000        1512018.0
+13:40:34.474 INFO  ProgressMeter -   Sm_000013F:1197289              9.3              13999000        1511977.9
+13:40:44.495 INFO  ProgressMeter -    Sm_000016F:356422              9.4              14444000        1532398.0
+13:40:54.797 INFO  ProgressMeter -      Sm_000017F:8896              9.6              14722000        1533949.1
+13:41:05.113 INFO  ProgressMeter -    Sm_000018F:629357              9.8              15143000        1550046.7
+13:41:15.114 INFO  ProgressMeter -    Sm_000019F:344745              9.9              15283000        1538133.8
+13:41:27.250 INFO  ProgressMeter -    Sm_000019F:918686             10.1              15412000        1520171.0
+13:42:41.688 INFO  ProgressMeter -    Sm_000019F:930545             11.4              15413000        1354516.7
+13:42:53.444 INFO  ProgressMeter -     Sm_000027F:11773             11.6              15869000        1370983.8
+13:43:04.864 INFO  ProgressMeter -    Sm_000030F:424526             11.8              16348000        1389515.7
+13:43:15.085 INFO  ProgressMeter -     Sm_000031F:18020             11.9              16429000        1376472.3
+13:43:26.407 INFO  ProgressMeter -     Sm_000031F:22001             12.1              16430000        1355131.6
+13:43:36.406 INFO  ProgressMeter -    Sm_000036F:379139             12.3              16920000        1376622.6
+13:43:46.524 INFO  ProgressMeter -     Sm_000044F:13803             12.5              17356000        1392984.0
+13:43:56.953 INFO  ProgressMeter -     Sm_000080F:12856             12.6              17924000        1418780.7
+13:44:04.209 INFO  SplitNCigarReads - 0 read(s) filtered by: AllowAllReadsReadFilter 
+
+13:44:08.389 INFO  ProgressMeter - Sm_mitochondrion:36173             12.8              18369420        1432425.1
+13:44:08.389 INFO  ProgressMeter - Traversal complete. Processed 18369420 total reads in 12.8 minutes.
+13:45:30.096 INFO  SplitNCigarReads - Shutting down engine
+[June 28, 2023 at 1:45:30 PM CEST] org.broadinstitute.hellbender.tools.walkers.rnaseq.SplitNCigarReads done. Elapsed time: 14.26 minutes.
+Runtime.totalMemory()=1141899264
+Using GATK jar /home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -Xmx4g -jar /home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar SplitNCigarReads -R ../../ref/Skeletonema_marinoi_Ref_v1.1.2.fasta -I SRR16492765_2_marked_duplicates.bam -O SRR16492765_3_marked_duplicates.Nsplit.bam

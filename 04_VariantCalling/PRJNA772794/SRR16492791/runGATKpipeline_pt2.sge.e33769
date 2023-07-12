@@ -1,0 +1,1079 @@
+10:20:24.579 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Jul 12, 2023 10:20:24 AM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+10:20:24.790 INFO  HaplotypeCaller - ------------------------------------------------------------
+10:20:24.790 INFO  HaplotypeCaller - The Genome Analysis Toolkit (GATK) v4.1.8.0
+10:20:24.790 INFO  HaplotypeCaller - For support and documentation go to https://software.broadinstitute.org/gatk/
+10:20:24.790 INFO  HaplotypeCaller - Executing as matt@compute-0-3.local on Linux v3.10.0-693.5.2.el7.x86_64 amd64
+10:20:24.791 INFO  HaplotypeCaller - Java runtime: OpenJDK 64-Bit Server VM v11.0.8-internal+0-adhoc..src
+10:20:24.791 INFO  HaplotypeCaller - Start Date/Time: July 12, 2023 at 10:20:24 AM CEST
+10:20:24.791 INFO  HaplotypeCaller - ------------------------------------------------------------
+10:20:24.791 INFO  HaplotypeCaller - ------------------------------------------------------------
+10:20:24.792 INFO  HaplotypeCaller - HTSJDK Version: 2.22.0
+10:20:24.792 INFO  HaplotypeCaller - Picard Version: 2.22.8
+10:20:24.792 INFO  HaplotypeCaller - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+10:20:24.792 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+10:20:24.792 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+10:20:24.792 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+10:20:24.792 INFO  HaplotypeCaller - Deflater: IntelDeflater
+10:20:24.792 INFO  HaplotypeCaller - Inflater: IntelInflater
+10:20:24.792 INFO  HaplotypeCaller - GCS max retries/reopens: 20
+10:20:24.792 INFO  HaplotypeCaller - Requester pays: disabled
+10:20:24.793 INFO  HaplotypeCaller - Initializing engine
+10:20:25.039 INFO  HaplotypeCaller - Done initializing engine
+10:20:25.051 INFO  HaplotypeCallerEngine - Disabling physical phasing, which is supported only for reference-model confidence output
+10:20:25.064 INFO  NativeLibraryLoader - Loading libgkl_utils.so from jar:file:/home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar!/com/intel/gkl/native/libgkl_utils.so
+10:20:25.070 INFO  NativeLibraryLoader - Loading libgkl_pairhmm_omp.so from jar:file:/home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar!/com/intel/gkl/native/libgkl_pairhmm_omp.so
+10:20:25.116 INFO  IntelPairHmm - Flush-to-zero (FTZ) is enabled when running PairHMM
+10:20:25.120 INFO  IntelPairHmm - Available threads: 40
+10:20:25.120 INFO  IntelPairHmm - Requested threads: 4
+10:20:25.120 INFO  PairHMM - Using the OpenMP multi-threaded AVX-accelerated native PairHMM implementation
+10:20:25.157 INFO  ProgressMeter - Starting traversal
+10:20:25.157 INFO  ProgressMeter -        Current Locus  Elapsed Minutes     Regions Processed   Regions/Minute
+10:20:25.779 WARN  InbreedingCoeff - InbreedingCoeff will not be calculated; at least 10 samples must have called genotypes
+10:20:35.693 INFO  ProgressMeter -    Sm_000000F:269125              0.2                  1430           8143.5
+10:20:45.715 INFO  ProgressMeter -    Sm_000000F:403146              0.3                  2250           6566.8
+10:20:55.884 INFO  ProgressMeter -    Sm_000000F:624854              0.5                  3600           7029.6
+10:21:07.029 INFO  ProgressMeter -    Sm_000000F:753383              0.7                  4460           6390.9
+10:21:17.175 INFO  ProgressMeter -    Sm_000000F:842746              0.9                  5070           5848.0
+10:21:27.177 INFO  ProgressMeter -    Sm_000000F:925436              1.0                  5620           5437.0
+10:21:38.288 INFO  ProgressMeter -    Sm_000000F:980724              1.2                  5970           4898.1
+10:21:48.320 INFO  ProgressMeter -   Sm_000000F:1074987              1.4                  6540           4718.4
+10:21:58.499 INFO  ProgressMeter -   Sm_000000F:1167394              1.6                  7150           4596.0
+10:22:08.566 INFO  ProgressMeter -   Sm_000000F:1290013              1.7                  8030           4659.2
+10:22:20.177 INFO  ProgressMeter -   Sm_000000F:1385052              1.9                  8670           4522.7
+10:22:30.871 INFO  ProgressMeter -   Sm_000000F:1547399              2.1                  9740           4648.6
+10:22:41.178 INFO  ProgressMeter -   Sm_000000F:1555492              2.3                  9800           4322.9
+10:22:54.042 INFO  ProgressMeter -   Sm_000000F:1639479              2.5                 10350           4171.0
+10:23:04.305 INFO  ProgressMeter -   Sm_000000F:1717128              2.7                 10890           4105.6
+10:23:14.897 INFO  ProgressMeter -   Sm_000000F:1827361              2.8                 11530           4075.6
+10:23:24.934 INFO  ProgressMeter -   Sm_000000F:1939271              3.0                 12240           4085.1
+10:23:35.074 INFO  ProgressMeter -   Sm_000000F:1979083              3.2                 12520           3955.4
+10:23:45.130 INFO  ProgressMeter -   Sm_000000F:2024982              3.3                 12830           3849.5
+10:23:55.408 INFO  ProgressMeter -   Sm_000000F:2047424              3.5                 12980           3704.1
+10:24:07.077 INFO  ProgressMeter -   Sm_000000F:2131353              3.7                 13540           3660.8
+10:24:18.082 INFO  ProgressMeter -   Sm_000000F:2211521              3.9                 14110           3634.6
+10:24:28.439 INFO  ProgressMeter -   Sm_000000F:2277192              4.1                 14600           3600.8
+10:24:38.492 INFO  ProgressMeter -   Sm_000000F:2365884              4.2                 15190           3597.6
+10:24:48.667 INFO  ProgressMeter -   Sm_000000F:2409213              4.4                 15480           3524.7
+10:24:59.034 INFO  ProgressMeter -   Sm_000000F:2455171              4.6                 15820           3465.8
+10:25:09.050 INFO  ProgressMeter -   Sm_000000F:2566117              4.7                 16590           3506.3
+10:25:19.202 INFO  ProgressMeter -   Sm_000000F:2673062              4.9                 17280           3526.0
+10:25:29.648 INFO  ProgressMeter -   Sm_000000F:2770435              5.1                 17950           3537.1
+10:25:39.813 INFO  ProgressMeter -   Sm_000000F:2835105              5.2                 18420           3512.4
+10:25:50.367 INFO  ProgressMeter -   Sm_000000F:2908519              5.4                 18940           3494.4
+10:26:00.537 INFO  ProgressMeter -   Sm_000000F:2940001              5.6                 19200           3434.9
+10:26:10.566 INFO  ProgressMeter -   Sm_000000F:3095126              5.8                 20130           3496.7
+10:26:21.859 INFO  ProgressMeter -   Sm_000000F:3179542              5.9                 20710           3483.6
+10:26:32.836 INFO  ProgressMeter -   Sm_000000F:3276217              6.1                 21240           3466.1
+10:26:42.907 INFO  ProgressMeter -   Sm_000000F:3381847              6.3                 21990           3492.8
+10:26:53.195 INFO  ProgressMeter -     Sm_000001F:45182              6.5                 23260           3596.6
+10:27:03.297 INFO  ProgressMeter -    Sm_000001F:187351              6.6                 24170           3642.4
+10:27:13.298 INFO  ProgressMeter -    Sm_000001F:306268              6.8                 24840           3651.7
+10:27:23.555 INFO  ProgressMeter -    Sm_000001F:382943              7.0                 25400           3642.5
+10:27:33.557 INFO  ProgressMeter -    Sm_000001F:541080              7.1                 26390           3696.1
+10:27:44.046 INFO  ProgressMeter -    Sm_000001F:626107              7.3                 26950           3684.3
+10:27:54.241 INFO  ProgressMeter -    Sm_000001F:691350              7.5                 27370           3656.8
+10:28:04.428 INFO  ProgressMeter -    Sm_000001F:766972              7.7                 27900           3644.9
+10:28:14.683 INFO  ProgressMeter -    Sm_000001F:878011              7.8                 28630           3658.6
+10:28:24.688 INFO  ProgressMeter -    Sm_000001F:986648              8.0                 29370           3674.8
+10:28:35.386 INFO  ProgressMeter -   Sm_000001F:1025073              8.2                 29630           3626.5
+10:28:45.483 INFO  ProgressMeter -   Sm_000001F:1139371              8.3                 30390           3644.4
+10:28:55.546 INFO  ProgressMeter -   Sm_000001F:1192714              8.5                 30800           3620.8
+10:29:05.803 INFO  ProgressMeter -   Sm_000001F:1376087              8.7                 32030           3691.2
+10:29:16.082 INFO  ProgressMeter -   Sm_000001F:1537620              8.8                 33120           3742.9
+10:29:27.384 INFO  ProgressMeter -   Sm_000001F:1665848              9.0                 33980           3760.0
+10:29:38.897 INFO  ProgressMeter -   Sm_000001F:1727420              9.2                 34410           3728.5
+10:29:49.224 INFO  ProgressMeter -   Sm_000001F:1804899              9.4                 34980           3720.8
+10:29:59.228 INFO  ProgressMeter -   Sm_000001F:1882199              9.6                 35540           3714.5
+10:30:09.228 INFO  ProgressMeter -     Sm_000002F:39645              9.7                 36640           3763.9
+10:30:19.248 INFO  ProgressMeter -    Sm_000002F:127149              9.9                 37140           3750.9
+10:30:30.482 INFO  ProgressMeter -    Sm_000002F:180030             10.1                 37460           3713.0
+10:30:40.614 INFO  ProgressMeter -    Sm_000002F:239120             10.3                 37880           3692.9
+10:30:56.382 INFO  ProgressMeter -    Sm_000002F:320361             10.5                 38410           3651.0
+10:31:06.410 INFO  ProgressMeter -    Sm_000002F:398457             10.7                 38950           3644.4
+10:31:16.796 INFO  ProgressMeter -    Sm_000002F:533667             10.9                 39790           3663.7
+10:31:27.251 INFO  ProgressMeter -    Sm_000002F:689701             11.0                 40750           3692.8
+10:31:37.371 INFO  ProgressMeter -    Sm_000002F:777511             11.2                 41400           3695.3
+10:31:48.033 INFO  ProgressMeter -    Sm_000002F:805337             11.4                 41590           3654.3
+10:31:58.053 INFO  ProgressMeter -    Sm_000002F:960361             11.5                 42530           3682.8
+10:32:08.213 INFO  ProgressMeter -   Sm_000002F:1124531             11.7                 43580           3719.2
+10:32:18.234 INFO  ProgressMeter -   Sm_000002F:1266158             11.9                 44470           3741.8
+10:32:32.263 INFO  ProgressMeter -   Sm_000002F:1315720             12.1                 44800           3696.8
+10:32:42.405 INFO  ProgressMeter -   Sm_000002F:1434881             12.3                 45490           3702.1
+10:32:53.283 INFO  ProgressMeter -   Sm_000002F:1668950             12.5                 46800           3753.4
+10:33:03.294 INFO  ProgressMeter -    Sm_000003F:460811             12.6                 49550           3921.5
+10:33:14.019 INFO  ProgressMeter -    Sm_000003F:579948             12.8                 50240           3920.6
+10:33:24.716 INFO  ProgressMeter -    Sm_000003F:673667             13.0                 50840           3913.0
+10:33:35.003 INFO  ProgressMeter -    Sm_000003F:769055             13.2                 51430           3906.8
+10:33:45.177 INFO  ProgressMeter -    Sm_000003F:923406             13.3                 52380           3928.4
+10:33:55.278 INFO  ProgressMeter -   Sm_000003F:1025876             13.5                 53080           3931.3
+10:34:05.655 INFO  ProgressMeter -   Sm_000003F:1087638             13.7                 53520           3913.7
+10:34:15.671 INFO  ProgressMeter -   Sm_000003F:1165358             13.8                 54050           3904.8
+10:34:28.075 INFO  ProgressMeter -   Sm_000003F:1236467             14.0                 54530           3881.5
+10:34:38.457 INFO  ProgressMeter -   Sm_000003F:1319004             14.2                 55070           3872.3
+10:34:48.599 INFO  ProgressMeter -   Sm_000003F:1374998             14.4                 55470           3854.6
+10:34:58.838 INFO  ProgressMeter -   Sm_000003F:1446855             14.6                 55970           3843.7
+10:35:09.214 INFO  ProgressMeter -   Sm_000003F:1533863             14.7                 56510           3835.3
+10:35:19.233 INFO  ProgressMeter -   Sm_000003F:1642946             14.9                 57190           3837.9
+10:35:29.253 INFO  ProgressMeter -   Sm_000003F:1759201             15.1                 57950           3845.8
+10:35:39.314 INFO  ProgressMeter -    Sm_000004F:119624             15.2                 58840           3861.9
+10:35:49.373 INFO  ProgressMeter -    Sm_000004F:239636             15.4                 59600           3869.2
+10:35:59.644 INFO  ProgressMeter -    Sm_000004F:283005             15.6                 59850           3842.8
+10:36:10.434 INFO  ProgressMeter -    Sm_000004F:325924             15.8                 60160           3818.6
+10:36:25.226 INFO  ProgressMeter -    Sm_000004F:343531             16.0                 60260           3766.0
+10:36:35.295 INFO  ProgressMeter -    Sm_000004F:456333             16.2                 60960           3770.2
+10:36:45.427 INFO  ProgressMeter -    Sm_000004F:536010             16.3                 61520           3765.5
+10:36:55.530 INFO  ProgressMeter -    Sm_000004F:612003             16.5                 62080           3761.0
+10:37:06.186 INFO  ProgressMeter -    Sm_000004F:681459             16.7                 62560           3749.7
+10:37:16.220 INFO  ProgressMeter -    Sm_000004F:740784             16.9                 62960           3736.3
+10:37:27.031 INFO  ProgressMeter -    Sm_000004F:799889             17.0                 63360           3720.2
+10:37:37.405 INFO  ProgressMeter -    Sm_000004F:913442             17.2                 63980           3718.9
+10:37:48.900 INFO  ProgressMeter -    Sm_000004F:969414             17.4                 64350           3699.2
+10:38:05.571 INFO  ProgressMeter -    Sm_000004F:970201             17.7                 64360           3641.6
+10:38:17.135 INFO  ProgressMeter -   Sm_000004F:1005592             17.9                 64620           3616.9
+10:38:27.278 INFO  ProgressMeter -   Sm_000004F:1018512             18.0                 64720           3588.5
+10:38:37.347 INFO  ProgressMeter -   Sm_000004F:1042365             18.2                 64900           3565.3
+10:38:47.691 INFO  ProgressMeter -   Sm_000004F:1090880             18.4                 65250           3550.9
+10:38:58.442 INFO  ProgressMeter -   Sm_000004F:1102916             18.6                 65350           3522.0
+10:39:09.019 INFO  ProgressMeter -   Sm_000004F:1161148             18.7                 65740           3509.7
+10:39:19.352 INFO  ProgressMeter -   Sm_000004F:1263401             18.9                 66400           3512.6
+10:39:29.630 INFO  ProgressMeter -   Sm_000004F:1316074             19.1                 66800           3502.1
+10:39:40.463 INFO  ProgressMeter -   Sm_000004F:1438976             19.3                 67680           3514.9
+10:39:50.913 INFO  ProgressMeter -   Sm_000004F:1525648             19.4                 68330           3516.9
+10:40:01.601 INFO  ProgressMeter -   Sm_000004F:1617475             19.6                 69000           3519.1
+10:40:12.147 INFO  ProgressMeter -   Sm_000004F:1679811             19.8                 69420           3509.0
+10:40:23.402 INFO  ProgressMeter -   Sm_000004F:1758058             20.0                 69980           3504.1
+10:40:33.447 INFO  ProgressMeter -     Sm_000005F:26944             20.1                 70580           3504.8
+10:40:43.650 INFO  ProgressMeter -    Sm_000005F:125099             20.3                 71300           3510.9
+10:40:56.493 INFO  ProgressMeter -    Sm_000005F:216652             20.5                 71980           3507.4
+10:41:06.605 INFO  ProgressMeter -    Sm_000005F:313496             20.7                 72650           3511.2
+10:41:16.624 INFO  ProgressMeter -    Sm_000005F:393642             20.9                 73230           3510.9
+10:41:26.631 INFO  ProgressMeter -    Sm_000005F:437459             21.0                 73530           3497.3
+10:41:36.707 INFO  ProgressMeter -    Sm_000005F:489280             21.2                 73910           3487.6
+10:41:47.779 INFO  ProgressMeter -    Sm_000005F:556782             21.4                 74420           3481.3
+10:41:57.832 INFO  ProgressMeter -    Sm_000005F:675908             21.5                 75240           3492.3
+10:42:07.880 INFO  ProgressMeter -    Sm_000005F:770588             21.7                 75910           3496.2
+10:42:18.032 INFO  ProgressMeter -    Sm_000005F:879801             21.9                 76570           3499.3
+10:42:35.303 INFO  ProgressMeter -    Sm_000005F:915491             22.2                 76810           3464.7
+10:42:45.559 INFO  ProgressMeter -   Sm_000005F:1006367             22.3                 77470           3467.8
+10:42:55.600 INFO  ProgressMeter -   Sm_000005F:1072389             22.5                 77940           3462.9
+10:43:05.812 INFO  ProgressMeter -   Sm_000005F:1252069             22.7                 79170           3491.1
+10:43:15.915 INFO  ProgressMeter -   Sm_000005F:1415338             22.8                 80270           3513.5
+10:43:25.955 INFO  ProgressMeter -   Sm_000005F:1464731             23.0                 80650           3504.5
+10:43:36.113 INFO  ProgressMeter -   Sm_000005F:1537331             23.2                 81160           3500.9
+10:43:46.352 INFO  ProgressMeter -     Sm_000006F:21146             23.4                 82380           3527.6
+10:43:56.362 INFO  ProgressMeter -     Sm_000006F:95043             23.5                 82870           3523.4
+10:44:06.364 INFO  ProgressMeter -    Sm_000006F:196333             23.7                 83510           3525.6
+10:44:16.705 INFO  ProgressMeter -    Sm_000006F:323263             23.9                 84310           3533.7
+10:44:27.214 INFO  ProgressMeter -    Sm_000006F:419785             24.0                 84970           3535.4
+10:44:38.305 INFO  ProgressMeter -    Sm_000006F:516211             24.2                 85510           3530.7
+10:44:48.713 INFO  ProgressMeter -    Sm_000006F:678086             24.4                 86500           3546.2
+10:44:59.481 INFO  ProgressMeter -    Sm_000006F:744677             24.6                 86930           3537.8
+10:45:09.521 INFO  ProgressMeter -    Sm_000006F:965827             24.7                 88230           3566.4
+10:45:19.533 INFO  ProgressMeter -   Sm_000006F:1067084             24.9                 88870           3568.2
+10:45:29.541 INFO  ProgressMeter -   Sm_000006F:1482935             25.1                 90990           3629.0
+10:45:39.682 INFO  ProgressMeter -     Sm_000007F:91880             25.2                 92400           3660.6
+10:45:49.781 INFO  ProgressMeter -    Sm_000007F:135485             25.4                 92720           3648.9
+10:46:01.027 INFO  ProgressMeter -    Sm_000007F:205237             25.6                 93150           3639.0
+10:46:11.721 INFO  ProgressMeter -    Sm_000007F:282447             25.8                 93710           3635.5
+10:46:21.754 INFO  ProgressMeter -    Sm_000007F:355938             25.9                 94220           3631.8
+10:46:32.011 INFO  ProgressMeter -    Sm_000007F:451414             26.1                 94910           3634.4
+10:46:42.647 INFO  ProgressMeter -    Sm_000007F:538403             26.3                 95450           3630.5
+10:46:52.854 INFO  ProgressMeter -    Sm_000007F:644473             26.5                 96120           3632.4
+10:47:03.138 INFO  ProgressMeter -    Sm_000007F:722803             26.6                 96640           3628.6
+10:47:13.141 INFO  ProgressMeter -    Sm_000007F:894135             26.8                 97620           3642.6
+10:47:23.457 INFO  ProgressMeter -   Sm_000007F:1193611             27.0                 99190           3677.6
+10:47:34.453 INFO  ProgressMeter -   Sm_000007F:1378825             27.2                100140           3687.7
+10:47:44.649 INFO  ProgressMeter -   Sm_000007F:1527254             27.3                100940           3694.1
+10:47:54.829 INFO  ProgressMeter -    Sm_000008F:183845             27.5                102150           3715.3
+10:48:05.062 INFO  ProgressMeter -    Sm_000008F:276171             27.7                102830           3717.0
+10:48:15.077 INFO  ProgressMeter -    Sm_000008F:341078             27.8                103300           3711.6
+10:48:25.565 INFO  ProgressMeter -    Sm_000008F:422594             28.0                103870           3708.7
+10:48:35.904 INFO  ProgressMeter -    Sm_000008F:547408             28.2                104700           3715.5
+10:48:46.063 INFO  ProgressMeter -    Sm_000008F:715686             28.3                105710           3729.0
+10:48:57.659 INFO  ProgressMeter -    Sm_000008F:901571             28.5                106780           3741.2
+10:49:17.907 INFO  ProgressMeter -    Sm_000008F:902521             28.9                106790           3697.8
+10:49:27.922 INFO  ProgressMeter -    Sm_000008F:967536             29.0                107220           3691.4
+10:49:37.966 INFO  ProgressMeter -   Sm_000008F:1201976             29.2                108660           3719.5
+10:49:50.407 INFO  ProgressMeter -   Sm_000008F:1311042             29.4                109290           3714.7
+10:50:00.424 INFO  ProgressMeter -   Sm_000008F:1547622             29.6                110580           3737.4
+10:50:10.437 INFO  ProgressMeter -    Sm_000009F:305829             29.8                112250           3772.5
+10:50:20.442 INFO  ProgressMeter -    Sm_000009F:478640             29.9                113260           3785.2
+10:50:30.481 INFO  ProgressMeter -    Sm_000009F:657380             30.1                114360           3800.8
+10:50:40.796 INFO  ProgressMeter -    Sm_000009F:705238             30.3                114680           3789.7
+10:50:50.821 INFO  ProgressMeter -    Sm_000009F:731666             30.4                114870           3775.2
+10:51:01.357 INFO  ProgressMeter -    Sm_000009F:842483             30.6                115640           3778.7
+10:51:11.794 INFO  ProgressMeter -    Sm_000009F:982623             30.8                116540           3786.6
+10:51:23.287 INFO  ProgressMeter -   Sm_000009F:1087037             31.0                117280           3787.0
+10:51:33.325 INFO  ProgressMeter -   Sm_000009F:1148434             31.1                117700           3780.2
+10:51:44.678 INFO  ProgressMeter -   Sm_000009F:1186361             31.3                117960           3765.6
+10:51:55.084 INFO  ProgressMeter -   Sm_000009F:1344634             31.5                118950           3776.3
+10:52:11.672 INFO  ProgressMeter -   Sm_000009F:1495661             31.8                119800           3770.2
+10:52:26.369 INFO  ProgressMeter -   Sm_000009F:1498881             32.0                119820           3742.0
+10:53:02.012 INFO  ProgressMeter -   Sm_000009F:1500487             32.6                119830           3674.2
+10:53:12.253 INFO  ProgressMeter -    Sm_000010F:149293             32.8                120540           3676.7
+10:53:22.329 INFO  ProgressMeter -    Sm_000010F:464006             33.0                122300           3711.4
+10:53:32.333 INFO  ProgressMeter -    Sm_000010F:617680             33.1                123300           3722.9
+10:53:42.363 INFO  ProgressMeter -    Sm_000010F:747065             33.3                124190           3730.9
+10:53:53.044 INFO  ProgressMeter -    Sm_000010F:853370             33.5                124810           3729.6
+10:54:03.517 INFO  ProgressMeter -    Sm_000010F:996145             33.6                125640           3734.9
+10:54:13.530 INFO  ProgressMeter -   Sm_000010F:1101801             33.8                126330           3736.9
+10:54:23.872 INFO  ProgressMeter -   Sm_000010F:1412617             34.0                127990           3766.8
+10:54:33.976 INFO  ProgressMeter -    Sm_000011F:101306             34.1                129050           3779.3
+10:54:44.072 INFO  ProgressMeter -    Sm_000011F:239498             34.3                129880           3784.9
+10:54:54.497 INFO  ProgressMeter -    Sm_000011F:338344             34.5                130500           3783.8
+10:55:08.426 INFO  ProgressMeter -    Sm_000011F:412946             34.7                131020           3773.5
+10:55:19.058 INFO  ProgressMeter -    Sm_000011F:475051             34.9                131410           3765.5
+10:55:29.181 INFO  ProgressMeter -    Sm_000011F:537431             35.1                131860           3760.2
+10:55:39.196 INFO  ProgressMeter -    Sm_000011F:665675             35.2                132700           3766.3
+10:55:54.928 INFO  ProgressMeter -    Sm_000011F:688382             35.5                132870           3743.2
+10:56:04.942 INFO  ProgressMeter -    Sm_000011F:829603             35.7                133900           3754.6
+10:56:15.084 INFO  ProgressMeter -    Sm_000011F:945341             35.8                134630           3757.2
+10:56:25.297 INFO  ProgressMeter -   Sm_000011F:1082251             36.0                135440           3762.0
+10:56:35.590 INFO  ProgressMeter -   Sm_000011F:1219313             36.2                136290           3767.6
+10:56:45.734 INFO  ProgressMeter -   Sm_000011F:1333780             36.3                136950           3768.3
+10:56:59.659 INFO  ProgressMeter -     Sm_000012F:66190             36.6                137680           3764.3
+10:57:09.763 INFO  ProgressMeter -    Sm_000012F:234156             36.7                138730           3775.6
+10:57:20.106 INFO  ProgressMeter -    Sm_000012F:352046             36.9                139440           3777.2
+10:57:30.328 INFO  ProgressMeter -    Sm_000012F:386311             37.1                139680           3766.4
+10:57:40.473 INFO  ProgressMeter -    Sm_000012F:453902             37.3                140170           3762.4
+10:57:50.795 INFO  ProgressMeter -    Sm_000012F:544203             37.4                140790           3761.7
+10:58:01.014 INFO  ProgressMeter -    Sm_000012F:659271             37.6                141600           3766.2
+10:58:12.443 INFO  ProgressMeter -    Sm_000012F:798003             37.8                142380           3767.9
+10:58:22.843 INFO  ProgressMeter -    Sm_000012F:939512             38.0                143240           3773.3
+10:58:32.982 INFO  ProgressMeter -   Sm_000012F:1141265             38.1                144450           3788.3
+10:58:43.164 INFO  ProgressMeter -    Sm_000013F:158620             38.3                146420           3823.0
+10:58:57.223 INFO  ProgressMeter -    Sm_000013F:379954             38.5                147660           3831.9
+10:59:10.281 INFO  ProgressMeter -    Sm_000013F:511713             38.8                148440           3830.5
+10:59:21.019 INFO  ProgressMeter -    Sm_000013F:650486             38.9                149270           3834.2
+10:59:31.269 INFO  ProgressMeter -    Sm_000013F:787450             39.1                150060           3837.7
+10:59:42.215 INFO  ProgressMeter -    Sm_000013F:870016             39.3                150560           3832.6
+10:59:52.602 INFO  ProgressMeter -    Sm_000013F:937188             39.5                150970           3826.2
+11:00:02.665 INFO  ProgressMeter -   Sm_000013F:1082588             39.6                151810           3831.2
+11:00:12.729 INFO  ProgressMeter -     Sm_000014F:97025             39.8                153340           3853.5
+11:00:22.949 INFO  ProgressMeter -    Sm_000014F:259855             40.0                154300           3861.1
+11:00:33.591 INFO  ProgressMeter -    Sm_000014F:374571             40.1                155010           3861.7
+11:00:43.594 INFO  ProgressMeter -    Sm_000014F:457798             40.3                155540           3858.9
+11:00:53.923 INFO  ProgressMeter -    Sm_000014F:571688             40.5                156290           3861.0
+11:01:04.882 INFO  ProgressMeter -    Sm_000014F:726827             40.7                157290           3868.2
+11:01:14.899 INFO  ProgressMeter -    Sm_000014F:831256             40.8                157980           3869.3
+11:01:25.390 INFO  ProgressMeter -    Sm_000014F:914342             41.0                158430           3863.8
+11:01:35.719 INFO  ProgressMeter -    Sm_000014F:989658             41.2                158940           3860.0
+11:01:45.838 INFO  ProgressMeter -   Sm_000014F:1120094             41.3                159830           3865.8
+11:01:55.991 INFO  ProgressMeter -   Sm_000014F:1249655             41.5                160670           3870.3
+11:02:06.076 INFO  ProgressMeter -    Sm_000015F:152944             41.7                162040           3887.5
+11:02:16.100 INFO  ProgressMeter -    Sm_000015F:292443             41.8                162860           3891.6
+11:02:26.157 INFO  ProgressMeter -    Sm_000015F:425351             42.0                163700           3896.1
+11:02:36.209 INFO  ProgressMeter -    Sm_000015F:497856             42.2                164180           3892.0
+11:02:47.581 INFO  ProgressMeter -    Sm_000015F:551898             42.4                164490           3881.9
+11:03:00.869 INFO  ProgressMeter -    Sm_000015F:633545             42.6                165030           3874.4
+11:03:10.916 INFO  ProgressMeter -    Sm_000015F:746421             42.8                165710           3875.1
+11:03:21.593 INFO  ProgressMeter -    Sm_000015F:925626             42.9                166810           3884.7
+11:03:31.705 INFO  ProgressMeter -    Sm_000015F:984625             43.1                167160           3877.6
+11:03:42.174 INFO  ProgressMeter -   Sm_000015F:1145077             43.3                168060           3882.8
+11:03:52.358 INFO  ProgressMeter -     Sm_000016F:40285             43.5                168860           3886.0
+11:04:02.474 INFO  ProgressMeter -    Sm_000016F:120810             43.6                169360           3882.4
+11:04:14.237 INFO  ProgressMeter -    Sm_000016F:198968             43.8                169880           3876.9
+11:04:26.442 INFO  ProgressMeter -    Sm_000016F:229616             44.0                170110           3864.3
+11:04:36.558 INFO  ProgressMeter -    Sm_000016F:302416             44.2                170620           3861.1
+11:04:46.974 INFO  ProgressMeter -    Sm_000016F:393996             44.4                171140           3857.7
+11:04:57.280 INFO  ProgressMeter -    Sm_000016F:412136             44.5                171260           3845.5
+11:05:08.541 INFO  ProgressMeter -    Sm_000016F:657989             44.7                172610           3859.5
+11:05:18.969 INFO  ProgressMeter -    Sm_000016F:907067             44.9                174060           3876.9
+11:05:29.018 INFO  ProgressMeter -    Sm_000016F:968254             45.1                174430           3870.7
+11:05:39.084 INFO  ProgressMeter -   Sm_000016F:1196393             45.2                175560           3881.3
+11:05:49.355 INFO  ProgressMeter -     Sm_000017F:81588             45.4                176250           3881.9
+11:05:59.806 INFO  ProgressMeter -    Sm_000017F:240354             45.6                177220           3888.3
+11:06:10.113 INFO  ProgressMeter -    Sm_000017F:523074             45.7                178750           3907.2
+11:06:20.480 INFO  ProgressMeter -    Sm_000017F:682186             45.9                179680           3912.7
+11:06:30.504 INFO  ProgressMeter -    Sm_000017F:795280             46.1                180360           3913.3
+11:06:40.510 INFO  ProgressMeter -    Sm_000017F:880873             46.3                180920           3911.3
+11:06:50.795 INFO  ProgressMeter -    Sm_000017F:902590             46.4                181060           3899.9
+11:07:00.949 INFO  ProgressMeter -    Sm_000017F:957821             46.6                181400           3893.0
+11:07:11.186 INFO  ProgressMeter -   Sm_000017F:1036023             46.8                181920           3889.9
+11:07:21.220 INFO  ProgressMeter -   Sm_000017F:1147168             46.9                182680           3892.2
+11:07:31.248 INFO  ProgressMeter -    Sm_000018F:151265             47.1                183670           3899.4
+11:07:41.293 INFO  ProgressMeter -    Sm_000018F:224324             47.3                184150           3895.8
+11:07:51.897 INFO  ProgressMeter -    Sm_000018F:341850             47.4                184940           3897.9
+11:08:02.120 INFO  ProgressMeter -    Sm_000018F:404788             47.6                185380           3893.2
+11:08:12.385 INFO  ProgressMeter -    Sm_000018F:422324             47.8                185520           3882.2
+11:08:22.389 INFO  ProgressMeter -    Sm_000018F:514456             48.0                186140           3881.6
+11:08:32.732 INFO  ProgressMeter -    Sm_000018F:622612             48.1                186820           3881.9
+11:08:42.843 INFO  ProgressMeter -    Sm_000018F:768379             48.3                187680           3886.1
+11:08:52.906 INFO  ProgressMeter -    Sm_000018F:897183             48.5                188580           3891.3
+11:09:02.923 INFO  ProgressMeter -   Sm_000018F:1015375             48.6                189280           3892.3
+11:09:13.222 INFO  ProgressMeter -    Sm_000019F:141783             48.8                190370           3900.9
+11:09:23.571 INFO  ProgressMeter -    Sm_000019F:319192             49.0                191450           3909.3
+11:09:39.077 INFO  ProgressMeter -    Sm_000019F:331795             49.2                191550           3890.8
+11:09:49.205 INFO  ProgressMeter -    Sm_000019F:436925             49.4                192270           3892.0
+11:09:59.292 INFO  ProgressMeter -    Sm_000019F:555437             49.6                192960           3892.8
+11:10:09.902 INFO  ProgressMeter -    Sm_000019F:608420             49.7                193370           3887.2
+11:10:21.231 INFO  ProgressMeter -    Sm_000019F:739658             49.9                194120           3887.5
+11:10:32.378 INFO  ProgressMeter -    Sm_000019F:863029             50.1                194890           3888.4
+11:10:42.383 INFO  ProgressMeter -    Sm_000019F:980048             50.3                195640           3890.5
+11:10:52.648 INFO  ProgressMeter -     Sm_000020F:65888             50.5                196480           3893.9
+11:11:02.655 INFO  ProgressMeter -    Sm_000020F:261580             50.6                197550           3902.2
+11:11:12.679 INFO  ProgressMeter -    Sm_000020F:390392             50.8                198350           3905.1
+11:11:22.691 INFO  ProgressMeter -    Sm_000020F:468772             51.0                198820           3901.6
+11:11:33.143 INFO  ProgressMeter -    Sm_000020F:551084             51.1                199370           3899.0
+11:11:43.271 INFO  ProgressMeter -    Sm_000020F:681241             51.3                200270           3903.8
+11:11:54.105 INFO  ProgressMeter -    Sm_000020F:799861             51.5                201090           3906.0
+11:12:04.354 INFO  ProgressMeter -    Sm_000020F:902766             51.7                201680           3904.5
+11:12:14.904 INFO  ProgressMeter -   Sm_000020F:1032519             51.8                202530           3907.6
+11:12:25.037 INFO  ProgressMeter -    Sm_000021F:345976             52.0                204270           3928.4
+11:12:35.756 INFO  ProgressMeter -    Sm_000021F:559854             52.2                205530           3939.1
+11:12:45.820 INFO  ProgressMeter -    Sm_000021F:678381             52.3                206310           3941.4
+11:12:55.852 INFO  ProgressMeter -    Sm_000021F:876881             52.5                207530           3952.1
+11:13:06.481 INFO  ProgressMeter -    Sm_000022F:142869             52.7                208720           3961.4
+11:13:16.673 INFO  ProgressMeter -    Sm_000022F:396901             52.9                210080           3974.4
+11:13:26.757 INFO  ProgressMeter -    Sm_000022F:618517             53.0                211200           3982.9
+11:13:36.887 INFO  ProgressMeter -     Sm_000023F:36477             53.2                212730           3999.0
+11:13:47.468 INFO  ProgressMeter -    Sm_000024F:191656             53.4                214110           4011.7
+11:13:57.722 INFO  ProgressMeter -    Sm_000024F:380839             53.5                215360           4022.2
+11:14:07.988 INFO  ProgressMeter -    Sm_000024F:477074             53.7                215940           4020.2
+11:14:17.992 INFO  ProgressMeter -    Sm_000024F:621302             53.9                216880           4025.2
+11:14:28.012 INFO  ProgressMeter -    Sm_000024F:677293             54.0                217230           4019.2
+11:14:38.528 INFO  ProgressMeter -    Sm_000024F:750993             54.2                217700           4014.9
+11:14:48.552 INFO  ProgressMeter -    Sm_000024F:796681             54.4                218030           4008.6
+11:14:58.587 INFO  ProgressMeter -     Sm_000025F:58543             54.6                218810           4010.7
+11:15:08.643 INFO  ProgressMeter -    Sm_000025F:137078             54.7                219350           4008.2
+11:15:18.796 INFO  ProgressMeter -    Sm_000025F:246222             54.9                220060           4008.8
+11:15:29.103 INFO  ProgressMeter -    Sm_000025F:319097             55.1                220550           4005.2
+11:15:44.471 INFO  ProgressMeter -    Sm_000025F:380669             55.3                220980           3994.4
+11:15:54.578 INFO  ProgressMeter -    Sm_000025F:504646             55.5                221750           3996.2
+11:16:04.837 INFO  ProgressMeter -    Sm_000025F:582289             55.7                222290           3993.6
+11:16:14.864 INFO  ProgressMeter -    Sm_000025F:683906             55.8                222940           3993.3
+11:16:24.906 INFO  ProgressMeter -     Sm_000027F:59885             56.0                224200           4003.9
+11:16:35.482 INFO  ProgressMeter -    Sm_000027F:183002             56.2                224910           4003.9
+11:16:45.533 INFO  ProgressMeter -    Sm_000027F:341192             56.3                225790           4007.7
+11:16:55.768 INFO  ProgressMeter -    Sm_000027F:438481             56.5                226400           4006.4
+11:17:06.061 INFO  ProgressMeter -    Sm_000027F:598392             56.7                227390           4011.7
+11:17:16.188 INFO  ProgressMeter -    Sm_000027F:704572             56.9                228040           4011.2
+11:17:26.636 INFO  ProgressMeter -     Sm_000028F:81490             57.0                229300           4021.1
+11:17:36.787 INFO  ProgressMeter -    Sm_000028F:213311             57.2                230210           4025.1
+11:17:50.668 INFO  ProgressMeter -    Sm_000028F:326570             57.4                230890           4020.7
+11:18:02.798 INFO  ProgressMeter -    Sm_000028F:369718             57.6                231200           4012.0
+11:18:12.877 INFO  ProgressMeter -    Sm_000028F:450294             57.8                231730           4009.5
+11:18:22.954 INFO  ProgressMeter -    Sm_000028F:458975             58.0                231800           3999.1
+11:18:33.207 INFO  ProgressMeter -    Sm_000028F:506919             58.1                232150           3993.3
+11:18:43.803 INFO  ProgressMeter -    Sm_000028F:590058             58.3                232710           3990.9
+11:18:53.808 INFO  ProgressMeter -    Sm_000028F:666406             58.5                233270           3989.1
+11:19:03.985 INFO  ProgressMeter -     Sm_000029F:53743             58.6                234340           3995.8
+11:19:14.514 INFO  ProgressMeter -    Sm_000029F:208570             58.8                235220           3998.8
+11:19:31.328 INFO  ProgressMeter -    Sm_000029F:273751             59.1                235600           3986.3
+11:19:41.486 INFO  ProgressMeter -    Sm_000029F:450149             59.3                236670           3992.9
+11:19:51.594 INFO  ProgressMeter -    Sm_000029F:533248             59.4                237210           3990.7
+11:20:06.639 INFO  ProgressMeter -    Sm_000029F:622765             59.7                237840           3984.5
+11:20:25.172 INFO  ProgressMeter -    Sm_000029F:685477             60.0                238250           3970.8
+11:20:35.206 INFO  ProgressMeter -       Sm_000030F:692             60.2                239000           3972.2
+11:20:45.983 INFO  ProgressMeter -    Sm_000030F:166486             60.3                240010           3977.2
+11:20:55.984 INFO  ProgressMeter -    Sm_000030F:247390             60.5                240470           3973.8
+11:21:06.083 INFO  ProgressMeter -    Sm_000030F:768342             60.7                243390           4010.9
+11:21:16.104 INFO  ProgressMeter -    Sm_000031F:109978             60.8                244090           4011.4
+11:21:26.137 INFO  ProgressMeter -    Sm_000032F:220160             61.0                245330           4020.7
+11:21:36.576 INFO  ProgressMeter -    Sm_000032F:295529             61.2                245770           4016.5
+11:21:46.867 INFO  ProgressMeter -    Sm_000032F:429920             61.4                246550           4018.0
+11:21:57.269 INFO  ProgressMeter -    Sm_000032F:452320             61.5                246680           4008.8
+11:22:08.306 INFO  ProgressMeter -    Sm_000032F:567034             61.7                247350           4007.7
+11:22:18.315 INFO  ProgressMeter -    Sm_000032F:703786             61.9                248160           4010.0
+11:22:28.382 INFO  ProgressMeter -     Sm_000033F:60054             62.1                248910           4011.2
+11:22:38.699 INFO  ProgressMeter -    Sm_000033F:169950             62.2                249600           4011.2
+11:23:13.513 INFO  ProgressMeter -    Sm_000033F:226572             62.8                250040           3981.2
+11:23:23.676 INFO  ProgressMeter -    Sm_000033F:363069             63.0                250960           3985.1
+11:23:35.265 INFO  ProgressMeter -    Sm_000033F:420493             63.2                251360           3979.2
+11:23:45.919 INFO  ProgressMeter -    Sm_000033F:575326             63.3                252330           3983.4
+11:23:56.021 INFO  ProgressMeter -    Sm_000033F:681204             63.5                252930           3982.2
+11:24:06.501 INFO  ProgressMeter -    Sm_000034F:154430             63.7                254070           3989.2
+11:24:16.809 INFO  ProgressMeter -    Sm_000034F:195670             63.9                254370           3983.2
+11:24:27.034 INFO  ProgressMeter -    Sm_000034F:348265             64.0                255320           3987.4
+11:24:37.034 INFO  ProgressMeter -    Sm_000034F:558548             64.2                256590           3996.9
+11:24:47.098 INFO  ProgressMeter -     Sm_000036F:57256             64.4                257930           4007.3
+11:24:57.795 INFO  ProgressMeter -     Sm_000036F:76333             64.5                258070           3998.4
+11:25:10.519 INFO  ProgressMeter -    Sm_000036F:195216             64.8                258790           3996.4
+11:25:20.723 INFO  ProgressMeter -    Sm_000036F:274973             64.9                259360           3994.7
+11:25:30.779 INFO  ProgressMeter -    Sm_000036F:400471             65.1                260210           3997.5
+11:25:40.799 INFO  ProgressMeter -    Sm_000036F:545371             65.3                261150           4001.6
+11:25:52.077 INFO  ProgressMeter -    Sm_000036F:570444             65.4                261330           3992.9
+11:26:04.456 INFO  ProgressMeter -    Sm_000037F:133670             65.7                262400           3996.7
+11:26:16.245 INFO  ProgressMeter -    Sm_000037F:189502             65.9                262700           3989.3
+11:26:26.245 INFO  ProgressMeter -    Sm_000037F:556573             66.0                264420           4005.3
+11:26:36.275 INFO  ProgressMeter -     Sm_000038F:50924             66.2                265350           4009.2
+11:26:46.529 INFO  ProgressMeter -    Sm_000038F:151966             66.4                266060           4009.6
+11:26:56.541 INFO  ProgressMeter -    Sm_000038F:251408             66.5                266680           4008.8
+11:27:09.275 INFO  ProgressMeter -    Sm_000038F:365568             66.7                267440           4007.5
+11:27:19.524 INFO  ProgressMeter -    Sm_000038F:445282             66.9                268020           4005.9
+11:27:31.002 INFO  ProgressMeter -    Sm_000038F:498103             67.1                268380           3999.9
+11:27:42.688 INFO  ProgressMeter -    Sm_000038F:545644             67.3                268690           3992.9
+11:27:53.036 INFO  ProgressMeter -    Sm_000039F:142957             67.5                270060           4003.0
+11:28:03.365 INFO  ProgressMeter -    Sm_000039F:360878             67.6                271210           4009.8
+11:28:13.388 INFO  ProgressMeter -    Sm_000040F:272765             67.8                273710           4036.8
+11:28:23.610 INFO  ProgressMeter -    Sm_000040F:345829             68.0                274130           4032.9
+11:28:34.136 INFO  ProgressMeter -    Sm_000041F:136836             68.1                276020           4050.2
+11:28:44.143 INFO  ProgressMeter -    Sm_000041F:341717             68.3                277140           4056.7
+11:28:55.770 INFO  ProgressMeter -     Sm_000042F:53703             68.5                278490           4064.9
+11:29:05.925 INFO  ProgressMeter -    Sm_000042F:522691             68.7                280750           4087.8
+11:29:16.000 INFO  ProgressMeter -    Sm_000044F:299959             68.8                282400           4101.8
+11:29:26.000 INFO  ProgressMeter -    Sm_000047F:121647             69.0                284130           4117.0
+11:29:36.055 INFO  ProgressMeter -    Sm_000047F:301798             69.2                285200           4122.5
+11:29:46.282 INFO  ProgressMeter -    Sm_000051F:160452             69.4                286750           4134.7
+11:29:57.876 INFO  ProgressMeter -    Sm_000052F:142926             69.5                287530           4134.4
+11:30:20.548 INFO  ProgressMeter -     Sm_000053F:87500             69.9                289380           4138.5
+11:30:31.067 INFO  ProgressMeter -    Sm_000053F:239544             70.1                290110           4138.6
+11:30:42.239 INFO  ProgressMeter -     Sm_000054F:32837             70.3                291040           4140.9
+11:30:58.798 INFO  ProgressMeter -     Sm_000054F:34084             70.6                291050           4124.8
+11:31:08.920 INFO  ProgressMeter -     Sm_000061F:46250             70.7                294210           4159.7
+11:31:21.603 INFO  ProgressMeter -    Sm_000061F:259862             70.9                295300           4162.6
+11:31:31.795 INFO  ProgressMeter -     Sm_000064F:73005             71.1                297520           4183.9
+11:31:42.168 INFO  ProgressMeter -    Sm_000064F:314503             71.3                298820           4192.0
+11:31:52.755 INFO  ProgressMeter -     Sm_000068F:99795             71.5                302170           4228.5
+11:32:03.345 INFO  ProgressMeter -     Sm_000070F:38836             71.6                303450           4236.0
+11:32:13.797 INFO  ProgressMeter -    Sm_000070F:104093             71.8                303900           4232.0
+11:32:24.160 INFO  ProgressMeter -    Sm_000070F:265687             72.0                304900           4235.7
+11:32:34.294 INFO  ProgressMeter -     Sm_000078F:48249             72.2                305410           4232.9
+11:32:44.361 INFO  ProgressMeter -    Sm_000078F:138794             72.3                306060           4232.0
+11:33:00.223 INFO  ProgressMeter -    Sm_000078F:185120             72.6                306390           4221.2
+11:33:10.436 INFO  ProgressMeter -    Sm_000078F:206932             72.8                306560           4213.6
+11:33:27.325 INFO  ProgressMeter -    Sm_000078F:222394             73.0                306670           4198.9
+11:33:38.631 INFO  ProgressMeter -     Sm_000080F:67851             73.2                307260           4196.1
+11:33:48.635 INFO  ProgressMeter -    Sm_000091F:157678             73.4                309620           4218.8
+11:33:58.695 INFO  ProgressMeter -     Sm_000099F:45850             73.6                312000           4241.5
+11:34:09.257 INFO  ProgressMeter -      Sm_000111F:4167             73.7                315220           4275.0
+11:34:19.779 INFO  ProgressMeter -     Sm_000111F:79975             73.9                315730           4271.8
+11:34:31.887 INFO  ProgressMeter -     Sm_000111F:97627             74.1                315850           4261.8
+11:34:44.732 INFO  ProgressMeter -    Sm_000115F:105771             74.3                316780           4262.0
+11:34:55.156 INFO  ProgressMeter -    Sm_000115F:139313             74.5                316950           4254.4
+11:35:05.585 INFO  ProgressMeter -     Sm_000146F:46123             74.7                319060           4272.7
+11:35:15.586 INFO  ProgressMeter -     Sm_000181F:20076             74.8                320810           4286.6
+11:35:25.655 INFO  ProgressMeter - Sm_mitochondrion:36007             75.0                322200           4295.5
+11:35:25.738 INFO  HaplotypeCaller - 2110817 read(s) filtered by: MappingQualityReadFilter 
+0 read(s) filtered by: MappingQualityAvailableReadFilter 
+0 read(s) filtered by: MappedReadFilter 
+0 read(s) filtered by: NotSecondaryAlignmentReadFilter 
+2122409 read(s) filtered by: NotDuplicateReadFilter 
+0 read(s) filtered by: PassesVendorQualityCheckReadFilter 
+0 read(s) filtered by: NonZeroReferenceLengthAlignmentReadFilter 
+0 read(s) filtered by: GoodCigarReadFilter 
+0 read(s) filtered by: WellformedReadFilter 
+4233226 total reads filtered
+11:35:25.738 INFO  ProgressMeter - Sm_mitochondrion:41386             75.0                322227           4295.8
+11:35:25.738 INFO  ProgressMeter - Traversal complete. Processed 322227 total regions in 75.0 minutes.
+11:35:25.757 INFO  VectorLoglessPairHMM - Time spent in setup for JNI call : 3.584678228
+11:35:25.757 INFO  PairHMM - Total compute time in PairHMM computeLogLikelihoods() : 1046.899069188
+11:35:25.758 INFO  SmithWatermanAligner - Total compute time in java Smith-Waterman : 2332.83 sec
+11:35:25.758 INFO  HaplotypeCaller - Shutting down engine
+[July 12, 2023 at 11:35:25 AM CEST] org.broadinstitute.hellbender.tools.walkers.haplotypecaller.HaplotypeCaller done. Elapsed time: 75.02 minutes.
+Runtime.totalMemory()=2147483648
+Using GATK jar /home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -Xmx4g -jar /home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar HaplotypeCaller -R ../../ref/Skeletonema_marinoi_Ref_v1.1.2.fasta -I SRR16492791_3_marked_duplicates.Nsplit.bam -O SRR16492791_4_HapCalled.vcf.gz -stand-call-conf 20.0 --dont-use-soft-clipped-bases
+11:35:28.133 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Jul 12, 2023 11:35:28 AM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+11:35:28.302 INFO  HaplotypeCaller - ------------------------------------------------------------
+11:35:28.302 INFO  HaplotypeCaller - The Genome Analysis Toolkit (GATK) v4.1.8.0
+11:35:28.302 INFO  HaplotypeCaller - For support and documentation go to https://software.broadinstitute.org/gatk/
+11:35:28.302 INFO  HaplotypeCaller - Executing as matt@compute-0-3.local on Linux v3.10.0-693.5.2.el7.x86_64 amd64
+11:35:28.302 INFO  HaplotypeCaller - Java runtime: OpenJDK 64-Bit Server VM v11.0.8-internal+0-adhoc..src
+11:35:28.303 INFO  HaplotypeCaller - Start Date/Time: July 12, 2023 at 11:35:28 AM CEST
+11:35:28.303 INFO  HaplotypeCaller - ------------------------------------------------------------
+11:35:28.303 INFO  HaplotypeCaller - ------------------------------------------------------------
+11:35:28.304 INFO  HaplotypeCaller - HTSJDK Version: 2.22.0
+11:35:28.304 INFO  HaplotypeCaller - Picard Version: 2.22.8
+11:35:28.304 INFO  HaplotypeCaller - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+11:35:28.304 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+11:35:28.304 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+11:35:28.304 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+11:35:28.304 INFO  HaplotypeCaller - Deflater: IntelDeflater
+11:35:28.304 INFO  HaplotypeCaller - Inflater: IntelInflater
+11:35:28.305 INFO  HaplotypeCaller - GCS max retries/reopens: 20
+11:35:28.305 INFO  HaplotypeCaller - Requester pays: disabled
+11:35:28.305 INFO  HaplotypeCaller - Initializing engine
+11:35:28.537 INFO  HaplotypeCaller - Done initializing engine
+11:35:28.539 INFO  HaplotypeCallerEngine - Tool is in reference confidence mode and the annotation, the following changes will be made to any specified annotations: 'StrandBiasBySample' will be enabled. 'ChromosomeCounts', 'FisherStrand', 'StrandOddsRatio' and 'QualByDepth' annotations have been disabled
+11:35:28.552 INFO  HaplotypeCallerEngine - Standard Emitting and Calling confidence set to 0.0 for reference-model confidence output
+11:35:28.552 INFO  HaplotypeCallerEngine - All sites annotated with PLs forced to true for reference-model confidence output
+11:35:28.600 INFO  NativeLibraryLoader - Loading libgkl_utils.so from jar:file:/home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar!/com/intel/gkl/native/libgkl_utils.so
+11:35:28.603 INFO  NativeLibraryLoader - Loading libgkl_pairhmm_omp.so from jar:file:/home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar!/com/intel/gkl/native/libgkl_pairhmm_omp.so
+11:35:28.662 INFO  IntelPairHmm - Flush-to-zero (FTZ) is enabled when running PairHMM
+11:35:28.666 INFO  IntelPairHmm - Available threads: 40
+11:35:28.666 INFO  IntelPairHmm - Requested threads: 4
+11:35:28.666 INFO  PairHMM - Using the OpenMP multi-threaded AVX-accelerated native PairHMM implementation
+11:35:28.704 INFO  ProgressMeter - Starting traversal
+11:35:28.704 INFO  ProgressMeter -        Current Locus  Elapsed Minutes     Regions Processed   Regions/Minute
+11:35:29.651 WARN  InbreedingCoeff - InbreedingCoeff will not be calculated; at least 10 samples must have called genotypes
+11:35:38.729 INFO  ProgressMeter -    Sm_000000F:230971              0.2                  1210           7241.9
+11:35:48.827 INFO  ProgressMeter -    Sm_000000F:333695              0.3                  1860           5545.9
+11:35:58.830 INFO  ProgressMeter -    Sm_000000F:571685              0.5                  3190           6353.3
+11:36:09.684 INFO  ProgressMeter -    Sm_000000F:714919              0.7                  4180           6120.1
+11:36:19.753 INFO  ProgressMeter -    Sm_000000F:769776              0.9                  4580           5383.1
+11:36:29.942 INFO  ProgressMeter -    Sm_000000F:883098              1.0                  5310           5202.7
+11:36:39.945 INFO  ProgressMeter -    Sm_000000F:975082              1.2                  5930           4994.4
+11:36:49.972 INFO  ProgressMeter -    Sm_000000F:982316              1.4                  5980           4415.0
+11:37:00.133 INFO  ProgressMeter -   Sm_000000F:1092191              1.5                  6650           4364.0
+11:37:10.208 INFO  ProgressMeter -   Sm_000000F:1180790              1.7                  7260           4291.5
+11:37:20.239 INFO  ProgressMeter -   Sm_000000F:1294572              1.9                  8070           4341.2
+11:37:31.193 INFO  ProgressMeter -   Sm_000000F:1385052              2.0                  8670           4246.9
+11:37:41.203 INFO  ProgressMeter -   Sm_000000F:1524634              2.2                  9600           4347.2
+11:37:51.616 INFO  ProgressMeter -   Sm_000000F:1554064              2.4                  9790           4110.2
+11:38:02.075 INFO  ProgressMeter -   Sm_000000F:1622369              2.6                 10220           3998.1
+11:38:12.446 INFO  ProgressMeter -   Sm_000000F:1690621              2.7                 10690           3917.1
+11:38:22.929 INFO  ProgressMeter -   Sm_000000F:1731387              2.9                 11010           3791.6
+11:38:32.969 INFO  ProgressMeter -   Sm_000000F:1859393              3.1                 11720           3816.2
+11:38:37.526 WARN  DepthPerSampleHC - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:38:37.526 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:38:43.381 INFO  ProgressMeter -   Sm_000000F:1945595              3.2                 12290           3787.8
+11:38:57.255 INFO  ProgressMeter -   Sm_000000F:1980676              3.5                 12530           3604.9
+11:39:07.255 INFO  ProgressMeter -   Sm_000000F:2051228              3.6                 13010           3571.7
+11:39:12.821 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:39:18.917 INFO  ProgressMeter -   Sm_000000F:2131353              3.8                 13540           3528.9
+11:39:21.414 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:39:29.171 INFO  ProgressMeter -   Sm_000000F:2208851              4.0                 14090           3515.7
+11:39:39.882 INFO  ProgressMeter -   Sm_000000F:2275569              4.2                 14590           3485.2
+11:39:50.047 INFO  ProgressMeter -   Sm_000000F:2328425              4.4                 14910           3423.1
+11:40:00.477 INFO  ProgressMeter -   Sm_000000F:2399703              4.5                 15410           3402.1
+11:40:10.502 INFO  ProgressMeter -   Sm_000000F:2440679              4.7                 15720           3347.1
+11:40:20.727 INFO  ProgressMeter -   Sm_000000F:2520240              4.9                 16240           3336.7
+11:40:31.267 INFO  ProgressMeter -   Sm_000000F:2590714              5.0                 16760           3323.6
+11:40:41.344 INFO  ProgressMeter -   Sm_000000F:2703179              5.2                 17500           3358.5
+11:40:51.979 INFO  ProgressMeter -   Sm_000000F:2779818              5.4                 18020           3344.5
+11:41:02.735 INFO  ProgressMeter -   Sm_000000F:2852786              5.6                 18550           3332.0
+11:41:08.095 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:41:14.374 INFO  ProgressMeter -   Sm_000000F:2911527              5.8                 18960           3291.0
+11:41:24.422 INFO  ProgressMeter -   Sm_000000F:2945871              5.9                 19250           3247.0
+11:41:34.458 INFO  ProgressMeter -   Sm_000000F:3105422              6.1                 20210           3315.3
+11:41:45.836 INFO  ProgressMeter -   Sm_000000F:3179542              6.3                 20710           3294.9
+11:41:57.994 INFO  ProgressMeter -   Sm_000000F:3276217              6.5                 21240           3273.7
+11:42:07.994 INFO  ProgressMeter -   Sm_000000F:3377262              6.7                 21950           3298.4
+11:42:18.017 INFO  ProgressMeter -      Sm_000001F:7789              6.8                 23020           3374.4
+11:42:18.050 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:42:28.043 INFO  ProgressMeter -    Sm_000001F:156780              7.0                 23960           3428.3
+11:42:38.102 INFO  ProgressMeter -    Sm_000001F:272873              7.2                 24610           3438.8
+11:42:48.109 INFO  ProgressMeter -    Sm_000001F:342574              7.3                 25120           3430.1
+11:42:49.628 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:42:58.184 INFO  ProgressMeter -    Sm_000001F:499378              7.5                 26110           3485.4
+11:43:08.372 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:43:08.396 INFO  ProgressMeter -    Sm_000001F:612575              7.7                 26850           3504.5
+11:43:18.550 INFO  ProgressMeter -    Sm_000001F:657647              7.8                 27180           3470.9
+11:43:28.748 INFO  ProgressMeter -    Sm_000001F:705242              8.0                 27470           3433.4
+11:43:33.857 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:43:36.066 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:43:36.067 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:43:38.845 INFO  ProgressMeter -    Sm_000001F:792292              8.2                 28090           3438.6
+11:43:48.871 INFO  ProgressMeter -    Sm_000001F:888803              8.3                 28710           3444.0
+11:43:59.020 INFO  ProgressMeter -    Sm_000001F:997261              8.5                 29440           3461.4
+11:44:09.104 INFO  ProgressMeter -   Sm_000001F:1025073              8.7                 29630           3416.2
+11:44:19.124 INFO  ProgressMeter -   Sm_000001F:1136641              8.8                 30370           3435.4
+11:44:29.142 INFO  ProgressMeter -   Sm_000001F:1175098              9.0                 30680           3406.1
+11:44:39.723 INFO  ProgressMeter -   Sm_000001F:1334719              9.2                 31770           3459.4
+11:44:49.796 INFO  ProgressMeter -   Sm_000001F:1477222              9.4                 32680           3494.6
+11:44:52.377 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:45:00.014 INFO  ProgressMeter -   Sm_000001F:1630809              9.5                 33740           3543.4
+11:45:10.854 INFO  ProgressMeter -   Sm_000001F:1707623              9.7                 34270           3532.1
+11:45:21.143 INFO  ProgressMeter -   Sm_000001F:1738154              9.9                 34480           3492.0
+11:45:32.557 INFO  ProgressMeter -   Sm_000001F:1814377             10.1                 35040           3481.6
+11:45:42.586 INFO  ProgressMeter -   Sm_000001F:1915488             10.2                 35740           3493.2
+11:45:52.593 INFO  ProgressMeter -     Sm_000002F:36274             10.4                 36610           3520.8
+11:46:03.229 INFO  ProgressMeter -    Sm_000002F:124235             10.6                 37120           3510.0
+11:46:14.035 INFO  ProgressMeter -    Sm_000002F:178157             10.8                 37450           3481.9
+11:46:17.337 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:46:24.339 INFO  ProgressMeter -    Sm_000002F:231236             10.9                 37830           3462.0
+11:46:34.978 INFO  ProgressMeter -    Sm_000002F:319023             11.1                 38400           3458.0
+11:46:45.194 INFO  ProgressMeter -    Sm_000002F:326670             11.3                 38460           3411.1
+11:46:50.257 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:46:55.205 INFO  ProgressMeter -    Sm_000002F:447343             11.4                 39280           3433.1
+11:47:05.249 INFO  ProgressMeter -    Sm_000002F:546443             11.6                 39870           3434.4
+11:47:11.674 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:47:15.291 INFO  ProgressMeter -    Sm_000002F:694359             11.8                 40790           3463.7
+11:47:25.291 INFO  ProgressMeter -    Sm_000002F:776859             11.9                 41390           3465.6
+11:47:35.358 INFO  ProgressMeter -    Sm_000002F:802393             12.1                 41570           3432.4
+11:47:41.334 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:47:46.381 INFO  ProgressMeter -    Sm_000002F:934732             12.3                 42350           3444.6
+11:47:52.257 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:47:52.257 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:47:56.384 INFO  ProgressMeter -   Sm_000002F:1086465             12.5                 43340           3478.0
+11:48:06.400 INFO  ProgressMeter -   Sm_000002F:1209592             12.6                 44100           3492.2
+11:48:24.746 INFO  ProgressMeter -   Sm_000002F:1315720             12.9                 44800           3463.7
+11:48:35.200 INFO  ProgressMeter -   Sm_000002F:1413179             13.1                 45370           3461.2
+11:48:45.561 INFO  ProgressMeter -   Sm_000002F:1637610             13.3                 46670           3514.1
+11:48:55.591 INFO  ProgressMeter -    Sm_000003F:333133             13.4                 48900           3636.2
+11:49:05.591 INFO  ProgressMeter -    Sm_000003F:506004             13.6                 49800           3657.8
+11:49:16.101 INFO  ProgressMeter -    Sm_000003F:628975             13.8                 50550           3665.7
+11:49:22.940 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:49:23.397 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:49:23.398 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:49:26.550 INFO  ProgressMeter -    Sm_000003F:723205             14.0                 51120           3660.8
+11:49:29.192 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:49:36.570 INFO  ProgressMeter -    Sm_000003F:870637             14.1                 52030           3681.9
+11:49:46.576 INFO  ProgressMeter -    Sm_000003F:947867             14.3                 52540           3674.7
+11:49:56.894 INFO  ProgressMeter -   Sm_000003F:1046741             14.5                 53210           3677.3
+11:50:05.020 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:50:05.021 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:50:06.897 INFO  ProgressMeter -   Sm_000003F:1084494             14.6                 53500           3655.2
+11:50:16.915 INFO  ProgressMeter -   Sm_000003F:1133269             14.8                 53860           3638.3
+11:50:27.230 INFO  ProgressMeter -   Sm_000003F:1205912             15.0                 54360           3629.9
+11:50:37.255 INFO  ProgressMeter -   Sm_000003F:1303489             15.1                 54960           3629.5
+11:50:48.138 INFO  ProgressMeter -   Sm_000003F:1357215             15.3                 55340           3611.4
+11:50:58.259 INFO  ProgressMeter -   Sm_000003F:1412865             15.5                 55730           3597.2
+11:51:08.432 INFO  ProgressMeter -   Sm_000003F:1465614             15.7                 56100           3581.9
+11:51:18.525 INFO  ProgressMeter -   Sm_000003F:1560732             15.8                 56650           3578.6
+11:51:20.868 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:51:28.724 INFO  ProgressMeter -   Sm_000003F:1661088             16.0                 57310           3581.8
+11:51:38.819 INFO  ProgressMeter -   Sm_000003F:1767937             16.2                 58020           3588.4
+11:51:48.923 INFO  ProgressMeter -    Sm_000004F:120768             16.3                 58850           3602.3
+11:51:59.619 INFO  ProgressMeter -    Sm_000004F:233163             16.5                 59550           3605.8
+11:52:09.741 INFO  ProgressMeter -    Sm_000004F:264410             16.7                 59750           3581.3
+11:52:20.071 INFO  ProgressMeter -    Sm_000004F:321368             16.9                 60120           3566.7
+11:52:41.896 INFO  ProgressMeter -    Sm_000004F:343531             17.2                 60260           3499.4
+11:52:51.946 INFO  ProgressMeter -    Sm_000004F:427294             17.4                 60830           3498.5
+11:53:02.320 INFO  ProgressMeter -    Sm_000004F:522373             17.6                 61430           3498.2
+11:53:13.172 INFO  ProgressMeter -    Sm_000004F:603206             17.7                 62010           3495.3
+11:53:23.173 INFO  ProgressMeter -    Sm_000004F:663237             17.9                 62420           3485.6
+11:53:33.261 INFO  ProgressMeter -    Sm_000004F:720786             18.1                 62820           3475.3
+11:53:45.865 INFO  ProgressMeter -    Sm_000004F:797265             18.3                 63340           3463.8
+11:53:56.385 INFO  ProgressMeter -    Sm_000004F:844387             18.5                 63650           3447.7
+11:54:06.711 INFO  ProgressMeter -    Sm_000004F:951700             18.6                 64240           3447.6
+11:54:16.846 INFO  ProgressMeter -    Sm_000004F:991884             18.8                 64520           3431.5
+11:54:30.722 INFO  ProgressMeter -   Sm_000004F:1017577             19.0                 64710           3399.8
+11:54:45.266 INFO  ProgressMeter -   Sm_000004F:1019504             19.3                 64730           3358.1
+11:54:55.349 INFO  ProgressMeter -   Sm_000004F:1079202             19.4                 65170           3351.7
+11:55:05.837 INFO  ProgressMeter -   Sm_000004F:1100285             19.6                 65330           3330.0
+11:55:07.890 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:55:16.134 INFO  ProgressMeter -   Sm_000004F:1154411             19.8                 65690           3319.3
+11:55:26.991 INFO  ProgressMeter -   Sm_000004F:1218860             20.0                 66080           3308.7
+11:55:37.383 INFO  ProgressMeter -   Sm_000004F:1285166             20.1                 66580           3305.1
+11:55:47.944 INFO  ProgressMeter -   Sm_000004F:1378016             20.3                 67230           3308.5
+11:55:58.201 INFO  ProgressMeter -   Sm_000004F:1472318             20.5                 67930           3315.0
+11:56:09.087 INFO  ProgressMeter -   Sm_000004F:1498045             20.7                 68110           3294.6
+11:56:19.089 INFO  ProgressMeter -   Sm_000004F:1558020             20.8                 68560           3289.9
+11:56:29.803 INFO  ProgressMeter -   Sm_000004F:1633956             21.0                 69120           3288.6
+11:56:34.152 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:56:40.193 INFO  ProgressMeter -   Sm_000004F:1697027             21.2                 69550           3282.0
+11:56:50.258 INFO  ProgressMeter -   Sm_000004F:1759635             21.4                 69990           3276.8
+11:56:55.574 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:57:00.385 INFO  ProgressMeter -     Sm_000005F:32910             21.5                 70630           3280.8
+11:57:10.441 INFO  ProgressMeter -    Sm_000005F:127994             21.7                 71320           3287.3
+11:57:23.820 INFO  ProgressMeter -    Sm_000005F:216652             21.9                 71980           3284.0
+11:57:29.840 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:57:33.902 INFO  ProgressMeter -    Sm_000005F:300510             22.1                 72560           3285.2
+11:57:44.121 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:57:44.132 INFO  ProgressMeter -    Sm_000005F:378115             22.3                 73130           3285.7
+11:57:54.427 INFO  ProgressMeter -    Sm_000005F:429319             22.4                 73470           3275.7
+11:58:04.694 INFO  ProgressMeter -    Sm_000005F:462685             22.6                 73750           3263.3
+11:58:14.709 INFO  ProgressMeter -    Sm_000005F:527988             22.8                 74220           3260.0
+11:58:24.741 INFO  ProgressMeter -    Sm_000005F:613852             22.9                 74820           3262.4
+11:58:34.817 INFO  ProgressMeter -    Sm_000005F:703503             23.1                 75450           3266.0
+11:58:44.844 INFO  ProgressMeter -    Sm_000005F:794615             23.3                 76080           3269.6
+11:59:10.776 INFO  ProgressMeter -    Sm_000005F:915491             23.7                 76810           3240.8
+11:59:21.076 INFO  ProgressMeter -    Sm_000005F:965069             23.9                 77160           3232.1
+11:59:29.219 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+11:59:31.406 INFO  ProgressMeter -   Sm_000005F:1062404             24.0                 77860           3238.1
+11:59:41.542 INFO  ProgressMeter -   Sm_000005F:1200983             24.2                 78790           3253.9
+11:59:52.025 INFO  ProgressMeter -   Sm_000005F:1349640             24.4                 79780           3271.2
+12:00:02.305 INFO  ProgressMeter -   Sm_000005F:1441926             24.6                 80480           3276.9
+12:00:12.319 INFO  ProgressMeter -   Sm_000005F:1505439             24.7                 80930           3273.0
+12:00:22.513 INFO  ProgressMeter -   Sm_000005F:1593029             24.9                 81520           3274.3
+12:00:33.517 INFO  ProgressMeter -     Sm_000006F:51726             25.1                 82560           3291.8
+12:00:41.836 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:00:43.758 INFO  ProgressMeter -    Sm_000006F:147063             25.3                 83190           3294.5
+12:00:50.500 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:00:54.189 INFO  ProgressMeter -    Sm_000006F:244238             25.4                 83820           3296.8
+12:01:06.214 INFO  ProgressMeter -    Sm_000006F:351241             25.6                 84490           3297.1
+12:01:13.407 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:01:16.320 INFO  ProgressMeter -    Sm_000006F:508747             25.8                 85460           3313.2
+12:01:26.379 INFO  ProgressMeter -    Sm_000006F:559865             26.0                 85810           3305.3
+12:01:38.233 INFO  ProgressMeter -    Sm_000006F:685107             26.2                 86550           3308.6
+12:01:45.038 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:01:48.290 INFO  ProgressMeter -    Sm_000006F:799713             26.3                 87200           3312.3
+12:01:53.508 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:01:55.378 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:01:58.292 INFO  ProgressMeter -    Sm_000006F:968839             26.5                 88250           3331.1
+12:02:08.305 INFO  ProgressMeter -   Sm_000006F:1061377             26.7                 88840           3332.3
+12:02:18.876 INFO  ProgressMeter -   Sm_000006F:1434873             26.8                 90730           3380.9
+12:02:28.951 INFO  ProgressMeter -     Sm_000007F:36740             27.0                 92110           3411.0
+12:02:42.036 INFO  ProgressMeter -    Sm_000007F:131240             27.2                 92680           3404.6
+12:02:54.779 INFO  ProgressMeter -    Sm_000007F:205237             27.4                 93150           3395.3
+12:03:06.249 INFO  ProgressMeter -    Sm_000007F:282447             27.6                 93710           3392.1
+12:03:16.280 INFO  ProgressMeter -    Sm_000007F:345284             27.8                 94140           3387.2
+12:03:16.902 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:03:19.404 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:03:26.906 INFO  ProgressMeter -    Sm_000007F:449645             28.0                 94900           3392.9
+12:03:37.171 INFO  ProgressMeter -    Sm_000007F:536924             28.1                 95440           3391.5
+12:03:47.646 INFO  ProgressMeter -    Sm_000007F:611072             28.3                 95900           3386.8
+12:03:57.657 INFO  ProgressMeter -    Sm_000007F:704406             28.5                 96510           3388.4
+12:04:07.669 INFO  ProgressMeter -    Sm_000007F:826364             28.6                 97230           3393.8
+12:04:17.709 INFO  ProgressMeter -   Sm_000007F:1095944             28.8                 98690           3424.7
+12:04:27.745 INFO  ProgressMeter -   Sm_000007F:1301956             29.0                 99750           3441.6
+12:04:29.033 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:04:29.033 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:04:38.036 INFO  ProgressMeter -   Sm_000007F:1424029             29.2                100410           3443.9
+12:04:48.109 INFO  ProgressMeter -     Sm_000008F:78378             29.3                101460           3460.0
+12:04:58.197 INFO  ProgressMeter -    Sm_000008F:187395             29.5                102180           3464.7
+12:05:10.033 INFO  ProgressMeter -    Sm_000008F:277440             29.7                102840           3463.9
+12:05:20.278 INFO  ProgressMeter -    Sm_000008F:352132             29.9                103390           3462.5
+12:05:30.347 INFO  ProgressMeter -    Sm_000008F:438649             30.0                103980           3462.8
+12:05:41.173 INFO  ProgressMeter -    Sm_000008F:546274             30.2                104690           3465.7
+12:05:51.180 INFO  ProgressMeter -    Sm_000008F:698744             30.4                105600           3476.6
+12:06:01.197 INFO  ProgressMeter -    Sm_000008F:822771             30.5                106380           3483.1
+12:06:23.386 INFO  ProgressMeter -    Sm_000008F:902521             30.9                106790           3454.7
+12:06:33.598 INFO  ProgressMeter -    Sm_000008F:956943             31.1                107150           3447.4
+12:06:43.728 INFO  ProgressMeter -   Sm_000008F:1094901             31.3                108110           3459.5
+12:07:00.190 INFO  ProgressMeter -   Sm_000008F:1311042             31.5                109290           3466.8
+12:07:01.861 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:07:10.821 INFO  ProgressMeter -   Sm_000008F:1494153             31.7                110310           3479.6
+12:07:19.587 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:07:21.284 INFO  ProgressMeter -    Sm_000009F:238911             31.9                111900           3510.4
+12:07:22.362 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:07:31.718 INFO  ProgressMeter -    Sm_000009F:404693             32.1                112840           3520.7
+12:07:41.740 INFO  ProgressMeter -    Sm_000009F:608486             32.2                114020           3539.1
+12:07:54.204 INFO  ProgressMeter -    Sm_000009F:669256             32.4                114460           3530.0
+12:08:04.449 INFO  ProgressMeter -    Sm_000009F:752295             32.6                115010           3528.4
+12:08:14.914 INFO  ProgressMeter -    Sm_000009F:898891             32.8                115980           3539.2
+12:08:25.533 INFO  ProgressMeter -    Sm_000009F:997652             32.9                116640           3540.2
+12:08:29.952 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:08:36.020 INFO  ProgressMeter -   Sm_000009F:1087037             33.1                117280           3540.9
+12:08:41.758 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:08:46.094 INFO  ProgressMeter -   Sm_000009F:1147375             33.3                117690           3535.3
+12:08:57.106 INFO  ProgressMeter -   Sm_000009F:1183690             33.5                117940           3523.4
+12:09:07.185 INFO  ProgressMeter -   Sm_000009F:1316918             33.6                118740           3529.6
+12:09:26.721 INFO  ProgressMeter -   Sm_000009F:1495661             34.0                119800           3527.0
+12:09:47.703 INFO  ProgressMeter -   Sm_000009F:1498881             34.3                119820           3491.6
+12:10:25.781 INFO  ProgressMeter -   Sm_000009F:1500487             35.0                119830           3428.5
+12:10:35.850 INFO  ProgressMeter -       Sm_000010F:901             35.1                119860           3413.0
+12:10:45.855 INFO  ProgressMeter -    Sm_000010F:385793             35.3                121870           3453.8
+12:10:51.417 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:10:51.417 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:10:54.229 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:10:55.065 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:10:56.060 INFO  ProgressMeter -    Sm_000010F:560102             35.5                122920           3466.8
+12:11:06.411 INFO  ProgressMeter -    Sm_000010F:661688             35.6                123620           3469.7
+12:11:16.727 INFO  ProgressMeter -    Sm_000010F:838926             35.8                124690           3482.9
+12:11:27.242 INFO  ProgressMeter -    Sm_000010F:902456             36.0                125120           3477.9
+12:11:37.244 INFO  ProgressMeter -   Sm_000010F:1003457             36.1                125700           3477.9
+12:11:51.310 INFO  ProgressMeter -   Sm_000010F:1124626             36.4                126480           3476.9
+12:12:01.548 INFO  ProgressMeter -   Sm_000010F:1478157             36.5                128340           3511.6
+12:12:11.828 INFO  ProgressMeter -    Sm_000011F:164585             36.7                129360           3523.0
+12:12:22.005 INFO  ProgressMeter -    Sm_000011F:252423             36.9                129990           3523.9
+12:12:32.553 INFO  ProgressMeter -    Sm_000011F:343366             37.1                130540           3522.0
+12:12:46.680 INFO  ProgressMeter -    Sm_000011F:412946             37.3                131020           3512.6
+12:12:56.774 INFO  ProgressMeter -    Sm_000011F:473786             37.5                131400           3507.0
+12:13:07.293 INFO  ProgressMeter -    Sm_000011F:536349             37.6                131850           3502.6
+12:13:17.424 INFO  ProgressMeter -    Sm_000011F:654620             37.8                132620           3507.4
+12:13:34.738 INFO  ProgressMeter -    Sm_000011F:688382             38.1                132870           3487.3
+12:13:44.754 INFO  ProgressMeter -    Sm_000011F:799137             38.3                133670           3493.0
+12:13:55.008 INFO  ProgressMeter -    Sm_000011F:938329             38.4                134580           3501.2
+12:14:05.012 INFO  ProgressMeter -   Sm_000011F:1073830             38.6                135370           3506.5
+12:14:15.123 INFO  ProgressMeter -   Sm_000011F:1191175             38.8                136120           3510.6
+12:14:26.808 INFO  ProgressMeter -   Sm_000011F:1236718             39.0                136400           3500.3
+12:14:37.652 INFO  ProgressMeter -     Sm_000012F:61809             39.1                137650           3516.0
+12:14:48.490 INFO  ProgressMeter -     Sm_000012F:73428             39.3                137740           3502.2
+12:14:57.260 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:14:59.629 INFO  ProgressMeter -    Sm_000012F:254297             39.5                138860           3514.1
+12:15:09.649 INFO  ProgressMeter -    Sm_000012F:355941             39.7                139470           3514.7
+12:15:19.824 INFO  ProgressMeter -    Sm_000012F:389843             39.9                139710           3505.7
+12:15:24.704 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:15:29.842 INFO  ProgressMeter -    Sm_000012F:453902             40.0                140170           3502.6
+12:15:39.843 INFO  ProgressMeter -    Sm_000012F:523149             40.2                140650           3500.0
+12:15:50.238 INFO  ProgressMeter -    Sm_000012F:652441             40.4                141550           3507.3
+12:16:00.338 INFO  ProgressMeter -    Sm_000012F:741165             40.5                142120           3506.8
+12:16:09.036 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:16:09.437 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:16:10.657 INFO  ProgressMeter -    Sm_000012F:879948             40.7                142840           3509.6
+12:16:20.736 INFO  ProgressMeter -    Sm_000012F:989435             40.9                143590           3513.6
+12:16:30.881 INFO  ProgressMeter -   Sm_000012F:1232027             41.0                144940           3532.0
+12:16:41.104 INFO  ProgressMeter -    Sm_000013F:176757             41.2                146530           3556.0
+12:16:55.296 INFO  ProgressMeter -    Sm_000013F:379954             41.4                147660           3562.9
+12:17:06.487 INFO  ProgressMeter -    Sm_000013F:487207             41.6                148270           3561.6
+12:17:16.672 INFO  ProgressMeter -    Sm_000013F:560918             41.8                148760           3558.9
+12:17:18.981 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:17:26.898 INFO  ProgressMeter -    Sm_000013F:660170             42.0                149340           3558.3
+12:17:38.488 INFO  ProgressMeter -    Sm_000013F:794667             42.2                150110           3560.2
+12:17:49.998 INFO  ProgressMeter -    Sm_000013F:872526             42.4                150580           3555.2
+12:17:56.687 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:18:00.441 INFO  ProgressMeter -    Sm_000013F:978591             42.5                151210           3555.5
+12:18:10.445 INFO  ProgressMeter -   Sm_000013F:1156189             42.7                152180           3564.3
+12:18:20.446 INFO  ProgressMeter -    Sm_000014F:104423             42.9                153380           3578.4
+12:18:30.880 INFO  ProgressMeter -    Sm_000014F:260871             43.0                154310           3585.6
+12:18:40.913 INFO  ProgressMeter -    Sm_000014F:368140             43.2                154960           3586.7
+12:18:51.480 INFO  ProgressMeter -    Sm_000014F:445869             43.4                155460           3583.7
+12:18:55.330 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:18:55.330 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:19:01.913 INFO  ProgressMeter -    Sm_000014F:553083             43.6                156170           3585.7
+12:19:13.747 INFO  ProgressMeter -    Sm_000014F:725562             43.8                157280           3594.9
+12:19:23.845 INFO  ProgressMeter -    Sm_000014F:785290             43.9                157690           3590.5
+12:19:35.041 INFO  ProgressMeter -    Sm_000014F:909216             44.1                158380           3590.9
+12:19:45.722 INFO  ProgressMeter -    Sm_000014F:980185             44.3                158860           3587.3
+12:19:55.866 INFO  ProgressMeter -   Sm_000014F:1082545             44.5                159570           3589.7
+12:20:06.780 INFO  ProgressMeter -   Sm_000014F:1184470             44.6                160280           3590.9
+12:20:17.022 INFO  ProgressMeter -     Sm_000015F:98261             44.8                161720           3609.4
+12:20:27.142 INFO  ProgressMeter -    Sm_000015F:262039             45.0                162630           3616.1
+12:20:33.471 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:20:33.471 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:20:37.162 INFO  ProgressMeter -    Sm_000015F:340892             45.1                163150           3614.2
+12:20:49.983 INFO  ProgressMeter -    Sm_000015F:464105             45.4                163960           3615.1
+12:20:59.998 INFO  ProgressMeter -    Sm_000015F:543092             45.5                164420           3611.9
+12:21:10.137 INFO  ProgressMeter -    Sm_000015F:597947             45.7                164800           3606.9
+12:21:21.499 INFO  ProgressMeter -    Sm_000015F:634858             45.9                165040           3597.2
+12:21:30.715 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:21:31.506 INFO  ProgressMeter -    Sm_000015F:751455             46.0                165740           3599.4
+12:21:34.880 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:21:42.500 INFO  ProgressMeter -    Sm_000015F:925626             46.2                166810           3608.3
+12:21:52.526 INFO  ProgressMeter -    Sm_000015F:985810             46.4                167170           3603.0
+12:21:59.213 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:21:59.214 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:22:02.937 INFO  ProgressMeter -   Sm_000015F:1141781             46.6                168040           3608.3
+12:22:04.072 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:22:12.956 INFO  ProgressMeter -     Sm_000016F:27700             46.7                168770           3611.0
+12:22:23.150 INFO  ProgressMeter -     Sm_000016F:91442             46.9                169160           3606.3
+12:22:33.218 INFO  ProgressMeter -    Sm_000016F:154415             47.1                169600           3602.7
+12:22:48.160 INFO  ProgressMeter -    Sm_000016F:228237             47.3                170100           3594.4
+12:22:58.946 INFO  ProgressMeter -    Sm_000016F:265640             47.5                170380           3586.6
+12:23:01.174 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:23:09.831 INFO  ProgressMeter -    Sm_000016F:357374             47.7                170890           3583.7
+12:23:25.189 INFO  ProgressMeter -    Sm_000016F:409965             47.9                171250           3572.1
+12:23:37.562 INFO  ProgressMeter -    Sm_000016F:412136             48.1                171260           3557.0
+12:23:47.729 INFO  ProgressMeter -    Sm_000016F:656409             48.3                172600           3572.2
+12:23:57.879 INFO  ProgressMeter -    Sm_000016F:820852             48.5                173490           3578.1
+12:24:00.851 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:24:10.867 INFO  ProgressMeter -    Sm_000016F:940706             48.7                174290           3578.7
+12:24:20.883 INFO  ProgressMeter -   Sm_000016F:1162216             48.9                175420           3589.5
+12:24:31.095 INFO  ProgressMeter -     Sm_000017F:62210             49.0                176130           3591.6
+12:24:39.160 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:24:41.591 INFO  ProgressMeter -    Sm_000017F:183196             49.2                176870           3593.8
+12:24:52.101 INFO  ProgressMeter -    Sm_000017F:390874             49.4                178030           3604.6
+12:25:02.944 INFO  ProgressMeter -    Sm_000017F:618861             49.6                179300           3617.1
+12:25:13.220 INFO  ProgressMeter -    Sm_000017F:699509             49.7                179790           3614.5
+12:25:23.550 INFO  ProgressMeter -    Sm_000017F:813889             49.9                180480           3615.8
+12:25:34.800 INFO  ProgressMeter -    Sm_000017F:891136             50.1                180990           3612.5
+12:25:46.147 INFO  ProgressMeter -    Sm_000017F:906066             50.3                181090           3600.9
+12:25:56.178 INFO  ProgressMeter -   Sm_000017F:1003413             50.5                181710           3601.2
+12:26:06.774 INFO  ProgressMeter -   Sm_000017F:1055504             50.6                182050           3595.4
+12:26:16.777 INFO  ProgressMeter -     Sm_000018F:80427             50.8                183250           3607.2
+12:26:29.960 INFO  ProgressMeter -    Sm_000018F:174042             51.0                183820           3602.8
+12:26:40.505 INFO  ProgressMeter -    Sm_000018F:257543             51.2                184390           3601.6
+12:26:43.195 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:26:50.913 INFO  ProgressMeter -    Sm_000018F:348373             51.4                185000           3601.3
+12:27:08.277 INFO  ProgressMeter -    Sm_000018F:417970             51.7                185490           3590.6
+12:27:18.285 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:27:18.286 INFO  ProgressMeter -    Sm_000018F:498882             51.8                186030           3589.5
+12:27:28.537 INFO  ProgressMeter -    Sm_000018F:588392             52.0                186650           3589.6
+12:27:38.677 INFO  ProgressMeter -    Sm_000018F:732980             52.2                187470           3593.7
+12:27:47.528 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:27:48.719 INFO  ProgressMeter -    Sm_000018F:845394             52.3                188210           3596.4
+12:27:58.935 INFO  ProgressMeter -    Sm_000018F:960147             52.5                188960           3599.0
+12:28:08.941 INFO  ProgressMeter -     Sm_000019F:42094             52.7                189810           3603.7
+12:28:19.087 INFO  ProgressMeter -    Sm_000019F:198938             52.8                190740           3609.8
+12:28:29.122 INFO  ProgressMeter -    Sm_000019F:327834             53.0                191520           3613.1
+12:28:43.785 INFO  ProgressMeter -    Sm_000019F:331664             53.3                191550           3597.1
+12:28:54.431 INFO  ProgressMeter -    Sm_000019F:425300             53.4                192200           3597.3
+12:29:05.073 INFO  ProgressMeter -    Sm_000019F:548353             53.6                192920           3598.8
+12:29:15.102 INFO  ProgressMeter -    Sm_000019F:600730             53.8                193310           3594.9
+12:29:29.861 INFO  ProgressMeter -    Sm_000019F:739447             54.0                194120           3593.5
+12:29:40.165 INFO  ProgressMeter -    Sm_000019F:858121             54.2                194860           3595.8
+12:29:46.573 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:29:51.000 INFO  ProgressMeter -    Sm_000019F:976440             54.4                195610           3597.7
+12:30:01.070 INFO  ProgressMeter -     Sm_000020F:25532             54.5                196250           3598.3
+12:30:11.328 INFO  ProgressMeter -    Sm_000020F:185834             54.7                197110           3602.8
+12:30:21.334 INFO  ProgressMeter -    Sm_000020F:335812             54.9                198020           3608.4
+12:30:31.517 INFO  ProgressMeter -    Sm_000020F:411571             55.0                198470           3605.5
+12:30:41.544 INFO  ProgressMeter -    Sm_000020F:515167             55.2                199130           3606.5
+12:30:50.260 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:30:50.345 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:30:50.345 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:30:51.751 INFO  ProgressMeter -    Sm_000020F:594335             55.4                199670           3605.2
+12:31:01.807 INFO  ProgressMeter -    Sm_000020F:720180             55.6                200540           3610.0
+12:31:06.382 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:31:12.235 INFO  ProgressMeter -    Sm_000020F:803233             55.7                201120           3609.1
+12:31:22.543 INFO  ProgressMeter -    Sm_000020F:903706             55.9                201690           3608.2
+12:31:24.025 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:31:32.701 INFO  ProgressMeter -   Sm_000020F:1031453             56.1                202520           3612.1
+12:31:35.343 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:31:42.770 INFO  ProgressMeter -    Sm_000021F:301671             56.2                204040           3628.4
+12:31:53.741 INFO  ProgressMeter -    Sm_000021F:479041             56.4                205030           3634.2
+12:32:03.767 INFO  ProgressMeter -    Sm_000021F:605250             56.6                205840           3637.8
+12:32:14.007 INFO  ProgressMeter -    Sm_000021F:776654             56.8                206900           3645.5
+12:32:24.024 INFO  ProgressMeter -    Sm_000021F:927567             56.9                207880           3652.0
+12:32:25.404 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:32:34.078 INFO  ProgressMeter -    Sm_000022F:155881             57.1                208800           3657.4
+12:32:44.364 INFO  ProgressMeter -    Sm_000022F:420151             57.3                210210           3671.1
+12:32:54.746 INFO  ProgressMeter -    Sm_000022F:625071             57.4                211240           3678.0
+12:33:05.412 INFO  ProgressMeter -     Sm_000023F:21770             57.6                212640           3690.9
+12:33:17.440 INFO  ProgressMeter -    Sm_000024F:189571             57.8                214090           3703.2
+12:33:27.832 INFO  ProgressMeter -    Sm_000024F:340701             58.0                215090           3709.4
+12:33:38.121 INFO  ProgressMeter -    Sm_000024F:459686             58.2                215830           3711.2
+12:33:48.253 INFO  ProgressMeter -    Sm_000024F:546935             58.3                216410           3710.4
+12:33:58.516 INFO  ProgressMeter -    Sm_000024F:642511             58.5                217050           3710.5
+12:34:07.393 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:34:08.645 INFO  ProgressMeter -    Sm_000024F:701159             58.7                217400           3705.7
+12:34:18.960 INFO  ProgressMeter -    Sm_000024F:789593             58.8                217970           3704.6
+12:34:29.839 INFO  ProgressMeter -    Sm_000024F:833313             59.0                218300           3698.8
+12:34:40.466 INFO  ProgressMeter -    Sm_000025F:108733             59.2                219120           3701.6
+12:34:50.564 INFO  ProgressMeter -    Sm_000025F:160240             59.4                219500           3697.5
+12:35:00.607 INFO  ProgressMeter -    Sm_000025F:276089             59.5                220250           3699.7
+12:35:10.856 INFO  ProgressMeter -    Sm_000025F:362150             59.7                220860           3699.3
+12:35:18.631 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:35:20.932 INFO  ProgressMeter -    Sm_000025F:464367             59.9                221450           3698.8
+12:35:31.428 INFO  ProgressMeter -    Sm_000025F:543536             60.0                222000           3697.2
+12:35:42.511 INFO  ProgressMeter -    Sm_000025F:622923             60.2                222500           3694.2
+12:35:52.518 INFO  ProgressMeter -    Sm_000025F:698526             60.4                223040           3692.9
+12:36:02.733 INFO  ProgressMeter -     Sm_000027F:86644             60.6                224320           3703.7
+12:36:12.772 INFO  ProgressMeter -    Sm_000027F:183195             60.7                224910           3703.2
+12:36:22.905 INFO  ProgressMeter -    Sm_000027F:333858             60.9                225730           3706.4
+12:36:32.976 INFO  ProgressMeter -    Sm_000027F:433643             61.1                226360           3706.5
+12:36:45.180 INFO  ProgressMeter -    Sm_000027F:566301             61.3                227180           3707.6
+12:36:55.208 INFO  ProgressMeter -    Sm_000027F:690726             61.4                227940           3709.9
+12:37:00.439 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:37:05.281 INFO  ProgressMeter -    Sm_000027F:828508             61.6                228810           3713.9
+12:37:15.294 INFO  ProgressMeter -    Sm_000028F:168922             61.8                229860           3720.8
+12:37:25.301 INFO  ProgressMeter -    Sm_000028F:321152             61.9                230850           3726.8
+12:37:49.467 INFO  ProgressMeter -    Sm_000028F:336888             62.3                230960           3704.5
+12:38:01.003 INFO  ProgressMeter -    Sm_000028F:368252             62.5                231190           3696.8
+12:38:11.620 INFO  ProgressMeter -    Sm_000028F:441240             62.7                231660           3693.8
+12:38:22.460 INFO  ProgressMeter -    Sm_000028F:454218             62.9                231760           3684.8
+12:38:33.262 INFO  ProgressMeter -    Sm_000028F:495066             63.1                232060           3679.1
+12:38:43.956 INFO  ProgressMeter -    Sm_000028F:561797             63.3                232520           3676.0
+12:38:54.392 INFO  ProgressMeter -    Sm_000028F:633910             63.4                233040           3674.1
+12:39:04.495 INFO  ProgressMeter -    Sm_000028F:792311             63.6                234010           3679.6
+12:39:04.570 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:39:14.984 INFO  ProgressMeter -     Sm_000029F:94709             63.8                234570           3678.3
+12:39:19.175 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:39:38.239 INFO  ProgressMeter -    Sm_000029F:273897             64.2                235600           3672.1
+12:39:44.733 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:39:48.302 INFO  ProgressMeter -    Sm_000029F:447783             64.3                236650           3678.9
+12:39:58.311 INFO  ProgressMeter -    Sm_000029F:490779             64.5                236930           3673.7
+12:40:08.463 INFO  ProgressMeter -    Sm_000029F:591153             64.7                237610           3674.6
+12:40:18.549 INFO  ProgressMeter -    Sm_000029F:648254             64.8                238020           3671.4
+12:40:35.812 INFO  ProgressMeter -    Sm_000029F:685681             65.1                238250           3658.7
+12:40:46.359 INFO  ProgressMeter -    Sm_000029F:800470             65.3                238980           3660.0
+12:40:56.408 INFO  ProgressMeter -    Sm_000030F:134164             65.5                239800           3663.2
+12:41:08.127 INFO  ProgressMeter -    Sm_000030F:221369             65.7                240360           3660.8
+12:41:14.003 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:41:18.341 INFO  ProgressMeter -    Sm_000030F:674566             65.8                242820           3688.7
+12:41:20.072 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:41:28.547 INFO  ProgressMeter -     Sm_000031F:57666             66.0                243740           3693.2
+12:41:38.611 INFO  ProgressMeter -    Sm_000032F:196865             66.2                245180           3705.6
+12:41:50.750 INFO  ProgressMeter -    Sm_000032F:254801             66.4                245540           3699.7
+12:42:01.270 INFO  ProgressMeter -    Sm_000032F:377876             66.5                246200           3699.9
+12:42:15.366 INFO  ProgressMeter -    Sm_000032F:450715             66.8                246670           3693.9
+12:42:25.457 INFO  ProgressMeter -    Sm_000032F:534881             66.9                247150           3691.8
+12:42:36.274 INFO  ProgressMeter -    Sm_000032F:632830             67.1                247720           3690.4
+12:42:46.618 INFO  ProgressMeter -    Sm_000032F:722184             67.3                248300           3689.5
+12:42:56.635 INFO  ProgressMeter -    Sm_000033F:135607             67.5                249350           3696.0
+12:43:07.013 INFO  ProgressMeter -    Sm_000033F:204153             67.6                249890           3694.5
+12:43:07.243 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:43:38.736 INFO  ProgressMeter -    Sm_000033F:226872             68.2                250040           3668.0
+12:43:48.894 INFO  ProgressMeter -    Sm_000033F:346236             68.3                250870           3671.1
+12:43:50.903 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:44:02.179 INFO  ProgressMeter -    Sm_000033F:420615             68.6                251360           3666.4
+12:44:12.879 INFO  ProgressMeter -    Sm_000033F:541959             68.7                252170           3668.7
+12:44:23.342 INFO  ProgressMeter -    Sm_000033F:672397             68.9                252870           3669.5
+12:44:34.278 INFO  ProgressMeter -    Sm_000034F:141371             69.1                253970           3675.8
+12:44:44.802 INFO  ProgressMeter -    Sm_000034F:190210             69.3                254330           3671.7
+12:44:47.619 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:44:54.825 INFO  ProgressMeter -    Sm_000034F:334275             69.4                255200           3675.4
+12:44:58.715 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:45:04.972 INFO  ProgressMeter -    Sm_000034F:419944             69.6                255790           3674.9
+12:45:15.124 INFO  ProgressMeter -    Sm_000034F:645348             69.8                257110           3684.9
+12:45:33.071 INFO  ProgressMeter -     Sm_000036F:76350             70.1                258070           3682.9
+12:45:43.108 INFO  ProgressMeter -    Sm_000036F:194012             70.2                258780           3684.2
+12:45:54.476 INFO  ProgressMeter -    Sm_000036F:240208             70.4                259090           3678.7
+12:46:04.634 INFO  ProgressMeter -    Sm_000036F:365131             70.6                259980           3682.5
+12:46:14.675 INFO  ProgressMeter -    Sm_000036F:485867             70.8                260720           3684.2
+12:46:25.679 INFO  ProgressMeter -    Sm_000036F:555469             70.9                261230           3681.9
+12:46:35.927 INFO  ProgressMeter -    Sm_000036F:585665             71.1                261430           3675.9
+12:46:45.930 INFO  ProgressMeter -    Sm_000037F:152615             71.3                262520           3682.6
+12:46:57.631 INFO  ProgressMeter -    Sm_000037F:189705             71.5                262700           3675.0
+12:47:09.022 INFO  ProgressMeter -    Sm_000037F:478884             71.7                264070           3684.4
+12:47:19.873 INFO  ProgressMeter -     Sm_000038F:29836             71.9                265230           3691.3
+12:47:23.221 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:47:30.435 INFO  ProgressMeter -    Sm_000038F:148100             72.0                266030           3693.4
+12:47:41.272 INFO  ProgressMeter -    Sm_000038F:225137             72.2                266540           3691.2
+12:47:44.329 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:47:51.512 INFO  ProgressMeter -    Sm_000038F:354984             72.4                267360           3693.8
+12:48:02.098 INFO  ProgressMeter -    Sm_000038F:416686             72.6                267790           3690.8
+12:48:10.242 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:48:19.326 INFO  ProgressMeter -    Sm_000038F:498198             72.8                268380           3684.3
+12:48:29.740 INFO  ProgressMeter -    Sm_000038F:544283             73.0                268680           3679.7
+12:48:39.743 INFO  ProgressMeter -    Sm_000038F:681622             73.2                269350           3680.5
+12:48:49.745 INFO  ProgressMeter -    Sm_000039F:283808             73.4                270860           3692.7
+12:49:00.001 INFO  ProgressMeter -     Sm_000040F:47098             73.5                272580           3707.5
+12:49:10.516 INFO  ProgressMeter -    Sm_000040F:296894             73.7                273860           3716.0
+12:49:20.801 INFO  ProgressMeter -    Sm_000040F:531514             73.9                275000           3722.8
+12:49:25.217 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:49:30.971 INFO  ProgressMeter -    Sm_000041F:208467             74.0                276410           3733.4
+12:49:39.046 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:49:40.981 INFO  ProgressMeter -    Sm_000041F:418133             74.2                277530           3740.1
+12:49:51.800 INFO  ProgressMeter -     Sm_000042F:54003             74.4                278490           3743.9
+12:49:58.102 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:50:00.759 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:50:01.816 INFO  ProgressMeter -    Sm_000042F:507091             74.6                280650           3764.5
+12:50:12.024 INFO  ProgressMeter -    Sm_000044F:187678             74.7                281850           3772.0
+12:50:22.294 INFO  ProgressMeter -     Sm_000047F:48835             74.9                283710           3788.2
+12:50:32.661 INFO  ProgressMeter -    Sm_000047F:239405             75.1                284820           3794.3
+12:50:42.671 INFO  ProgressMeter -    Sm_000047F:359093             75.2                285520           3795.2
+12:50:52.684 INFO  ProgressMeter -    Sm_000052F:101715             75.4                287290           3810.2
+12:51:03.230 INFO  ProgressMeter -    Sm_000052F:233024             75.6                287990           3810.6
+12:51:07.224 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:51:23.874 INFO  ProgressMeter -     Sm_000053F:87562             75.9                289380           3811.7
+12:51:34.992 INFO  ProgressMeter -    Sm_000053F:303429             76.1                290410           3815.9
+12:51:37.422 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:51:46.823 INFO  ProgressMeter -     Sm_000054F:34174             76.3                291050           3814.4
+12:51:47.811 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:51:56.834 INFO  ProgressMeter -    Sm_000060F:117444             76.5                293150           3833.6
+12:52:06.834 INFO  ProgressMeter -    Sm_000061F:117818             76.6                294610           3844.3
+12:52:17.875 INFO  ProgressMeter -     Sm_000063F:29547             76.8                295740           3849.8
+12:52:24.790 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:52:28.297 INFO  ProgressMeter -     Sm_000064F:97943             77.0                297670           3866.2
+12:52:38.487 INFO  ProgressMeter -    Sm_000064F:320291             77.2                298860           3873.1
+12:52:41.537 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:52:41.666 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:52:48.492 INFO  ProgressMeter -     Sm_000068F:61733             77.3                301940           3904.6
+12:52:56.597 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:52:56.598 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:52:59.025 INFO  ProgressMeter -      Sm_000070F:9159             77.5                303270           3912.9
+12:53:09.036 INFO  ProgressMeter -     Sm_000070F:59024             77.7                303600           3908.7
+12:53:19.089 INFO  ProgressMeter -    Sm_000070F:175240             77.8                304350           3910.0
+12:53:29.372 INFO  ProgressMeter -     Sm_000078F:20092             78.0                305200           3912.3
+12:53:39.421 INFO  ProgressMeter -     Sm_000078F:79359             78.2                305630           3909.4
+12:53:40.078 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:53:50.434 INFO  ProgressMeter -    Sm_000078F:146006             78.4                306120           3906.5
+12:54:02.791 INFO  ProgressMeter -    Sm_000078F:185195             78.6                306390           3899.7
+12:54:05.935 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:54:13.661 INFO  ProgressMeter -    Sm_000078F:205464             78.7                306550           3892.7
+12:54:25.757 INFO  ProgressMeter -    Sm_000078F:221262             79.0                306660           3884.2
+12:54:36.202 INFO  ProgressMeter -    Sm_000078F:239394             79.1                306790           3877.3
+12:54:47.042 INFO  ProgressMeter -     Sm_000080F:69267             79.3                307270           3874.5
+12:54:57.272 INFO  ProgressMeter -     Sm_000091F:88270             79.5                309350           3892.4
+12:55:07.117 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:55:07.284 INFO  ProgressMeter -    Sm_000096F:199009             79.6                311740           3914.2
+12:55:17.364 INFO  ProgressMeter -     Sm_000102F:72992             79.8                313910           3933.2
+12:55:27.996 INFO  ProgressMeter -     Sm_000111F:32763             80.0                315440           3943.6
+12:55:38.028 INFO  ProgressMeter -     Sm_000111F:96269             80.2                315840           3940.3
+12:55:48.191 INFO  ProgressMeter -    Sm_000111F:113091             80.3                315940           3933.3
+12:56:00.012 INFO  ProgressMeter -    Sm_000115F:105771             80.5                316780           3934.1
+12:56:10.048 INFO  ProgressMeter -    Sm_000115F:125371             80.7                316880           3927.2
+12:56:15.829 WARN  StrandBiasBySample - Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null
+12:56:20.523 INFO  ProgressMeter -     Sm_000146F:22916             80.9                318910           3943.8
+12:56:30.530 INFO  ProgressMeter -       Sm_000164F:601             81.0                320130           3950.7
+12:56:41.464 INFO  ProgressMeter -     Sm_plastid:39913             81.2                321610           3960.1
+12:56:46.976 INFO  HaplotypeCaller - 2110817 read(s) filtered by: MappingQualityReadFilter 
+0 read(s) filtered by: MappingQualityAvailableReadFilter 
+0 read(s) filtered by: MappedReadFilter 
+0 read(s) filtered by: NotSecondaryAlignmentReadFilter 
+2122409 read(s) filtered by: NotDuplicateReadFilter 
+0 read(s) filtered by: PassesVendorQualityCheckReadFilter 
+0 read(s) filtered by: NonZeroReferenceLengthAlignmentReadFilter 
+0 read(s) filtered by: GoodCigarReadFilter 
+0 read(s) filtered by: WellformedReadFilter 
+4233226 total reads filtered
+12:56:46.977 INFO  ProgressMeter - Sm_mitochondrion:41386             81.3                322227           3963.2
+12:56:46.977 INFO  ProgressMeter - Traversal complete. Processed 322227 total regions in 81.3 minutes.
+12:56:47.004 INFO  VectorLoglessPairHMM - Time spent in setup for JNI call : 3.636378736
+12:56:47.004 INFO  PairHMM - Total compute time in PairHMM computeLogLikelihoods() : 1034.329808223
+12:56:47.005 INFO  SmithWatermanAligner - Total compute time in java Smith-Waterman : 2303.37 sec
+12:56:58.613 INFO  HaplotypeCaller - Shutting down engine
+[July 12, 2023 at 12:56:58 PM CEST] org.broadinstitute.hellbender.tools.walkers.haplotypecaller.HaplotypeCaller done. Elapsed time: 81.51 minutes.
+Runtime.totalMemory()=266338304
+Using GATK jar /home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -Xmx4g -jar /home/local/packages/gatk-4.1.8.0/gatk-package-4.1.8.0-local.jar HaplotypeCaller -R ../../ref/Skeletonema_marinoi_Ref_v1.1.2.fasta -I SRR16492791_3_marked_duplicates.Nsplit.bam -O SRR16492791_4_HapCalled.g.vcf.gz -stand-call-conf 20.0 --dont-use-soft-clipped-bases -ERC BP_RESOLUTION -bamout SRR16492791.realigned.bam

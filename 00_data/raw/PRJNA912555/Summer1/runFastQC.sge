@@ -1,0 +1,8 @@
+#$ -cwd
+#$ -q Annotation-2,Annotation-3,Annotation-4
+#$ -pe mpi 10
+#$ -S /bin/bash
+
+module load FastQC/v0.11.9
+
+fastqc -t $NSLOTS *.fastq.gz

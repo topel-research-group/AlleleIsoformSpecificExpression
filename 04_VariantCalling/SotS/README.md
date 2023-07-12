@@ -7,18 +7,32 @@
   * Eyeballing in IGV, only 0d is monoallelic, 49d is biallelic
     * One variant detected in 0d, but a very small percentage, so maybe not entirely monoallelic, but close to it?
 
+R05_0_49	.
+R05_0_56	.
+R05_0_72	.
+R05_0_91	.
+R05_0_126	.
+R05_0_189	.
+
+GF04_0_49	.
+GF04_0_56	.
+GF04_0_72	.
+GF04_0_91	.
+GF04_0_126	.
+GF04_0_189	.
+
 
 P18257_101	Done!	-
-P18257_102	.	- R05_0d
-P18257_103	.	-
+P18257_102	Done!	- R05_0d complete and parsed
+P18257_103	Done!	-
 
-P18257_104	.	-
-P18257_105	.	- GF04_0d
-P18257_106	.	-
+P18257_104	Done!	-
+P18257_105	Done!	- GF04_0d complete and parsed
+P18257_106	Done!	-
 
-P18257_107	.	-
-P18257_108	.	- R05_49d
-P18257_109	.	-
+P18257_107	Done!	-
+P18257_108	Done!	- R05_49d complete and parsed
+P18257_109	Done!	-
 
 P18257_111	Done!	-
 P18257_112	Done!	- GF04_49d complete and parsed
@@ -52,9 +66,9 @@ P18257_131	Done!	-
 P18257_132	Done!	- R05_126d complete and parsed
 P18257_133	Done!	-
 
-P18257_134	Done!	- (GF04_126d)
-P18257_135	~~~
-P18257_136	~~~
+P18257_134	Done!	-
+P18257_135	Done!	- GF04_126d complete and parsed
+P18257_136	Done!	-
 
 P18257_138	Done!	-
 P18257_139	Done!	- R05_189d complete and parsed

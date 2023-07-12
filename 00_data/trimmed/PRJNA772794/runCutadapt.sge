@@ -1,0 +1,26 @@
+#$ -cwd
+#$ -q Annotation-4
+#$ -pe mpi 40
+#$ -S /bin/bash
+
+module load Anaconda3/v2019.10
+module load FastQC/v0.11.9
+
+SamplePath=../../raw/PRJNA772794
+
+ILLUMINA="AGATCGGAAGAG"
+
+ls ../../raw/PRJNA772794/SRR*fastq.gz | grep -o "SRR........" | sort | uniq | while read i; do
+	IN1=$(ls ${SamplePath}/${i}_1.fastq.gz)
+	IN2=$(ls ${SamplePath}/${i}_2.fastq.gz)
+
+	OUT1=${i}_1.trimmed.fastq.gz
+	OUT2=${i}_2.trimmed.fastq.gz
+
+	cutadapt -j $NSLOTS \
+	-a $ILLUMINA -A $ILLUMINA \
+	-m 50 -q 30,30 \
+	-o $OUT1 -p $OUT2 $IN1 $IN2
+
+	fastqc -t $NSLOTS $OUT1 $OUT2
+done
