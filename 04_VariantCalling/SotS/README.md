@@ -7,19 +7,25 @@
   * Eyeballing in IGV, only 0d is monoallelic, 49d is biallelic
     * One variant detected in 0d, but a very small percentage, so maybe not entirely monoallelic, but close to it?
 
-R05_0_49	.
-R05_0_56	.
-R05_0_72	.
-R05_0_91	.
-R05_0_126	.
-R05_0_189	.
+* Sm_t00010544-RA (in R05 0 vs 49) seems to go from biallelic to monoallelic
+  * The reference allele appears to be a truncated protein, and the alt. allele (only allele expressed at 49d)
+    seems to be a longer version
 
-GF04_0_49	.
-GF04_0_56	.
-GF04_0_72	.
-GF04_0_91	.
-GF04_0_126	.
-GF04_0_189	.
+* Sm_t00000530-RA (in GF04 0 vs 49) seems to go from biallelic to monoallelic
+
+R05_0_49	Done
+R05_0_56	Done
+R05_0_72	Done
+R05_0_91	Done
+R05_0_126	Done
+R05_0_189	Done
+
+GF04_0_49	Done
+GF04_0_56	Done
+GF04_0_72	Done
+GF04_0_91	Done
+GF04_0_126	Done
+GF04_0_189	Done
 
 
 P18257_101	Done!	-

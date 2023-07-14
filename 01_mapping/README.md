@@ -1,7 +1,5 @@
 # Remap reads with stricter parameters, as was done in the SotS analysis
 
-NEED TO GENERATE STATS FOR THE MAPPING
-
 Parameters used by Rastogi _et al._ (alternative splicing)
 * Genes with 2+ exons
 * Minimum intron length of 50 bp
@@ -17,14 +15,26 @@ Parameters used by Rastogi _et al._ (alternative splicing)
 
 ####
 
-Try SplAdder (and Bisbee?)
+Get mapping stats (examples):
 
-|    Study    | Mapped? |
-|-------------|---------|
-| PRJEB22707  |  Done   |
-| PRJEB33171  |  Done   |
-| PRJNA772794 |  Done   |
-| PRJNA248394 |	 Done   |
-| PRJNA912555 |  Done   |
-| PRJNA661548 | (???)   |
-| SotS        |  Done   |
+```
+for i in ERR*; do
+	UNMAP=$(grep "aligned 0 times" ${i}/runHisat2.sge.e* | sed 's/^ *//g' | cut -f-2 -d' ')
+	SINGMAP=$(grep "aligned exactly" ${i}/runHisat2.sge.e* | sed 's/^ *//g' | cut -f-2 -d' ')
+	MULTIMAP=$(grep "aligned >1" ${i}/runHisat2.sge.e* | sed 's/^ *//g' | cut -f-2 -d' ')
+	MAPPC=$(grep "overall" ${i}/runHisat2.sge.e* | cut -f1 -d' ')
+
+	echo -e "| ${i} | |    ${MAPPC} | ${UNMAP} | ${SINGMAP} | ${MULTIMAP} |" >> README.md
+done
+```
+
+```
+for i in SRR*; do
+	UNMAP=$(grep "aligned concordantly 0 times" ${i}/runHisat2.sge.e* | cut -f2 -d'(' | cut -f1 -d')')
+	SINGMAP=$(grep "aligned concordantly exactly" ${i}/runHisat2.sge.e* | cut -f2 -d'(' | cut -f1 -d')')
+	MULTIMAP=$(grep "aligned concordantly >1" ${i}/runHisat2.sge.e* | cut -f2 -d'(' | cut -f1 -d')')
+	MAPPC=$(grep "overall" ${i}/runHisat2.sge.e* | cut -f1 -d' ')
+
+	echo -e "| ${i} | |       ${MAPPC}      |  ${UNMAP} | ${SINGMAP} |   ${MULTIMAP}  |" >> README.md
+done
+```

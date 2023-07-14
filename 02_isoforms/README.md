@@ -6,6 +6,22 @@ Try analysing with rMats, as this has the most citations (albeit one of the olde
 * Installation problematic but has a Docker container!
   * Available on Annotation-3
 
+Example script to get list of significant genes from the output files
+```
+for i in *_0_*; do
+	echo $i
+	echo "SE JC"
+	awk '$20 <= 0.05' ${i}/SE.MATS.JC.txt | cut -f2 | tr -d '"' | sed 's/Sm_g/Sm_t/g' | sed 's/$/-RA/g'
+	echo "SE JCEC"
+	awk '$20 <= 0.05' ${i}/SE.MATS.JCEC.txt | cut -f2 | tr -d '"' | sed 's/Sm_g/Sm_t/g' | sed 's/$/-RA/g'
+	echo "MXE JC"
+	awk '$22 <= 0.05' ${i}/MXE.MATS.JC.txt | cut -f2 | tr -d '"' | sed 's/Sm_g/Sm_t/g' | sed 's/$/-RA/g'
+	echo "MXE JCEC"
+	awk '$22 <= 0.05' ${i}/MXE.MATS.JCEC.txt | cut -f2 | tr -d '"' | sed 's/Sm_g/Sm_t/g' | sed 's/$/-RA/g'
+	echo ""
+done
+```
+
 ### 03 April 2023 - test run
 
 Try running PRJEB22707 (copepod) data - control 65h vs. copepod 65h

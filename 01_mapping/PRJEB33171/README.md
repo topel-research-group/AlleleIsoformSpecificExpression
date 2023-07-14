@@ -1,15 +1,18 @@
-#
+# Mappping of sex study samples
 
-For generating summary stats:
-
-```
-for i in ERR*; do
-        QCED=$(grep "reads;" ${i}/runHisat2.sge.e* | cut -f1 -d' ')
-        UNMAP=$(grep "aligned 0 times" ${i}/runHisat2.sge.e* | sed 's/^ *//g' | cut -f-2 -d' ')
-        SINGMAP=$(grep "aligned exactly" ${i}/runHisat2.sge.e* | sed 's/^ *//g' | cut -f-2 -d' ')
-        MULTIMAP=$(grep "aligned >1" ${i}/runHisat2.sge.e* | sed 's/^ *//g' | cut -f-2 -d' ')
-        MAPPC=$(grep "overall" ${i}/runHisat2.sge.e* | cut -f1 -d' ')
-
-        echo -e " ${QCED} | ${UNMAP} | ${SINGMAP} | ${MULTIMAP} |    ${MAPPC} |" >> README.md
-done
-```
+| Sample ID  |    Sample    | Overall alignment | 0 times | 1 time | >1 times |
+|------------|--------------|-------------------|---------|--------|----------|
+| ERR3393443 | ALC Ss 40h   |       87.52%      |  12.48% | 77.19% |  10.33%  |
+| ERR3393444 | ALC Ss 40h   |       87.60%      |  12.40% | 76.90% |  10.70%  |
+| ERR3393445 | ALC Ss 52h   |       85.97%      |  14.03% | 72.67% |  13.30%  |
+| ERR3393446 | ALC Ss 52h   |       84.84%      |  15.16% | 75.83% |   9.01%  |
+| ERR3393447 | SSC Ss 40h   |       84.93%      |  15.07% | 74.65% |  10.28%  |
+| ERR3393448 | SSC Ss 40h   |       86.07%      |  13.93% | 75.84% |  10.23%  |
+| ERR3393449 | SSC Ss 40h   |       86.82%      |  13.18% | 75.84% |  10.99%  |
+| ERR3393450 | SSC Ss 52h   |       82.90%      |  17.10% | 74.00% |   8.90%  |
+| ERR3393451 | SSC Ss 52h   |       83.45%      |  16.55% | 75.02% |   8.43%  |
+| ERR3393452 | SSC Ss 52h   |       84.06%      |  15.94% | 75.32% |   8.74%  |
+| ERR3393453 | ALC None 52h |       84.39%      |  15.61% | 75.86% |   8.53%  |
+| ERR3393454 | ALC None 52h |       84.40%      |  15.60% | 75.76% |   8.63%  |
+| ERR3393455 | ALC None 40h |       86.96%      |  13.04% | 77.04% |   9.92%  |
+| ERR3393456 | ALC None 40h |       87.20%      |  12.80% | 74.01% |  13.18%  |

@@ -1,7 +1,7 @@
 # Variant calling and analysis of with/without copepod samples
 
-65h_w_wo_copepods	.
-89h_w_wo_copepods	.
+65h_w_wo_copepods	Done
+89h_w_wo_copepods	Done
 
 
 ERR2131466	Done!
