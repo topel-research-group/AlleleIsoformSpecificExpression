@@ -1,0 +1,17 @@
+#$ -cwd
+#$ -q Annotation-3
+#$ -pe mpi 1
+#$ -S /bin/bash
+
+set -e
+set -u
+set -o pipefail
+
+module load Anaconda3/v2019.10
+
+OUTFILE1=R05_56d.Results.tsv
+OUTFILE2=R05_56d.Results.Annotated.tsv
+
+Rscript QuickStats.R
+join -a1 -t$'\t' -j 1 <(sort ../ref/Annotations.tsv) <(sort ${OUTFILE1}) > $OUTFILE2
+
